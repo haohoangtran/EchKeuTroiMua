@@ -1400,44 +1400,44 @@
         "h": 68
       }
     },
-    "Spaceship2Right-Partner.png": {
+    "game/frog_small.png": {
       "frame": {
         "x": 802,
         "y": 132,
-        "w": 76,
-        "h": 68
+        "w": 37,
+        "h": 33
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 76,
-        "h": 68
+        "w": 37,
+        "h": 33
       },
       "sourceSize": {
-        "w": 76,
-        "h": 68
+        "w": 37,
+        "h": 33
       }
     },
-    "Spaceship2Right-Player.png": {
+    "game/earth.png": {
       "frame": {
-        "x": 658,
-        "y": 132,
-        "w": 76,
-        "h": 68
+        "x": 0,
+        "y": 0,
+        "w": 144,
+        "h": 154
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 76,
-        "h": 68
+        "w": 144,
+        "h": 154
       },
       "sourceSize": {
-        "w": 76,
-        "h": 68
+        "w": 144,
+        "h": 154
       }
     },
     "Spaceship3-Partner.png": {
