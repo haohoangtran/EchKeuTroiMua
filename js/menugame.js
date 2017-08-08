@@ -32,7 +32,7 @@ var preload = function () {
 
     Nakama.game.time.advancedTiming = true;
 
-    //Nakama.game.load.atlasJSONHash('assets', 'Assets/game/bg.jpeg', 'Assets/assets.json');
+    //Nakama.game.load.atlasJSONHash('assets', 'Assets/game/bg.jpeg', 'Assets/assets_planet.json');
     Nakama.game.load.image('background', 'Assets/game/bg_startgame.jpeg');
 }
 

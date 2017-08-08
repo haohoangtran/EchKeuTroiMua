@@ -1,0 +1,384 @@
+{
+  "frames": {
+    "BigPlannet.png": {
+      "frame": {
+        "x": 2,
+        "y": 3,
+        "w": 139,
+        "h": 143
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 139,
+        "h": 143
+      },
+      "sourceSize": {
+        "w": 139,
+        "h": 143
+      }
+    },
+    "SmallPlanet.png": {
+      "frame": {
+        "x": 143,
+        "y": 100,
+        "w": 107,
+        "h": 111
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 107,
+        "h": 111
+      },
+      "sourceSize": {
+        "w": 107,
+        "h": 111
+      }
+    },
+    "Small1Planet.png":{
+      "frame": {
+        "x": 381,
+        "y": 3,
+        "w": 74,
+        "h": 73
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 74,
+        "h": 73
+      },
+      "sourceSize": {
+        "w": 74,
+        "h": 73
+      }
+    },
+    "Tree1.png": {
+      "frame": {
+        "x": 253,
+        "y": 99,
+        "w": 35,
+        "h": 99
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 35,
+        "h": 99
+      },
+      "sourceSize": {
+        "w": 35,
+        "h": 99
+      }
+    },
+    "Tree2.png": {
+      "frame": {
+        "x": 290,
+        "y": 99,
+        "w": 30,
+        "h": 101
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 30,
+        "h": 101
+      },
+      "sourceSize": {
+        "w": 30,
+        "h": 101
+      }
+    },
+    "Tree3.png": {
+      "frame": {
+        "x": 251,
+        "y": 273,
+        "w": 33,
+        "h": 80
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 33,
+        "h": 80
+      },
+      "sourceSize": {
+        "w": 33,
+        "h": 80
+      }
+    },
+    "Tree4.png": {
+      "frame": {
+        "x": 286,
+        "y": 265,
+        "w": 29,
+        "h": 63
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 29,
+        "h": 63
+      },
+      "sourceSize": {
+        "w": 29,
+        "h": 63
+      }
+    },
+    "Tree5.png": {
+      "frame": {
+        "x": 188,
+        "y": 330,
+        "w": 23,
+        "h": 45
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 23,
+        "h": 45
+      },
+      "sourceSize": {
+        "w": 23,
+        "h": 45
+      }
+    },
+    "Lacoste1.png":{
+      "frame": {
+        "x": 322,
+        "y": 79,
+        "w": 42,
+        "h": 90
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 42,
+        "h": 90
+      },
+      "sourceSize": {
+        "w": 42,
+        "h": 90
+      }
+    },
+    "Lacoste2.png":{
+      "frame": {
+        "x": 329,
+        "y": 171,
+        "w": 34,
+        "h": 88
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 34,
+        "h": 88
+      },
+      "sourceSize": {
+        "w": 34,
+        "h": 88
+      }
+    },
+    "frog.png":{
+      "frame": {
+        "x": 213,
+        "y": 363,
+        "w": 33,
+        "h": 29
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 33,
+        "h": 29
+      },
+      "sourceSize": {
+        "w": 33,
+        "h": 29
+      }
+    },
+    "frog1.png":{
+      "frame": {
+        "x": 213,
+        "y": 328,
+        "w": 31,
+        "h": 33
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 31,
+        "h": 33
+      },
+      "sourceSize": {
+        "w": 31,
+        "h": 33
+      }
+    },
+    "frog2.png":{
+      "frame": {
+        "x": 199,
+        "y": 272,
+        "w": 50,
+        "h": 53
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 50,
+        "h": 53
+      },
+      "sourceSize": {
+        "w": 50,
+        "h": 53
+      }
+    },
+    "frog3.png":{
+      "frame": {
+        "x": 139,
+        "y": 330,
+        "w": 47,
+        "h": 39
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 47,
+        "h": 39
+      },
+      "sourceSize": {
+        "w": 47,
+        "h": 39
+      }
+    },
+    "frog4.png":{
+      "frame": {
+        "x": 329,
+        "y": 261,
+        "w": 34,
+        "h": 36
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 34,
+        "h": 36
+      },
+      "sourceSize": {
+        "w": 34,
+        "h": 36
+      }
+    },
+    "frog5.png":{
+      "frame": {
+        "x": 365,
+        "y": 253,
+        "w": 27,
+        "h": 45
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 27,
+        "h": 45
+      },
+      "sourceSize": {
+        "w": 27,
+        "h": 45
+      }
+    },
+    "frog6.png":{
+      "frame": {
+        "x": 249,
+        "y": 355,
+        "w": 30,
+        "h": 30
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 30,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 30,
+        "h": 30
+      }
+    },
+    "frog7.png":{
+      "frame": {
+        "x": 362,
+        "y": 300,
+        "w": 30,
+        "h": 50
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 30,
+        "h": 50
+      },
+      "sourceSize": {
+        "w": 30,
+        "h": 50
+      }
+    },
+    "frog8.png":{
+      "frame": {
+        "x": 313,
+        "y": 346,
+        "w": 43,
+        "h": 13
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 43,
+        "h": 13
+      },
+      "sourceSize": {
+        "w": 43,
+        "h": 13
+      }
+    }
+  }
+}

@@ -46,11 +46,9 @@ var preload = function () {
 
     Nakama.game.time.advancedTiming = true;
 
-    //Nakama.game.load.atlasJSONHash('assets', 'Assets/game/bg.jpeg', 'Assets/assets.json');
-    Nakama.game.load.image('background', 'Assets/game/bg.jpeg');
-    Nakama.game.load.image('earth', 'Assets/game/earth.png');
-    Nakama.game.load.image('frog', 'Assets/game/frog_small.png');
-    Nakama.game.load.image('tree', 'Assets/game/caygai.png');
+    Nakama.game.load.atlasJSONHash('plannet', 'Assets/game/planets.png', 'Assets/assets_planet.json');
+    Nakama.game.load.image('background','Assets/game/bg.jpeg')
+
 }
 
 // initialize the game
@@ -60,34 +58,13 @@ var create = function () {
     Nakama.background = Nakama.game.add.sprite(Nakama.configs.BACKGROUND_POSITION.x, Nakama.configs.BACKGROUND_POSITION.y, 'background');
     Nakama.background.scale.setTo(2,2);
 
-    Nakama.tree = Nakama.game.add.sprite(Nakama.configs.TREE_POSITION.x, Nakama.configs.TREE_POSITION.y, 'tree');
-    Nakama.tree.scale.setTo(2,2);
-    Nakama.tree.anchor.setTo(0, 0.5);
+    Nakama.background = Nakama.game.add.sprite(0, 0,'plannet' ,'Tree1.png');
 
-    Nakama.earth = Nakama.game.add.sprite(Nakama.configs.FIRSTEARTH_POSITION.x, Nakama.configs.FIRSTEARTH_POSITION.y, 'earth');
-    Nakama.earth.anchor.setTo(0.5, 0.5);
-    Nakama.earth.scale.setTo(2,2);
-
-    Nakama.frog = Nakama.game.add.sprite(Nakama.configs.FROG_POSITION.x, Nakama.configs.FROG_POSITION.y, 'frog');
-    Nakama.frog.anchor.setTo(0.5, 0.5);
-    Nakama.frog.scale.setTo(2,2);
 }
 
 // update game state each frame
 var update = function () {
-    Nakama.background.position.y += Nakama.configs.BACKGROUND_POSITION.velocity;
 
-    if(Nakama.background.position.y >= 0) {
-        Nakama.background.position.y = Nakama.configs.BACKGROUND_POSITION.y;
-    }
-
-    Nakama.tree.position.y += Nakama.configs.TREE_POSITION.velocity;
-
-    if(Nakama.tree.position.y >= Nakama.configs.GAME_SCREEN.height) {
-        Nakama.tree.position.y = Nakama.configs.TREE_POSITION.y;
-    }
-
-    Nakama.earth.angle += 1;
 }
 
 // before camera render (mostly for debug)
