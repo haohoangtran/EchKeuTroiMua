@@ -2,91 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="980d6b9d-ea97-44aa-a743-e41f0a7024ea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/assets_planet.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/BossHealthBar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/BossHealthBarBG.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/BossHealthBarMask.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/BossType1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/BossType1Wings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/BottomArtwork.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/BulletType1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/BulletType1Upgraded.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/BulletType2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/BulletType2Propulsory.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/BulletType2Upgraded.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/BulletType3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/BulletType3Upgraded.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/CollectibleStar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/EnemyBulletType1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/EnemyBulletType2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/EnemyBulletType3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/EnemyBulletType3Origin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/EnemyBulletType4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/EnemyType1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/EnemyType2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/EnemyType3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/EnemyType4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/EnemyType4Base.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Explode.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/PauseButton.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/PlayerHealthBar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/PlayerHealthBarBG.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/PlayerHealthBarMask.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-1-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-1-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-1-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-1-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-2D-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-2D-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-2D-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-2D-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-2L-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-2L-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-2L-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-2L-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-2R-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-2R-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-2R-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-2R-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-3D-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-3D-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-3D-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-3D-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-3L-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-3L-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-3L-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-3L-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-3R-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-3R-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-3R-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Propul-3R-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/ReadyButton.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Shield.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/ShipType3Support.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Spaceship1-Partner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Spaceship1-Player.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Spaceship1Left-Partner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Spaceship1Left-Player.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Spaceship1Right-Partner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Spaceship1Right-Player.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Spaceship2-Partner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Spaceship2-Player.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Spaceship2Left-Partner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Spaceship2Left-Player.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Spaceship2Right-Partner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Spaceship2Right-Player.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Spaceship3-Partner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Spaceship3-Player.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Spaceship3Left-Partner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Spaceship3Left-Player.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Spaceship3Right-Partner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Original Sprites/Spaceship3Right-Player.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/assets.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/assets.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/menugame.js" afterPath="$PROJECT_DIR$/js/menugame.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/assets_planet.json" afterPath="$PROJECT_DIR$/Assets/assets_planet.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -103,8 +20,8 @@
       <file leaf-file-name="assets_planet.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/assets_planet.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
-              <caret line="379" column="15" lean-forward="false" selection-start-line="379" selection-start-column="15" selection-end-line="379" selection-end-column="15" />
+            <state relative-caret-position="703">
+              <caret line="702" column="3" lean-forward="true" selection-start-line="702" selection-start-column="3" selection-end-line="702" selection-end-column="3" />
               <folding>
                 <element signature="n#!!block;n#BigPlannet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
                 <element signature="n#!!block;n#SmallPlanet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
@@ -125,6 +42,23 @@
                 <element signature="n#!!block;n#frog5.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
                 <element signature="n#!!block;n#frog6.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
                 <element signature="n#!!block;n#frog7.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#frog8.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#ground.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#ground1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#mouse.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#mosquito.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#mosquito1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#star.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#pause.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#clou.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#clou2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#StarText.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#bonus.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#extra.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#life.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#air.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#time.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -185,8 +119,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="238" />
-    <option name="y" value="23" />
+    <option name="x" value="175" />
+    <option name="y" value="40" />
     <option name="width" value="1920" />
     <option name="height" value="910" />
   </component>
@@ -369,15 +303,23 @@
       <option name="presentableId" value="Default" />
       <updated>1502112841911</updated>
       <workItem from="1502112843122" duration="7533000" />
-      <workItem from="1502190767418" duration="2408000" />
+      <workItem from="1502190767418" duration="3962000" />
     </task>
+    <task id="LOCAL-00001" summary="add planet.json">
+      <created>1502193939248</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1502193939248</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12162000" />
+    <option name="totallyTimeSpent" value="13716000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="238" y="23" width="1920" height="910" extended-state="0" />
+    <frame x="175" y="40" width="1920" height="910" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -405,6 +347,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add planet.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="add planet.json" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -435,6 +381,23 @@
             <element signature="n#!!block;n#frog5.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#frog6.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#frog7.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#frog8.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#ground.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#ground1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#mouse.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#mosquito.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#mosquito1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#star.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#pause.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#clou.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#clou2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#StarText.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#bonus.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#extra.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#life.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#air.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#time.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -516,6 +479,23 @@
             <element signature="n#!!block;n#frog5.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#frog6.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#frog7.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#frog8.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#ground.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#ground1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#mouse.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#mosquito.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#mosquito1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#star.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#pause.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#clou.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#clou2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#StarText.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#bonus.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#extra.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#life.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#air.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#time.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -574,6 +554,23 @@
             <element signature="n#!!block;n#frog5.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#frog6.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#frog7.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#frog8.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#ground.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#ground1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#mouse.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#mosquito.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#mosquito1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#star.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#pause.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#clou.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#clou2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#StarText.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#bonus.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#extra.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#life.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#air.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#time.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -587,6 +584,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -723,8 +721,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/assets_planet.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="379" column="15" lean-forward="false" selection-start-line="379" selection-start-column="15" selection-end-line="379" selection-end-column="15" />
+        <state relative-caret-position="703">
+          <caret line="702" column="3" lean-forward="true" selection-start-line="702" selection-start-column="3" selection-end-line="702" selection-end-column="3" />
           <folding>
             <element signature="n#!!block;n#BigPlannet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#SmallPlanet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
@@ -745,6 +743,23 @@
             <element signature="n#!!block;n#frog5.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#frog6.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#frog7.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#frog8.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#ground.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#ground1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#mouse.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#mosquito.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#mosquito1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#star.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#pause.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#clou.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#clou2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#StarText.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#bonus.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#extra.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#life.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#air.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#time.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
