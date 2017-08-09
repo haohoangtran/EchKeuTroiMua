@@ -16,9 +16,7 @@ class FrogController {
         var radius = this.sprite.width*2;
         this.sprite.position.x = Nakama.planet.sprite.x + Math.cos(period) * radius;
         this.sprite.position.y = Nakama.planet.sprite.y + Math.sin(period) * radius;
-
-
-
+        this.sprite.angle = Nakama.planet.sprite.angle;
     }
 
     jump() {
