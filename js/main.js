@@ -19,13 +19,13 @@ Nakama.configs = {
         velocity: 3
     },
     GAME_SCREEN: {
-        width: 640,
-        height: 960
+        width: 320,
+        height: 480
     }
 };
 
 window.onload = function () {
-    Nakama.game = new Phaser.Game(640, 960, Phaser.AUTO, '',
+    Nakama.game = new Phaser.Game(Nakama.configs.GAME_SCREEN.width, Nakama.configs.GAME_SCREEN.height, Phaser.AUTO, '',
         {
             preload: preload,
             create: create,
@@ -38,15 +38,14 @@ window.onload = function () {
 // preparations before game starts
 var preload = function () {
     Nakama.game.load.atlasJSONHash('planets', 'Assets/game/planets.png', 'Assets/assets_planet.json');
-    Nakama.game.load.image('background', 'Assets/game/bg.jpeg')
+    Nakama.game.load.image('background', 'Assets/game/bg.jpeg');
 
     Nakama.game.scale.minWidth = Nakama.configs.GAME_SCREEN.width / 2;
     Nakama.game.scale.minHeight = Nakama.configs.GAME_SCREEN.height / 2;
-    Nakama.game.scale.maxWidth = Nakama.configs.GAME_SCREEN.width;
-    Nakama.game.scale.maxHeight = Nakama.configs.GAME_SCREEN.height;
+    Nakama.game.scale.maxWidth = Nakama.configs.GAME_SCREEN.width*2;
+    Nakama.game.scale.maxHeight = Nakama.configs.GAME_SCREEN.height*2;
     Nakama.game.scale.pageAlignHorizontally = true;
     Nakama.game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
-
     Nakama.game.time.advancedTiming = true;
 };
 
@@ -58,9 +57,8 @@ var create = function () {
     Nakama.frogGroup = Nakama.game.add.physicsGroup();
     Nakama.game.physics.startSystem();
     Nakama.keyboard = Nakama.game.input.keyboard;
-    Nakama.background.scale.setTo(2, 2);
     Nakama.player = new FrogController(200, 200, {JUMP: Phaser.Keyboard.SPACEBAR});
-    new PlanetController(400, 200, 'BigPlannet.png', {});
+    Nakama.planet = new PlanetController(400, 200, 'BigPlannet.png', {});
     Nakama.game.camera.follow(Nakama.player.sprite);
 }
 
@@ -71,4 +69,6 @@ var update = function () {
 
 // before camera render (mostly for debug)
 var render = function () {
+    // Nakama.game.debug.body(Nakama.player.sprite);
+    // Nakama.game.debug.body(Nakama.planet.sprite);
 }
