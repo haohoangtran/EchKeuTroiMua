@@ -1,0 +1,86 @@
+{
+  "frames":
+  {
+    "Background_BigPlanet.png": {
+      "frame": {
+        "x": 4,
+        "y": 5,
+        "w": 467,
+        "h": 583
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 467,
+        "h": 583
+      },
+      "sourceSize": {
+        "w": 467,
+        "h": 583
+      }
+    },
+    "Background_Text_Tweensoft.png": {
+      "frame": {
+        "x": 447,
+        "y": 221,
+        "w": 258,
+        "h": 45
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 258,
+        "h": 45
+      },
+      "sourceSize": {
+        "w": 258,
+        "h": 45
+      }
+    },
+    "Background_Text_Froggee.png": {
+      "frame": {
+        "x": 5,
+        "y": 593,
+        "w": 530,
+        "h": 117
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 530,
+        "h": 117
+      },
+      "sourceSize": {
+        "w": 530,
+        "h": 117
+      }
+    },
+    "Died_Frog.png": {
+      "frame": {
+        "x": 5,
+        "y": 593,
+        "w": 530,
+        "h": 117
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 530,
+        "h": 117
+      },
+      "sourceSize": {
+        "w": 530,
+        "h": 117
+      }
+    }
+
+  }
+}
