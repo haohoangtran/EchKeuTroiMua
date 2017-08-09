@@ -34,15 +34,19 @@ var menuGameState = {
         Nakama.keyboard = Nakama.game.input.keyboard;
         Nakama.background = Nakama.game.add.sprite(Nakama.configs.BACKGROUND_POSITION.x, Nakama.configs.BACKGROUND_POSITION.y, 'background');
         Nakama.background.scale.setTo(2,2);
-
+        Nakama.buttonStart = Nakama.game.add.sprite(320, 800, 'planets', 'frog1.png');
     },
 
-// // update game state each frame
-//     update : function () {
-//     },
-//
-// // before camera render (mostly for debug)
-//     render : function () {
-//     }
+// update game state each frame
+    update : function () {
+        if(Nakama.keyboard.isDown(Phaser.Keyboard.SPACEBAR))
+        {
+            Nakama.game.state.start('playgame');
+        }
+    },
+
+// before camera render (mostly for debug)
+    render : function () {
+    }
 }
 
