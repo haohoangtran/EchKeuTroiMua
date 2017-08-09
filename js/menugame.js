@@ -35,6 +35,7 @@ var menuGameState = {
         Nakama.background = Nakama.game.add.sprite(Nakama.configs.BACKGROUND_POSITION.x, Nakama.configs.BACKGROUND_POSITION.y, 'background');
         Nakama.background.scale.setTo(1,1);
         Nakama.buttonStart = Nakama.game.add.sprite(320, 800, 'planets', 'frog1.png');
+        Nakama.tree = Nakama.game.add.sprite(0, 600, 'planets', 'Tree3.png');
     },
 
 // update game state each frame
