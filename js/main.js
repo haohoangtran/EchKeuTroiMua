@@ -16,7 +16,7 @@
 
 var playGameState = {
     // preparations before game starts
-    preload : function () {
+    preload: function () {
         Nakama.game.load.atlasJSONHash('planets', 'Assets/game/planets.png', 'Assets/assets_planet.json');
         Nakama.game.load.image('background', 'Assets/game/background_1.jpg')
 
@@ -31,25 +31,27 @@ var playGameState = {
     },
 
 // initialize the game
-    create : function () {
-    Nakama.background = Nakama.game.add.sprite(0, -100, 'background');
-    Nakama.planetGroup = Nakama.game.add.physicsGroup();
-    Nakama.frogGroup = Nakama.game.add.physicsGroup();
-    Nakama.game.physics.startSystem();
-    Nakama.keyboard = Nakama.game.input.keyboard;
-    Nakama.background.scale.setTo(1, 1);
-    Nakama.player = new FrogController(200, 200, {JUMP: Phaser.Keyboard.SPACEBAR});
-    new PlanetController(400, 200, 'BigPlannet.png', {});
-    Nakama.game.camera.follow(Nakama.player.sprite);
-},
+    create: function () {
+        Nakama.background = Nakama.game.add.sprite(0, -100, 'background');
+        Nakama.planetGroup = Nakama.game.add.physicsGroup();
+        Nakama.frogGroup = Nakama.game.add.physicsGroup();
+        Nakama.game.physics.startSystem();
+        Nakama.keyboard = Nakama.game.input.keyboard;
+        Nakama.background.scale.setTo(1, 1);
+        Nakama.player = new FrogController(350, 200, {JUMP: Phaser.Keyboard.SPACEBAR});
+        Nakama.planet=new PlanetController(200, 200, 'BigPlannet.png', {});
+    },
 
 // update game state each frame
-    update : function () {
+    update: function () {
 
-},
+
+    },
 
 // before camera render (mostly for debug)
-    render : function () {
-}
+    render: function () {
+        Nakama.game.debug.body(Nakama.player);
+        Nakama.game.debug.body(Nakama.planet)
+    }
 
 }
