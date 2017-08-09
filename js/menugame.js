@@ -24,7 +24,7 @@ var menuGameState = {
 
         Nakama.game.time.advancedTiming = true;
 
-        Nakama.game.load.atlasJSONHash('planets', 'Assets/game/planets.png', 'Assets/assets_planet.json');
+        Nakama.game.load.atlasJSONHash('menus', 'Assets/game/main_2.png', 'Assets/assets_main2.json');
         Nakama.game.load.image('background', 'Assets/game/background_2.jpg');
     },
 
@@ -34,8 +34,9 @@ var menuGameState = {
         Nakama.keyboard = Nakama.game.input.keyboard;
         Nakama.background = Nakama.game.add.sprite(Nakama.configs.BACKGROUND_POSITION.x, Nakama.configs.BACKGROUND_POSITION.y, 'background');
         Nakama.background.scale.setTo(1,1);
-        Nakama.buttonStart = Nakama.game.add.sprite(320, 800, 'planets', 'frog1.png');
-        Nakama.tree = Nakama.game.add.sprite(0, 600, 'planets', 'Tree3.png');
+        Nakama.frog = Nakama.game.add.sprite(320, 400, 'menus', 'Background_Text_Froggee.png');
+        Nakama.tree = Nakama.game.add.sprite(0, 200, 'menus', 'Background_Text_Froggee.png');
+        Nakama.buttonPlay = Nakama.game.add.sprite(320, 800, 'menus', 'ButtonPlay.png');
     },
 
 // update game state each frame
