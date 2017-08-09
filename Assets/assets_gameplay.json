@@ -39,27 +39,7 @@
         "w": 103,
         "h": 104
       }
-    }
-    "BackgroundButton.png": {
-      "frame": {
-        "x": 631,
-        "y": 331,
-        "w": 103,
-        "h": 104
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 103,
-        "h": 104
-      },
-      "sourceSize": {
-        "w": 103,
-        "h": 104
-      }
-    }
+    },
     "IconHome.png": {
       "frame": {
         "x": 187,
@@ -139,7 +119,7 @@
         "w": 68,
         "h": 322
       }
-    }
+    },
     "TreeInBackGround_Big.png": {
       "frame": {
         "x": 593,
@@ -179,7 +159,209 @@
         "w": 64,
         "h": 161
       }
+    },
+    "Icon_Menu.png": {
+      "frame": {
+        "x": 659,
+        "y": 172,
+        "w": 51,
+        "h": 61
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 57,
+        "h": 61
+      },
+      "sourceSize": {
+        "w": 57,
+        "h": 61
+      }
+    },
+    "Icon_Refresh.png": {
+      "frame": {
+        "x": 657,
+        "y": 260,
+        "w": 60,
+        "h": 63
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 60,
+        "h": 63
+      },
+      "sourceSize": {
+        "w": 60,
+        "h": 63
+      }
+    },
+    "Icon_Resume.png": {
+      "frame": {
+        "x": 396,
+        "y": 697,
+        "w": 39,
+        "h": 58
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 39,
+        "h": 58
+      },
+      "sourceSize": {
+        "w": 39,
+        "h": 58
+      }
+    },
+    "Text_Setting.png": {
+      "frame": {
+        "x": 411,
+        "y": 619,
+        "w": 335,
+        "h": 73
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 335,
+        "h": 73
+      },
+      "sourceSize": {
+        "w": 335,
+        "h": 73
+      }
+    },
+    "Text_GameOver.png": {
+      "frame": {
+        "x": 5,
+        "y": 618,
+        "w": 401,
+        "h": 71
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 401,
+        "h": 71
+      },
+      "sourceSize": {
+        "w": 401,
+        "h": 71
+      }
+    },
+    "Text_Pause.png": {
+      "frame": {
+        "x": 437,
+        "y": 545,
+        "w": 209,
+        "h": 69
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 209,
+        "h": 69
+      },
+      "sourceSize": {
+        "w": 209,
+        "h": 69
+      }
+    },
+    "Text_Best.png": {
+      "frame": {
+        "x": 5,
+        "y": 541,
+        "w": 427,
+        "h": 71
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 427,
+        "h": 71
+      },
+      "sourceSize": {
+        "w": 427,
+        "h": 71
+      }
+    },
+    "Text_HowToPlay.png": {
+      "frame": {
+        "x": 5,
+        "y": 463,
+        "w": 447,
+        "h": 72
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 447,
+        "h": 72
+      },
+      "sourceSize": {
+        "w": 447,
+        "h": 72
+      }
+    },
+    "Text_About.png": {
+      "frame": {
+        "x": 458,
+        "y": 469,
+        "w": 239,
+        "h": 71
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 239,
+        "h": 71
+      },
+      "sourceSize": {
+        "w": 239,
+        "h": 71
+      }
+    },
+    "Icon_Question.png": {
+      "frame": {
+        "x": 650,
+        "y": 544,
+        "w": 48,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 48,
+        "h": 64
+      }
     }
+
+
 
 
   }
