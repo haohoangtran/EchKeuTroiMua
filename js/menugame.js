@@ -25,7 +25,7 @@ var menuGameState = {
         Nakama.game.time.advancedTiming = true;
 
         Nakama.game.load.atlasJSONHash('planets', 'Assets/game/planets.png', 'Assets/assets_planet.json');
-        Nakama.game.load.image('background', 'Assets/game/bg_startgame.jpeg');
+        Nakama.game.load.image('background', 'Assets/game/bg_orange.jpeg');
     },
 
 // initialize the game
