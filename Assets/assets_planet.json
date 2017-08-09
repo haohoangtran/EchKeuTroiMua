@@ -200,7 +200,7 @@
         "h": 144
       }
     },
-    "frog.png": {
+    "frog_stand.png": {
       "frame": {
         "x": 427,
         "y": 727,
@@ -220,7 +220,7 @@
         "h": 57
       }
     },
-    "frog1.png": {
+    "frog_jump.png": {
       "frame": {
         "x": 427,
         "y": 656,
@@ -240,244 +240,244 @@
         "h": 65
       }
     },
-    "frog2.png": {
+    "frog_jump1.png": {
       "frame": {
-        "x": 199,
-        "y": 272,
-        "w": 50,
-        "h": 53
+        "x": 730,
+        "y": 507,
+        "w": 54,
+        "h": 89
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 50,
-        "h": 53
+        "w": 54,
+        "h": 89
       },
       "sourceSize": {
-        "w": 50,
-        "h": 53
+        "w": 54,
+        "h": 89
       }
     },
-    "frog3.png": {
+    "frog_bounce_fly.png": {
       "frame": {
-        "x": 139,
-        "y": 330,
-        "w": 47,
-        "h": 39
+        "x": 724,
+        "y": 600,
+        "w": 60,
+        "h": 100
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 47,
-        "h": 39
+        "w": 60,
+        "h": 100
       },
       "sourceSize": {
-        "w": 47,
-        "h": 39
+        "w": 60,
+        "h": 100
       }
     },
-    "frog4.png": {
+    "frog_die.png": {
       "frame": {
-        "x": 329,
-        "y": 261,
-        "w": 34,
-        "h": 36
+        "x": 398,
+        "y": 545,
+        "w": 99,
+        "h": 104
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 34,
-        "h": 36
+        "w": 99,
+        "h": 104
       },
       "sourceSize": {
-        "w": 34,
-        "h": 36
+        "w": 99,
+        "h": 104
       }
     },
-    "frog5.png": {
+    "frog_die2.png": {
       "frame": {
-        "x": 365,
-        "y": 253,
-        "w": 27,
-        "h": 45
+        "x": 278,
+        "y": 661,
+        "w": 94,
+        "h": 76
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 27,
-        "h": 45
+        "w": 94,
+        "h": 76
       },
       "sourceSize": {
-        "w": 27,
-        "h": 45
+        "w": 94,
+        "h": 76
       }
     },
-    "frog6.png": {
+    "frog_bounce.png": {
       "frame": {
-        "x": 249,
-        "y": 355,
-        "w": 30,
-        "h": 30
+        "x": 498,
+        "y": 710,
+        "w": 59,
+        "h": 60
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 30,
-        "h": 30
+        "w": 59,
+        "h": 60
       },
       "sourceSize": {
-        "w": 30,
-        "h": 30
+        "w": 59,
+        "h": 60
       }
     },
-    "frog7.png": {
+    "frog_bakery.png": {
       "frame": {
-        "x": 362,
-        "y": 300,
-        "w": 30,
-        "h": 50
+        "x": 659,
+        "y": 522,
+        "w": 66,
+        "h": 72
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 30,
-        "h": 50
+        "w": 66,
+        "h": 72
       },
       "sourceSize": {
-        "w": 30,
-        "h": 50
+        "w": 66,
+        "h": 72
       }
     },
-    "frog8.png": {
+    "frog_left.png": {
       "frame": {
-        "x": 313,
-        "y": 346,
-        "w": 43,
-        "h": 13
+        "x": 659,
+        "y": 522,
+        "w": 66,
+        "h": 72
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 43,
-        "h": 13
+        "w": 66,
+        "h": 72
       },
       "sourceSize": {
-        "w": 43,
-        "h": 13
+        "w": 66,
+        "h": 72
       }
     },
     "ground.png": {
       "frame": {
-        "x": 2,
-        "y": 315,
-        "w": 98,
-        "h": 38
+        "x": 5,
+        "y": 631,
+        "w": 194,
+        "h": 75
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 98,
-        "h": 38
+        "w": 194,
+        "h": 75
       },
       "sourceSize": {
-        "w": 98,
-        "h": 38
+        "w": 194,
+        "h": 75
       }
     },
     "ground1.png": {
       "frame": {
-        "x": 139,
-        "y": 213,
-        "w": 67,
-        "h": 55
+        "x": 279,
+        "y": 426,
+        "w": 133,
+        "h": 109
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 67,
-        "h": 55
+        "w": 133,
+        "h": 109
       },
       "sourceSize": {
-        "w": 67,
-        "h": 55
+        "w": 133,
+        "h": 109
       }
     },
     "mouse.png": {
       "frame": {
-        "x": 132,
-        "y": 372,
-        "w": 39,
-        "h": 19
+        "x": 264,
+        "y": 744,
+        "w": 78,
+        "h": 37
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 39,
-        "h": 19
+        "w": 78,
+        "h": 37
       },
       "sourceSize": {
-        "w": 39,
-        "h": 19
+        "w": 78,
+        "h": 37
       }
     },
     "mosquito.png": {
       "frame": {
-        "x": 2,
-        "y": 355,
-        "w": 52,
-        "h": 34
+        "x": 5,
+        "y": 711,
+        "w": 102,
+        "h": 67
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 52,
-        "h": 34
+        "w": 102,
+        "h": 67
       },
       "sourceSize": {
-        "w": 52,
-        "h": 34
+        "w": 102,
+        "h": 67
       }
     },
     "mosquito1.png": {
       "frame": {
-        "x": 56,
-        "y": 355,
-        "w": 51,
-        "h": 28
+        "x": 112,
+        "y": 711,
+        "w": 101,
+        "h": 55
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 51,
-        "h": 28
+        "w": 101,
+        "h": 55
       },
       "sourceSize": {
-        "w": 51,
-        "h": 28
+        "w": 101,
+        "h": 55
       }
     },
     "bounce.png": {
@@ -698,6 +698,26 @@
       "sourceSize": {
         "w": 68,
         "h": 29
+      }
+    },
+    "line.png": {
+      "frame": {
+        "x": 287,
+        "y": 169,
+        "w": 329,
+        "h": 24
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 329,
+        "h": 24
+      },
+      "sourceSize": {
+        "w": 329,
+        "h": 24
       }
     }
   }
