@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="980d6b9d-ea97-44aa-a743-e41f0a7024ea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/frog/FrogController.js" afterPath="$PROJECT_DIR$/js/frog/FrogController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/menugame.js" afterPath="$PROJECT_DIR$/js/menugame.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,9 +21,23 @@
       <file leaf-file-name="assets_planet.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/assets_planet.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="14" />
+            <state relative-caret-position="34">
+              <caret line="202" column="5" lean-forward="true" selection-start-line="202" selection-start-column="5" selection-end-line="202" selection-end-column="15" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assets_tree.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/assets_tree.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="102" column="5" lean-forward="false" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="24" />
+              <folding>
+                <element signature="n#!!block;n#Tree1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Tree2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Tree3.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -32,10 +45,10 @@
       <file leaf-file-name="menugame.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/menugame.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+            <state relative-caret-position="191">
+              <caret line="71" column="38" lean-forward="true" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
               <folding>
-                <marker date="1502290927797" expanded="true" signature="2117:2600" ph="..." />
+                <marker date="1502291559301" expanded="true" signature="2493:3426" ph="..." />
               </folding>
             </state>
           </provider>
@@ -95,34 +108,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loading.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/game/loading.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="game.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+            <state relative-caret-position="153">
+              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Map1.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Map1.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="FrogController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/frog/FrogController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
+            <state relative-caret-position="548">
               <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="40" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -155,7 +164,6 @@
         <option value="$PROJECT_DIR$/Assets/assets.json" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/ground/GroundController.js" />
-        <option value="$PROJECT_DIR$/js/frog/FrogController.js" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/Assets/assets_planet.json" />
         <option value="$PROJECT_DIR$/js/ground/PlanetController.js" />
@@ -163,6 +171,7 @@
         <option value="$PROJECT_DIR$/Assets/assets_main2.json" />
         <option value="$PROJECT_DIR$/Assets/assets_gameplay.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/js/frog/FrogController.js" />
         <option value="$PROJECT_DIR$/js/menugame.js" />
       </list>
     </option>
@@ -254,6 +263,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -587,7 +614,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32962000" />
+    <option name="totallyTimeSpent" value="33593000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
@@ -639,8 +666,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/game/caygai.png" />
-    <entry file="file://$PROJECT_DIR$/Assets/game/earth.png" />
     <entry file="file://$PROJECT_DIR$/Assets/game/tree.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -773,14 +798,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/game/number_red.png" />
     <entry file="file://$PROJECT_DIR$/Assets/game/so.png" />
-    <entry file="file://$PROJECT_DIR$/js/frog/FrogController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/game/extra_1.png" />
     <entry file="file://$PROJECT_DIR$/Assets/game/game_play.png">
       <provider selected="true" editor-type-id="images">
@@ -816,37 +833,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/game/main_2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/assets_planet.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/assets_main2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="29" />
-          <folding>
-            <element signature="n#!!block;n#Background_BigPlanet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Background_Text_Tweensoft.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Background_Text_Froggee.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Died_Frog.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -870,9 +861,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/assets_main2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!block;n#Background_BigPlanet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Background_Text_Tweensoft.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Background_Text_Froggee.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Died_Frog.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/assets_planet.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="202" column="5" lean-forward="true" selection-start-line="202" selection-start-column="5" selection-end-line="202" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
+        <state relative-caret-position="548">
           <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="40" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -880,12 +892,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/frog/FrogController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/game/main_2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/assets_tree.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="102" column="5" lean-forward="false" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!block;n#Tree1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Tree2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Tree3.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/menugame.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        <state relative-caret-position="191">
+          <caret line="71" column="38" lean-forward="true" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
           <folding>
-            <marker date="1502290927797" expanded="true" signature="2117:2600" ph="..." />
+            <marker date="1502291559301" expanded="true" signature="2493:3426" ph="..." />
           </folding>
         </state>
       </provider>
