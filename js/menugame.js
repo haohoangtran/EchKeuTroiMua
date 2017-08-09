@@ -25,7 +25,7 @@ var menuGameState = {
         Nakama.game.time.advancedTiming = true;
 
         Nakama.game.load.atlasJSONHash('planets', 'Assets/game/planets.png', 'Assets/assets_planet.json');
-        Nakama.game.load.image('background', 'Assets/game/bg_orange.jpeg');
+        Nakama.game.load.image('background', 'Assets/game/background_2.jpg');
     },
 
 // initialize the game
@@ -33,7 +33,7 @@ var menuGameState = {
         Nakama.game.physics.startSystem(Phaser.Physics.ARCADE);
         Nakama.keyboard = Nakama.game.input.keyboard;
         Nakama.background = Nakama.game.add.sprite(Nakama.configs.BACKGROUND_POSITION.x, Nakama.configs.BACKGROUND_POSITION.y, 'background');
-        Nakama.background.scale.setTo(2,2);
+        Nakama.background.scale.setTo(1,1);
         Nakama.buttonStart = Nakama.game.add.sprite(320, 800, 'planets', 'frog1.png');
     },
 

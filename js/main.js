@@ -18,7 +18,7 @@ var playGameState = {
     // preparations before game starts
     preload : function () {
         Nakama.game.load.atlasJSONHash('planets', 'Assets/game/planets.png', 'Assets/assets_planet.json');
-        Nakama.game.load.image('background', 'Assets/game/bg.jpeg')
+        Nakama.game.load.image('background', 'Assets/game/background_1.jpg')
 
         Nakama.game.scale.minWidth = Nakama.configs.GAME_SCREEN.width / 2;
         Nakama.game.scale.minHeight = Nakama.configs.GAME_SCREEN.height / 2;
@@ -37,7 +37,7 @@ var playGameState = {
     Nakama.frogGroup = Nakama.game.add.physicsGroup();
     Nakama.game.physics.startSystem();
     Nakama.keyboard = Nakama.game.input.keyboard;
-    Nakama.background.scale.setTo(2, 2);
+    Nakama.background.scale.setTo(1, 1);
     Nakama.player = new FrogController(200, 200, {JUMP: Phaser.Keyboard.SPACEBAR});
     new PlanetController(400, 200, 'BigPlannet.png', {});
     Nakama.game.camera.follow(Nakama.player.sprite);
