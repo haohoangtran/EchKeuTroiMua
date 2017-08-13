@@ -74,7 +74,8 @@ var menuGameState = {
         Nakama.tree12 = Nakama.game.add.sprite(640, 960, 'planets', 'Tree1.png');
         Nakama.tree13 = Nakama.game.add.sprite(640, 200, 'planets', 'Tree2.png');
 
-        Nakama.logoTitle = Nakama.game.add.sprite(50, 10, 'menus', 'Background_Text_Froggee.png');
+        Nakama.logoTitle = Nakama.game.add.sprite(320, 80, 'menus', 'Background_Text_Froggee.png');
+        Nakama.logoTitle.anchor.setTo(0.5, 0.5);
 
         Nakama.buttonPlay = Nakama.game.add.sprite(250, 800, 'gameplay', 'ButtonPlay.png');
         Nakama.backgroundButtonSetup = Nakama.game.add.sprite(100, 870, 'gameplay', 'BackgroundButton.png');

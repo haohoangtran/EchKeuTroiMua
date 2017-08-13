@@ -28,6 +28,7 @@ var settingGameState = {
         Nakama.game.load.atlasJSONHash('menus', 'Assets/game/main_2.png', 'Assets/assets_main2.json');
         Nakama.game.load.atlasJSONHash('planets', 'Assets/game/planets.png', 'Assets/assets_planet.json');
         Nakama.game.load.atlasJSONHash('gameplay', 'Assets/game/game_play.png', 'Assets/assets_gameplay.json');
+        Nakama.game.load.atlasJSONHash('gameplay2', 'Assets/game/game_play2.png', 'Assets/assets_gameplay2.json');
         Nakama.game.load.atlasJSONHash('trees', 'Assets/game/tree.png', 'Assets/assets_tree.json');
         Nakama.game.load.image('background', 'Assets/game/background_2.jpg');
         Nakama.game.load.audio('musicMenu', 'Assets/music/music.mp3');
@@ -88,7 +89,8 @@ var settingGameState = {
         }, this);
 
         Nakama.backgroundButtonMusic = Nakama.game.add.sprite(320, 500, 'gameplay', 'BackgroundButton.png');
-        Nakama.buttonMusic = Nakama.game.add.sprite(Nakama.backgroundButtonMusic.position.x, Nakama.backgroundButtonMusic.position.y, 'gameplay', 'Icon_Music.png');
+        Nakama.buttonMusic = Nakama.game.add.sprite(Nakama.backgroundButtonMusic.position.x, Nakama.backgroundButtonMusic.position.y,
+            'gameplay', 'Icon_Music.png');
         Nakama.backgroundButtonMusic.inputEnabled = true;
         Nakama.buttonMusic.inputEnabled = true;
         Nakama.backgroundButtonMusic.anchor.setTo(0.5, 0.5);
@@ -98,6 +100,7 @@ var settingGameState = {
             if (Nakama.configs.MUSICPLAY) {
                 music.pause();
                 Nakama.configs.MUSICPLAY = false;
+
             }
             else {
                 music.play();
