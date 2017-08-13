@@ -1,10 +1,6 @@
 class Arrow {
     constructor(x, y, config) {
-        if (config.type === 'top') {
-            this.sprite = Nakama.arrowsGroup.create(x, y, 'dot');
-        } else {
-            this.sprite = Nakama.arrowsGroup.create(x, y, 'dot');
-        }
+        this.sprite = Nakama.arrowsGroup.create(x, y, 'dot');
         this.sprite.width = 10;
         this.sprite.height = 10;
         this.configs = config;
@@ -16,11 +12,17 @@ class Arrow {
 
     update() {
         console.log(this.speed);
-        var period = Nakama.game.time.now * 0.001;
-        var radius = 50;
 
-        this.sprite.position.x = Nakama.players[0].sprite.x + Math.cos(period) * radius;
-        this.sprite.position.y = Nakama.players[0].sprite.y + Math.sin(period) * radius;
+        var radius = 50;
+        if (this.configs.type === 'bottom') {
+            var period = Nakama.game.time.now * 0.0017;
+            this.sprite.position.x = Nakama.players[0].sprite.x + Math.cos(period) * radius;
+            this.sprite.position.y = Nakama.players[0].sprite.y + Math.sin(period) * radius;
+        } else {
+            var period = Nakama.game.time.now * 0.002;
+            this.sprite.position.x = Nakama.players[1].sprite.x + Math.cos(period) * radius;
+            this.sprite.position.y = Nakama.players[1].sprite.y + Math.sin(period) * radius;
+        }
 
     }
 }
