@@ -11,9 +11,12 @@
 //         }, false, false
 //     );
 // }
-var speedFrog = 0.5;
+var speed = 0.5;
 
-var settingGameState = {
+var scale = 0.01;
+var value = 0.01;
+
+var gameoverGameState = {
     // preparations before game starts
     preload: function () {
         Nakama.game.scale.minWidth = Nakama.configs.GAME_SCREEN.width / 2;
@@ -45,11 +48,16 @@ var settingGameState = {
         Nakama.background = Nakama.game.add.sprite(Nakama.configs.BACKGROUND_POSITION.x, Nakama.configs.BACKGROUND_POSITION.y, 'background');
         Nakama.background.scale.setTo(1, 1);
 
-        Nakama.textSetting = Nakama.game.add.sprite(150, 150, 'gameplay', 'Text_Settings.png');
+        Nakama.textGameOver = Nakama.game.add.sprite(100, 150, 'gameplay', 'Text_GameOver.png');
 
         Nakama.cloud1 = Nakama.game.add.sprite(800, 200, 'trees', 'Cloud_Small_Left.png');
         Nakama.cloud2 = Nakama.game.add.sprite(960, 450, 'trees', 'Cloud_Small_Right.png');
         Nakama.cloud3 = Nakama.game.add.sprite(1024, 600, 'trees', 'Cloud_Big_Right.png');
+
+        Nakama.lightstar1 = Nakama.game.add.sprite(Nakama.game.rnd.integerInRange(100, 500), Nakama.game.rnd.integerInRange(100, 800), 'planets', 'big_light.png');
+        Nakama.lightstar2 = Nakama.game.add.sprite(Nakama.game.rnd.integerInRange(100, 500), Nakama.game.rnd.integerInRange(100, 800), 'planets', 'big_light.png');
+        Nakama.lightstar3 = Nakama.game.add.sprite(Nakama.game.rnd.integerInRange(100, 500), Nakama.game.rnd.integerInRange(100, 800), 'planets', 'big_light.png');
+        Nakama.lightstar4 = Nakama.game.add.sprite(Nakama.game.rnd.integerInRange(100, 500), Nakama.game.rnd.integerInRange(100, 800), 'planets', 'big_light.png');
 
         Nakama.tree1 = Nakama.game.add.sprite(0, 200, 'planets', 'Tree1.png');
         Nakama.tree2 = Nakama.game.add.sprite(0, 400, 'planets', 'Tree2.png');
@@ -66,7 +74,11 @@ var settingGameState = {
         Nakama.snow6 = Nakama.game.add.sprite(400, -500, 'trees', 'Snow_Big_2.png');
         Nakama.snow7 = Nakama.game.add.sprite(400, -600, 'trees', 'Snow_Big_3.png');
 
-        Nakama.backgroundButtonHome = Nakama.game.add.sprite(320, 870, 'gameplay', 'BackgroundButton.png');
+        Nakama.frog = Nakama.game.add.sprite(320, 350, 'planets', 'frog_die2.png');
+        Nakama.frog.anchor.setTo(0.5, 0.5);
+        Nakama.frog.scale.setTo(2, 2);
+
+        Nakama.backgroundButtonHome = Nakama.game.add.sprite(280, 870, 'gameplay', 'BackgroundButton.png');
         Nakama.buttonHome = Nakama.game.add.sprite(Nakama.backgroundButtonHome.position.x, Nakama.backgroundButtonHome.position.y, 'gameplay', 'IconHome.png');
         Nakama.backgroundButtonHome.inputEnabled = true;
         Nakama.buttonHome.inputEnabled = true;
@@ -83,42 +95,23 @@ var settingGameState = {
             Nakama.game.state.start('menugame');
         }, this);
 
-        Nakama.backgroundButtonMusic = Nakama.game.add.sprite(320, 500, 'gameplay', 'BackgroundButton.png');
-        Nakama.buttonMusic = Nakama.game.add.sprite(Nakama.backgroundButtonMusic.position.x, Nakama.backgroundButtonMusic.position.y, 'gameplay', 'Icon_Music.png');
-        Nakama.backgroundButtonMusic.inputEnabled = true;
-        Nakama.buttonMusic.inputEnabled = true;
-        Nakama.backgroundButtonMusic.anchor.setTo(0.5, 0.5);
-        Nakama.buttonMusic.anchor.setTo(0.5, 0.5);
 
-        Nakama.backgroundButtonMusic.events.onInputDown.add(function () {
-            if (Nakama.configs.MUSICPLAY) {
-                music.pause();
-                Nakama.configs.MUSICPLAY = false;
-            }
-            else {
-                music.play();
-                Nakama.configs.MUSICPLAY = true;
-            }
+        Nakama.backgroundButtonPlayAgain = Nakama.game.add.sprite(350, 870, 'gameplay', 'BackgroundButton.png');
+        Nakama.buttonPlayAgain = Nakama.game.add.sprite(Nakama.backgroundButtonPlayAgain.position.x, Nakama.backgroundButtonPlayAgain.position.y, 'gameplay', 'Icon_PlayAgain.png');
+        Nakama.backgroundButtonPlayAgain.inputEnabled = true;
+        Nakama.buttonPlayAgain.inputEnabled = true;
+        Nakama.backgroundButtonPlayAgain.anchor.setTo(0.5, 0.5);
+        Nakama.buttonPlayAgain.anchor.setTo(0.5, 0.5);
+
+        Nakama.backgroundButtonPlayAgain.events.onInputDown.add(function () {
+            music.pause();
+            Nakama.game.state.start('playgame');
         }, this);
 
-        Nakama.buttonMusic.events.onInputDown.add(function () {
-            if (Nakama.configs.MUSICPLAY) {
-                music.pause();
-                Nakama.configs.MUSICPLAY = false;
-            }
-            else {
-                music.play();
-                Nakama.configs.MUSICPLAY = true;
-            }
+        Nakama.buttonPlayAgain.events.onInputDown.add(function () {
+            music.pause();
+            Nakama.game.state.start('playgame');
         }, this);
-
-
-        // Nakama.backgroundButtonHome = Nakama.game.add.sprite(100, 870, 'gameplay', 'BackgroundButton.png');
-        // Nakama.buttonHome = Nakama.game.add.sprite(Nakama.backgroundButtonHome.position.x, Nakama.backgroundButtonHome.position.y, 'gameplay', 'IconHome.png');
-        // Nakama.backgroundButtonHome.inputEnabled = true;
-        // Nakama.buttonHome.inputEnabled = true;
-        // Nakama.backgroundButtonHome.anchor.setTo(0.5, 0.5);
-        // Nakama.buttonHome.anchor.setTo(0.5, 0.5);
 
         Nakama.tree4.angle -= 180;
         Nakama.tree5.angle -= 180;
@@ -133,10 +126,54 @@ var settingGameState = {
         Nakama.snow6.scale.setTo(2, 2);
         Nakama.snow7.scale.setTo(2, 2);
 
+        Nakama.lightstar1.anchor.setTo(0.5, 0.5);
+        Nakama.lightstar2.anchor.setTo(0.5, 0.5);
+        Nakama.lightstar3.anchor.setTo(0.5, 0.5);
+        Nakama.lightstar4.anchor.setTo(0.5, 0.5);
+
     },
 
 // update game state each frame
     update: function () {
+
+        Nakama.lightstar1.angle -= 2;
+        Nakama.lightstar2.angle -= 2;
+        Nakama.lightstar3.angle -= 2;
+        Nakama.lightstar4.angle -= 2;
+
+        scale += value;
+
+        if (scale <= 0) {
+            Nakama.lightstar1.position.x = Nakama.game.rnd.integerInRange(100, 500);
+            Nakama.lightstar1.position.y = Nakama.game.rnd.integerInRange(100, 800);
+        }
+
+        if (scale <= 0) {
+            Nakama.lightstar2.position.x = Nakama.game.rnd.integerInRange(100, 500);
+            Nakama.lightstar2.position.y = Nakama.game.rnd.integerInRange(100, 800);
+        }
+
+        if (scale <= 0) {
+            Nakama.lightstar3.position.x = Nakama.game.rnd.integerInRange(100, 500);
+            Nakama.lightstar3.position.y = Nakama.game.rnd.integerInRange(100, 800);
+        }
+
+        if (scale <= 0) {
+            Nakama.lightstar4.position.x = Nakama.game.rnd.integerInRange(100, 500);
+            Nakama.lightstar4.position.y = Nakama.game.rnd.integerInRange(100, 800);
+        }
+
+        if (scale >= 1)
+            value = -0.01;
+
+        if (scale <= 0)
+            value = 0.01;
+
+        Nakama.lightstar1.scale.setTo(scale, scale);
+        Nakama.lightstar2.scale.setTo(scale, scale);
+        Nakama.lightstar3.scale.setTo(scale, scale);
+        Nakama.lightstar4.scale.setTo(scale, scale);
+
 
         Nakama.cloud1.position.x -= 1;
         Nakama.cloud2.position.x -= 2;
@@ -197,13 +234,4 @@ var settingGameState = {
 // before camera render (mostly for debug)
     render: function () {
     }
-}
-
-function listener() {
-    Nakama.game.state.start('playgame');
-
-}
-
-function listenerSetting() {
-    Nakama.game.state.start('playgame');
 }

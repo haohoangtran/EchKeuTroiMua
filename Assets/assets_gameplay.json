@@ -380,6 +380,26 @@
         "w": 177,
         "h": 48
       }
+    },
+    "Text_GameOver.png": {
+      "frame": {
+        "x": 5,
+        "y": 618,
+        "w": 401,
+        "h": 71
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 401,
+        "h": 71
+      },
+      "sourceSize": {
+        "w": 401,
+        "h": 71
+      }
     }
   }
 }
