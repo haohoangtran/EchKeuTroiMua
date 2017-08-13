@@ -502,22 +502,22 @@
     },
     "star.png": {
       "frame": {
-        "x": 358,
-        "y": 352,
-        "w": 33,
-        "h": 34
+        "x": 716,
+        "y": 704,
+        "w": 67,
+        "h": 68
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 33,
-        "h": 34
+        "w": 67,
+        "h": 68
       },
       "sourceSize": {
-        "w": 33,
-        "h": 34
+        "w": 67,
+        "h": 68
       }
     },
     "pause.png": {
