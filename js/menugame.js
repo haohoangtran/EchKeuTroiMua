@@ -54,7 +54,6 @@ var menuGameState = {
         Nakama.cloud2 = Nakama.game.add.sprite(960, 450, 'trees', 'Cloud_Small_Right.png');
         Nakama.cloud3 = Nakama.game.add.sprite(1024, 600, 'trees', 'Cloud_Big_Right.png');
 
-        Nakama.logoTitle = Nakama.game.add.sprite(50, 10, 'menus', 'Background_Text_Froggee.png');
         Nakama.frog = Nakama.game.add.sprite(320, 550, 'menus', 'Background_BigPlanet.png');
         Nakama.tree1 = Nakama.game.add.sprite(0, 200, 'planets', 'Tree1.png');
         Nakama.tree2 = Nakama.game.add.sprite(0, 400, 'planets', 'Tree2.png');
@@ -66,6 +65,8 @@ var menuGameState = {
         Nakama.tree6 = Nakama.game.add.sprite(640, 800, 'planets', 'Tree3.png');
         Nakama.tree12 = Nakama.game.add.sprite(640, 960, 'planets', 'Tree1.png');
         Nakama.tree13 = Nakama.game.add.sprite(640, 200, 'planets', 'Tree2.png');
+
+        Nakama.logoTitle = Nakama.game.add.sprite(50, 10, 'menus', 'Background_Text_Froggee.png');
 
         Nakama.buttonPlay = Nakama.game.add.sprite(250, 800, 'gameplay', 'ButtonPlay.png');
         Nakama.backgroundButtonSetup = Nakama.game.add.sprite(100, 870, 'gameplay', 'BackgroundButton.png');
@@ -97,7 +98,10 @@ var menuGameState = {
             Nakama.game.state.start('highscore');
         }, this);
 
-        Nakama.buttonPlay.events.onInputDown.add(listener, this);
+        Nakama.buttonPlay.events.onInputDown.add(function () {
+            music.pause();
+            Nakama.game.state.start('typegame');
+        }, this);
         Nakama.tree4.angle -= 180;
         Nakama.tree5.angle -= 180;
         Nakama.tree6.angle -= 180;
@@ -143,8 +147,4 @@ var menuGameState = {
 // before camera render (mostly for debug)
     render : function () {
     }
-}
-
-function listener() {
-    Nakama.game.state.start('playgame');
 }
