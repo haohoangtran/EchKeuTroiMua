@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="980d6b9d-ea97-44aa-a743-e41f0a7024ea" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
+    <list default="true" id="980d6b9d-ea97-44aa-a743-e41f0a7024ea" name="Default" comment="edit planet.json">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/music/game_over.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/music/music.wav" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/frog/FrogController.js" afterPath="$PROJECT_DIR$/js/frog/FrogController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/assets_gameplay.json" afterPath="$PROJECT_DIR$/Assets/assets_gameplay.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/menugame.js" afterPath="$PROJECT_DIR$/js/menugame.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,70 +19,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="assets_planet.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/assets_planet.json">
+      <file leaf-file-name="assets_tree.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/assets_tree.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="202" column="19" lean-forward="false" selection-start-line="202" selection-start-column="5" selection-end-line="202" selection-end-column="19" />
+            <state relative-caret-position="765">
+              <caret line="102" column="5" lean-forward="false" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="24" />
               <folding>
-                <element signature="n#!!block;n#BigPlannet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#SmallPlanet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#Small1Planet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
                 <element signature="n#!!block;n#Tree1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
                 <element signature="n#!!block;n#Tree2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
                 <element signature="n#!!block;n#Tree3.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#Tree4.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#Tree5.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#Lacoste1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#Lacoste2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#frog_stand.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#frog_jump.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#frog_jump1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#frog_bounce_fly.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#frame#0;n#!!block;n#frog_bounce_fly.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#frog_die.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#frog_die2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#frog_bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#frog_bakery.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#frog_left.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#ground.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#ground1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#mouse.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#mosquito.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#mosquito1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#star.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#pause.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#clou.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#clou2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#StarText.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#bonus.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#extra.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#air.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#time.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlanetController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/ground/PlanetController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="44" column="25" lean-forward="true" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -88,29 +39,86 @@
       <file leaf-file-name="menugame.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/menugame.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="279">
+              <caret line="114" column="4" lean-forward="false" selection-start-line="112" selection-start-column="3" selection-end-line="114" selection-end-column="4" />
+              <folding>
+                <marker date="1502599202497" expanded="true" signature="3725:4635" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="planets.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/game/planets.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loading.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/game/loading.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game_play.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/game/game_play.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assets_gameplay.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/assets_gameplay.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+            <state relative-caret-position="964">
+              <caret line="173" column="7" lean-forward="true" selection-start-line="173" selection-start-column="7" selection-end-line="173" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FrogController.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main_2.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/game/main_2.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/game.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FrogController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/frog/FrogController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-              <folding />
+            <state relative-caret-position="238">
+              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+              <folding>
+                <marker date="1502596066140" expanded="true" signature="21:709" ph="{...}" />
+                <marker date="1502596066140" expanded="true" signature="53:458" ph="{...}" />
+                <marker date="1502596066140" expanded="true" signature="600:607" ph="{...}" />
+                <marker date="1502596066140" expanded="true" signature="620:707" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="79" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="20" selection-end-column="79" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,16 +144,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/menugame.js" />
         <option value="$PROJECT_DIR$/Assets/assets.json" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/ground/GroundController.js" />
-        <option value="$PROJECT_DIR$/js/ground/PlanetController.js" />
-        <option value="$PROJECT_DIR$/Assets/assets_gameplay.json" />
         <option value="$PROJECT_DIR$/Assets/assets_planet.json" />
+        <option value="$PROJECT_DIR$/js/ground/PlanetController.js" />
+        <option value="$PROJECT_DIR$/Assets/game/assets_main2.json" />
+        <option value="$PROJECT_DIR$/Assets/assets_main2.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/js/frog/FrogController.js" />
+        <option value="$PROJECT_DIR$/js/game.js" />
+        <option value="$PROJECT_DIR$/Assets/assets_gameplay.json" />
+        <option value="$PROJECT_DIR$/js/menugame.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -172,11 +183,11 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="790" />
-    <option name="y" value="50" />
-    <option name="width" value="976" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="54" />
+    <option name="y" value="-8" />
+    <option name="width" value="1320" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -197,54 +208,246 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="EchKeuTroiMua" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EchKeuTroiMua" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EchKeuTroiMua" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EchKeuTroiMua" type="462c0819:PsiDirectoryNode" />
-              <item name="Assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EchKeuTroiMua" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EchKeuTroiMua" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EchKeuTroiMua" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EchKeuTroiMua" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="frog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EchKeuTroiMua" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EchKeuTroiMua" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="ground" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="C:/Program Files/nodejs/node_modules/npm" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files (x86)/nodejs/node" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\EchKeuTroiMua\Assets\music" />
+      <recent name="E:\EchKeuTroiMua\Assets" />
       <recent name="C:\Users\Jungb\WebstormProjects\EchKeuTroiMua\Assets" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/frog/FrogController.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/main.js</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/npm-debug.log</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -259,36 +462,8 @@
     </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration name="Unnamed" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="$PROJECT_DIR$">
-      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
-        <option name="envVars">
-          <list />
-        </option>
-        <option name="extraHosts">
-          <list />
-        </option>
-        <option name="links">
-          <list />
-        </option>
-        <option name="networkDisabled" value="false" />
-        <option name="networkMode" value="bridge" />
-        <option name="portBindings">
-          <list />
-        </option>
-        <option name="publishAllPorts" value="false" />
-        <option name="version" value="1" />
-        <option name="volumeBindings">
-          <list />
-        </option>
-      </EXTENSION>
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/EchKeuTroiMua/index.html">
+      <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
@@ -327,6 +502,15 @@
       <option name="filePath" />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -347,7 +531,30 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/EchKeuTroiMua/index.html" />
+    <configuration default="false" name="Unnamed" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="$PROJECT_DIR$">
+      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list />
+        </option>
+      </EXTENSION>
+      <method />
+    </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Node.js.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
@@ -371,9 +578,8 @@
       <workItem from="1502112843122" duration="7533000" />
       <workItem from="1502190767418" duration="14222000" />
       <workItem from="1502256355473" duration="1810000" />
-      <workItem from="1502283552769" duration="2596000" />
-      <workItem from="1502282574937" duration="5320000" />
-      <workItem from="1502590451963" duration="1530000" />
+      <workItem from="1502283552769" duration="4754000" />
+      <workItem from="1502594452020" duration="4660000" />
     </task>
     <task id="LOCAL-00001" summary="add planet.json">
       <created>1502193939248</created>
@@ -389,46 +595,67 @@
       <option name="project" value="LOCAL" />
       <updated>1502195568581</updated>
     </task>
-    <task id="LOCAL-00003" summary="edit planet.json">
-      <created>1502283570398</created>
+    <task id="LOCAL-00003" summary="sua anh">
+      <created>1502286179097</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1502283570398</updated>
+      <updated>1502286179097</updated>
     </task>
-    <task id="LOCAL-00004" summary="edit planet.json">
-      <created>1502285020694</created>
+    <task id="LOCAL-00004" summary="add sprite in background">
+      <created>1502288219319</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1502285020694</updated>
+      <updated>1502288219320</updated>
     </task>
-    <task id="LOCAL-00005" summary="frog rotate">
-      <created>1502287927299</created>
+    <task id="LOCAL-00005" summary="edit planet.json">
+      <created>1502288982483</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1502287927299</updated>
+      <updated>1502288982483</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="sua menu game">
+      <created>1502596053032</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1502596053032</updated>
+    </task>
+    <task id="LOCAL-00007" summary="sua background menu">
+      <created>1502596172773</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1502596172773</updated>
+    </task>
+    <task id="LOCAL-00008" summary="sua background menu">
+      <created>1502596218048</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1502596218048</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35232000" />
+    <option name="totallyTimeSpent" value="38253000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="41" width="1938" height="1048" extended-state="6" />
+    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1734532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28627145" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.50185084" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32579187" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3325792" sideWeight="0.49814913" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1821267" sideWeight="0.49814913" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27796054" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -441,93 +668,31 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add planet.json" />
+    <MESSAGE value="sua anh" />
+    <MESSAGE value="add sprite in background" />
     <MESSAGE value="edit planet.json" />
-    <MESSAGE value="frog rotate" />
-    <option name="LAST_COMMIT_MESSAGE" value="frog rotate" />
+    <MESSAGE value="sua menu game" />
+    <MESSAGE value="sua background menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="sua background menu" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1550">
-          <caret line="62" column="51" lean-forward="false" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="51" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/Assets/game/tree.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/frog/FrogController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="50" lean-forward="false" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ground/PlanetController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/assets_planet.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#BigPlannet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#SmallPlanet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Small1Planet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree3.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree4.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree5.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Lacoste1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Lacoste2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_stand.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_jump.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_jump1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_bounce_fly.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frame#0;n#!!block;n#frog_bounce_fly.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_die.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_die2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_bakery.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_left.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#ground.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#ground1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#mouse.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#mosquito.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#mosquito1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#star.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#pause.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#clou.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#clou2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#StarText.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#bonus.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#extra.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#air.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#time.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/game/caygai.png" />
-    <entry file="file://$PROJECT_DIR$/Assets/game/earth.png" />
-    <entry file="file://$PROJECT_DIR$/Assets/game/tree.png" />
     <entry file="file://$PROJECT_DIR$/Assets/game/icons.png" />
     <entry file="file://$PROJECT_DIR$/Assets/game/frog_small.png" />
     <entry file="file://$PROJECT_DIR$/Assets/game/number_red.png" />
@@ -548,7 +713,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" column="52" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="52" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -556,43 +723,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!block;n#BigPlannet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#SmallPlanet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Small1Planet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree3.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree4.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree5.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Lacoste1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Lacoste2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_stand.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_jump.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_jump1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_bounce_fly.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frame#0;n#!!block;n#frog_bounce_fly.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_die.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_die2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_bakery.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_left.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#ground.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#ground1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#mouse.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#mosquito.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#mosquito1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#star.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#pause.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#clou.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#clou2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#StarText.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#bonus.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#extra.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#air.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#time.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -616,7 +747,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" column="52" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="52" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -624,52 +757,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!block;n#BigPlannet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#SmallPlanet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Small1Planet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree3.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree4.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree5.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Lacoste1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Lacoste2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_stand.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_jump.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_jump1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_bounce_fly.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frame#0;n#!!block;n#frog_bounce_fly.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_die.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_die2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_bakery.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_left.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#ground.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#ground1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#mouse.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#mosquito.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#mosquito1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#star.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#pause.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#clou.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#clou2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#StarText.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#bonus.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#extra.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#air.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#time.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/assets.png" />
-    <entry file="file://$PROJECT_DIR$/Assets/game/loading.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1530">
@@ -687,7 +779,11 @@
     <entry file="file://$PROJECT_DIR$/Assets/game/bg_startgame.jpeg" />
     <entry file="file://$PROJECT_DIR$/Assets/game/number_blue.png" />
     <entry file="file://$PROJECT_DIR$/Assets/game/number_orange.png" />
-    <entry file="file://$PROJECT_DIR$/Assets/game/tree.png" />
+    <entry file="file://$PROJECT_DIR$/Assets/game/tree.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/game/icons.png" />
     <entry file="file://$PROJECT_DIR$/Assets/game/frog_small.png" />
     <entry file="file://$PROJECT_DIR$/Assets/game/earth.png" />
@@ -709,11 +805,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/ground/PlanetController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/game/number_red.png" />
+    <entry file="file://$PROJECT_DIR$/Assets/game/so.png" />
+    <entry file="file://$PROJECT_DIR$/Assets/game/extra_1.png" />
+    <entry file="file://$PROJECT_DIR$/Assets/tsconfig.json" />
+    <entry file="file://$PROJECT_DIR$/Assets/Map1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/game/background_2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="272">
           <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/assets_main2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!block;n#Background_BigPlanet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Background_Text_Tweensoft.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Background_Text_Froggee.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Died_Frog.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/assets_planet.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3434">
+          <caret line="202" column="5" lean-forward="false" selection-start-line="202" selection-start-column="5" selection-end-line="202" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/game/main_2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/assets_tree.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="102" column="5" lean-forward="false" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!block;n#Tree1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Tree2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Tree3.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/game/background_1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/frog/FrogController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <marker date="1502596066140" expanded="true" signature="21:709" ph="{...}" />
+            <marker date="1502596066140" expanded="true" signature="53:458" ph="{...}" />
+            <marker date="1502596066140" expanded="true" signature="600:607" ph="{...}" />
+            <marker date="1502596066140" expanded="true" signature="620:707" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -722,102 +904,48 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/game/number_red.png" />
-    <entry file="file://$PROJECT_DIR$/Assets/game/so.png" />
-    <entry file="file://$PROJECT_DIR$/Assets/Map1.png">
+    <entry file="file://$PROJECT_DIR$/Assets/game/loading.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/game/extra_1.png" />
-    <entry file="file://$PROJECT_DIR$/Assets/game/game_play.png" />
-    <entry file="file://$PROJECT_DIR$/Assets/tsconfig.json" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/Assets/game/game_play.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/assets_gameplay.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1350">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="964">
+          <caret line="173" column="7" lean-forward="true" selection-start-line="173" selection-start-column="7" selection-end-line="173" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/menugame.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ground/PlanetController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/assets_planet.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="202" column="19" lean-forward="false" selection-start-line="202" selection-start-column="5" selection-end-line="202" selection-end-column="19" />
+        <state relative-caret-position="279">
+          <caret line="114" column="4" lean-forward="false" selection-start-line="112" selection-start-column="3" selection-end-line="114" selection-end-column="4" />
           <folding>
-            <element signature="n#!!block;n#BigPlannet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#SmallPlanet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Small1Planet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree3.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree4.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree5.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Lacoste1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Lacoste2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_stand.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_jump.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_jump1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_bounce_fly.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frame#0;n#!!block;n#frog_bounce_fly.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_die.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_die2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_bakery.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_left.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#ground.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#ground1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#mouse.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#mosquito.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#mosquito1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#star.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#pause.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#clou.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#clou2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#StarText.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#bonus.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#extra.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#air.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#time.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <marker date="1502599202497" expanded="true" signature="3725:4635" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="44" column="25" lean-forward="true" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="340">
+          <caret line="20" column="79" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="20" selection-end-column="79" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/frog/FrogController.js">
+    <entry file="file://$PROJECT_DIR$/js/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="225">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
