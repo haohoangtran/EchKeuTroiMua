@@ -37,9 +37,16 @@ class FrogController {
             }
         }
     }
+
     jump() {
-        var x = Nakama.arrows[0].sprite.position.x - this.sprite.position.x;
-        var y = Nakama.arrows[0].sprite.position.y - this.sprite.position.y;
+        var x, y;
+        if (this.config.type === 'bottom') {
+            x = Nakama.arrows[0].sprite.position.x - this.sprite.position.x;
+            y = Nakama.arrows[0].sprite.position.y - this.sprite.position.y;
+        } else {
+            x = Nakama.arrows[1].sprite.position.x - this.sprite.position.x;
+            y = Nakama.arrows[1].sprite.position.y - this.sprite.position.y;
+        }
         new Bullet(this.sprite.position.x, this.sprite.position.y, {x: x, y: y});
     }
 }
