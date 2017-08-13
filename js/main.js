@@ -46,14 +46,14 @@ var playGameState = {
         Nakama.players.push(new FrogController(1, 400, {
             type: 'bottom',
             left: Phaser.Keyboard.LEFT,
-            RIGHT: Phaser.Keyboard.RIGHT,
+            right: Phaser.Keyboard.RIGHT,
             fire: Phaser.Keyboard.UP
         }));
         Nakama.players.push(new FrogController(1, 400, {
             type: 'top',
-            left: Phaser.Keyboard.LEFT,
-            RIGHT: Phaser.Keyboard.RIGHT,
-            fire: Phaser.Keyboard.UP
+            left: Phaser.Keyboard.A,
+            right: Phaser.Keyboard.D,
+            fire: Phaser.Keyboard.W
         }));
     },
 
