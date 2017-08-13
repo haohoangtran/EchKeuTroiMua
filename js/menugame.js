@@ -38,6 +38,7 @@ var menuGameState = {
         Nakama.keyboard = Nakama.game.input.keyboard;
         Nakama.background = Nakama.game.add.sprite(Nakama.configs.BACKGROUND_POSITION.x, Nakama.configs.BACKGROUND_POSITION.y, 'background');
         Nakama.background.scale.setTo(1,1);
+
         Nakama.cloud1 = Nakama.game.add.sprite(800, 200, 'trees', 'Cloud_Small_Left.png');
         Nakama.cloud2 = Nakama.game.add.sprite(960, 450, 'trees', 'Cloud_Small_Right.png');
         Nakama.cloud3 = Nakama.game.add.sprite(1024, 600, 'trees', 'Cloud_Big_Right.png');
@@ -51,7 +52,8 @@ var menuGameState = {
         Nakama.tree5 = Nakama.game.add.sprite(640, 600, 'planets', 'Tree2.png');
         Nakama.tree6 = Nakama.game.add.sprite(640, 800, 'planets', 'Tree3.png');
         Nakama.buttonPlay = Nakama.game.add.sprite(250, 800,'gameplay', 'ButtonPlay.png');
-
+        Nakama.backgroundButtonSetup = Nakama.game.add.sprite(250, 800, 'gameplay', 'BackgroundButton.png');
+        Nakama.buttonSetup = Nakama.game.add.sprite(250, 800, 'gameplay', 'IconSetting.png');
         Nakama.buttonPlay.inputEnabled = true;
         Nakama.buttonPlay.events.onInputDown.add(listener, this);
 
