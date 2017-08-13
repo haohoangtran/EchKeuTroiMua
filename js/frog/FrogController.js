@@ -7,18 +7,14 @@ class FrogController {
         this.sprite.body.collideWorldBounds = true;
         this.sprite.update = this.update.bind(this);
         this.jump_key = Nakama.keyboard.addKey(this.config.JUMP);
+        this.sprite.pivot.y = 143;
+
     }
 
 
     update() {
         this.jump_key.onDown.add(this.jump, this);
-        var period = Nakama.game.time.now * 0.001;
-        var radius = this.sprite.width*2;
-        this.sprite.position.x = Nakama.planet.sprite.x + Math.cos(period) * radius;
-        this.sprite.position.y = Nakama.planet.sprite.y + Math.sin(period) * radius;
-
-
-
+        this.sprite.rotation +=0.018;
     }
 
     jump() {
