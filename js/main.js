@@ -19,6 +19,10 @@ var playGameState = {
     preload: function () {
         Nakama.game.load.atlasJSONHash('planets', 'Assets/game/planets.png', 'Assets/assets_planet.json');
         Nakama.game.load.image('background', 'Assets/game/background_1.jpg')
+        Nakama.game.load.image('groundtop', 'Assets/game/planet_top.png')
+        Nakama.game.load.image('groundbottom', 'Assets/game/planet_bottom.png')
+        Nakama.game.load.image('frog_top', 'Assets/game/frog_top.png')
+        Nakama.game.load.image('frog_bottom', 'Assets/game/frog_bottom.png')
         Nakama.game.scale.minWidth = Nakama.configs.GAME_SCREEN.width / 2;
         Nakama.game.scale.minHeight = Nakama.configs.GAME_SCREEN.height / 2;
         Nakama.game.scale.maxWidth = Nakama.configs.GAME_SCREEN.width;
@@ -34,16 +38,32 @@ var playGameState = {
 
         Nakama.background = Nakama.game.add.sprite(0, -100, 'background');
         Nakama.groundGroup = Nakama.game.add.physicsGroup();
+        Nakama.playerGroup = Nakama.game.add.physicsGroup();
         Nakama.groundBots = []
-        Nakama.groundBots.push(new Ground(0, 930, 'ground.png'), {type: 'bottom'})
-        Nakama.groundBots.push(new Ground(0, 10, 'ground.png'), {type: 'top'})
-
-
+        Nakama.groundBots.push(new Ground(0, 630, 'groundbottom'), {});
+        Nakama.groundBots.push(new Ground(0, 230, 'groundtop'), {});
+        Nakama.players = [];
+        Nakama.players.push(new FrogController(1, 400, {
+            type: 'bottom',
+            left: Phaser.Keyboard.LEFT,
+            RIGHT: Phaser.Keyboard.RIGHT,
+            fire: Phaser.Keyboard.UP
+        }));
+        Nakama.players.push(new FrogController(1, 400, {
+            type: 'top',
+            left: Phaser.Keyboard.LEFT,
+            RIGHT: Phaser.Keyboard.RIGHT,
+            fire: Phaser.Keyboard.UP
+        }));
     },
 
 // update game state each frame
     update: function () {
-
+        Nakama.game.physics.arcade.overlap(
+            Nakama.groundGroup,
+            Nakama.playerGroup,
+            onBulletHitGround
+        );
 
     },
 
@@ -51,5 +71,9 @@ var playGameState = {
     render: function () {
 
     }
+
+}
+var onBulletHitGround = function (groundSprite, playerSprite) {
+    playerSprite.body.gravity = 0
 
 }

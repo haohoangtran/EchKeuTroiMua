@@ -139,6 +139,146 @@
         "w": 266,
         "h": 125
       }
+    },
+    "Snow_Big_1.png": {
+      "frame": {
+        "x": 812,
+        "y": 119,
+        "w": 11,
+        "h": 19
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 11,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 11,
+        "h": 19
+      }
+    },
+    "Snow_Big_2.png": {
+      "frame": {
+        "x": 830,
+        "y": 93,
+        "w": 10,
+        "h": 19
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 19
+      }
+    },
+    "Snow_Big_3.png": {
+      "frame": {
+        "x": 812,
+        "y": 92,
+        "w": 14,
+        "h": 21
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 14,
+        "h": 21
+      },
+      "sourceSize": {
+        "w": 14,
+        "h": 21
+      }
+    },
+    "Snow_Small_1.png": {
+      "frame": {
+        "x": 832,
+        "y": 63,
+        "w": 6,
+        "h": 14
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 14
+      }
+    },
+    "Snow_Small_2.png": {
+      "frame": {
+        "x": 832,
+        "y": 43,
+        "w": 6,
+        "h": 14
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 14
+      }
+    },
+    "Snow_Small_3.png": {
+      "frame": {
+        "x": 833,
+        "y": 25,
+        "w": 6,
+        "h": 13
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 13
+      },
+      "sourceSize": {
+        "w": 6,
+        "h": 13
+      }
+    },
+    "Snow_Small_4.png": {
+      "frame": {
+        "x": 832,
+        "y": 5,
+        "w": 8,
+        "h": 15
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 8,
+        "h": 15
+      },
+      "sourceSize": {
+        "w": 8,
+        "h": 15
+      }
     }
   }
 }
