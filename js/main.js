@@ -42,6 +42,7 @@ var playGameState = {
         Nakama.background = Nakama.game.add.sprite(0, -100, 'background');
         Nakama.groundGroup = Nakama.game.add.physicsGroup();
         Nakama.arrowsGroup = Nakama.game.add.physicsGroup();
+        Nakama.bulletGroup = Nakama.game.add.physicsGroup();
         Nakama.playerGroup = Nakama.game.add.physicsGroup();
 
         Nakama.groundBots = []
