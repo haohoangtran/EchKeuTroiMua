@@ -39,7 +39,7 @@ var gameoverGameState = {
 // initialize the game
     create: function () {
         music = Nakama.game.add.audio('musicMenu');
-        if (!music.isPlaying)
+        if (!music.isPlaying && Nakama.configs.MUSICPLAY)
             music.play();
 
         Nakama.game.physics.startSystem(Phaser.Physics.ARCADE);

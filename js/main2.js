@@ -33,7 +33,7 @@ var playGame2State = {
 
         Nakama.background = Nakama.game.add.sprite(0, 0, 'background');
         music = Nakama.game.add.audio('musicMenu');
-        if (!music.isPlaying)
+        if (!music.isPlaying && Nakama.configs.MUSICPLAY)
             music.play();
         music.loop = true;
 
@@ -83,7 +83,8 @@ var onHitItem = function (item, frog) {
     item.kill();
     new ItemController();
     Nakama.eat = Nakama.game.add.audio('eat');
-    Nakama.eat.play();
+    if (!music.isPlaying && Nakama.configs.MUSICPLAY)
+        Nakama.eat.play();
     Nakama.score++;
     scoreText.text = 'Score: ' + Nakama.score;
 

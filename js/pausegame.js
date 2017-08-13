@@ -36,7 +36,7 @@ var pausegameGameState = {
 // initialize the game
     create: function () {
         music = Nakama.game.add.audio('musicMenu');
-        if (Nakama.configs.MUSICPLAY)
+        if (!music.isPlaying && Nakama.configs.MUSICPLAY)
             music.play();
         music.loop = true;
 
