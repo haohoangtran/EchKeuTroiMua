@@ -62,9 +62,13 @@ var highscoreGameState = {
         Nakama.tree1 = Nakama.game.add.sprite(0, 200, 'planets', 'Tree1.png');
         Nakama.tree2 = Nakama.game.add.sprite(0, 400, 'planets', 'Tree2.png');
         Nakama.tree3 = Nakama.game.add.sprite(0, 600, 'planets', 'Tree3.png');
+        Nakama.tree8 = Nakama.game.add.sprite(0, 0, 'planets', 'Tree1.png');
+        Nakama.tree10 = Nakama.game.add.sprite(0, 800, 'planets', 'Tree2.png');
         Nakama.tree4 = Nakama.game.add.sprite(640, 400, 'planets', 'Tree1.png');
         Nakama.tree5 = Nakama.game.add.sprite(640, 600, 'planets', 'Tree2.png');
         Nakama.tree6 = Nakama.game.add.sprite(640, 800, 'planets', 'Tree3.png');
+        Nakama.tree9 = Nakama.game.add.sprite(640, 960, 'planets', 'Tree1.png');
+        Nakama.tree11 = Nakama.game.add.sprite(640, 200, 'planets', 'Tree2.png');
 
         Nakama.snow1 = Nakama.game.add.sprite(100, -500, 'trees', 'Snow_Small_1.png');
         Nakama.snow2 = Nakama.game.add.sprite(200, -600, 'trees', 'Snow_Small_2.png');
@@ -98,7 +102,8 @@ var highscoreGameState = {
         Nakama.tree4.angle -= 180;
         Nakama.tree5.angle -= 180;
         Nakama.tree6.angle -= 180;
-
+        Nakama.tree9.angle -= 180;
+        Nakama.tree11.angle -= 180;
 
         Nakama.snow1.scale.setTo(2, 2);
         Nakama.snow2.scale.setTo(2, 2);
