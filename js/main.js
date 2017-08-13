@@ -30,6 +30,7 @@ var playGameState = {
 
 // initialize the game
     create: function () {
+        
         Nakama.background = Nakama.game.add.sprite(0, -100, 'background');
         Nakama.planetGroup = Nakama.game.add.physicsGroup();
         Nakama.frogGroup = Nakama.game.add.physicsGroup();
