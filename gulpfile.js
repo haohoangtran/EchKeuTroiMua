@@ -11,6 +11,7 @@ gulp.task('default', ['inject'], () = > {
             cb();
             started = true;
         }
+
     });
 })
 ;
