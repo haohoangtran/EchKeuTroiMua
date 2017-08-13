@@ -26,14 +26,19 @@ var playGame2State = {
         Nakama.background = Nakama.game.add.sprite(0, 0, 'background');
 
         Nakama.ovuongGroup = Nakama.game.add.physicsGroup();
-        Nakama.frogs = Nakama.game.add.physicsGroup();
-        Nakama.ovuong = new Ovuong(Nakama.configs.GAME_SCREEN.width / 2, Nakama.configs.GAME_SCREEN.height / 2);
 
+        Nakama.ovuong = new Ovuong(Nakama.configs.GAME_SCREEN.width / 2, Nakama.configs.GAME_SCREEN.height / 2);
+        Nakama.frogs = Nakama.game.add.physicsGroup();
+        new FrogType2({
+            left: Phaser.Keyboard.LEFT,
+            right: Phaser.Keyboard.RIGHT,
+            up: Phaser.Keyboard.UP,
+            down: Phaser.Keyboard.DOWN
+        })
     },
 
 // update game state each frame
     update: function () {
-        console.log(Nakama.game.input.x, Nakama.game.input.y)
     },
 
 
