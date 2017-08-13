@@ -33,15 +33,14 @@ var gameoverGameState = {
         Nakama.game.load.atlasJSONHash('gameplay', 'Assets/game/game_play.png', 'Assets/assets_gameplay.json');
         Nakama.game.load.atlasJSONHash('trees', 'Assets/game/tree.png', 'Assets/assets_tree.json');
         Nakama.game.load.image('background', 'Assets/game/background_2.jpg');
-        Nakama.game.load.audio('musicMenu', 'Assets/music/music.mp3');
+        Nakama.game.load.audio('musicMenu', 'Assets/music/game_over.mp3');
     },
 
 // initialize the game
     create: function () {
         music = Nakama.game.add.audio('musicMenu');
-        if (Nakama.configs.MUSICPLAY)
+        if (!music.isPlaying)
             music.play();
-        music.loop = true;
 
         Nakama.game.physics.startSystem(Phaser.Physics.ARCADE);
         Nakama.keyboard = Nakama.game.input.keyboard;
@@ -94,10 +93,10 @@ var gameoverGameState = {
             music.pause();
             Nakama.game.state.start('menugame');
         }, this);
-        scoreText = Nakama.game.add.text(300, 420, 'Score: 0', {fontSize: '42px', fill: '#fff'});
+        scoreText = Nakama.game.add.text(230, 500, 'Score: 0', {fontSize: '42px', fill: '#fff'});
         scoreText.text = 'Score: ' + Nakama.score;
 
-        Nakama.backgroundButtonPlayAgain = Nakama.game.add.sprite(400, 870, 'gameplay2', 'BackgroundButton.png');
+        Nakama.backgroundButtonPlayAgain = Nakama.game.add.sprite(400, 870, 'gameplay', 'BackgroundButton.png');
         Nakama.buttonPlayAgain = Nakama.game.add.sprite(Nakama.backgroundButtonPlayAgain.position.x, Nakama.backgroundButtonPlayAgain.position.y, 'gameplay', 'Icon_PlayAgain.png');
         Nakama.backgroundButtonPlayAgain.inputEnabled = true;
         Nakama.buttonPlayAgain.inputEnabled = true;
@@ -106,12 +105,12 @@ var gameoverGameState = {
 
         Nakama.backgroundButtonPlayAgain.events.onInputDown.add(function () {
             music.pause();
-            Nakama.game.state.start('playgame');
+            Nakama.game.state.start('playgame2');
         }, this);
 
         Nakama.buttonPlayAgain.events.onInputDown.add(function () {
             music.pause();
-            Nakama.game.state.start('playgame');
+            Nakama.game.state.start('playgame2');
         }, this);
 
         Nakama.tree4.angle -= 180;

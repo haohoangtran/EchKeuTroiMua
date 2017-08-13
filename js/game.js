@@ -22,7 +22,8 @@ Nakama.configs = {
         y: -500,
         velocity: 3
     },
-    MUSICPLAY: true
+    MUSICPLAY: true,
+    BEST_SCORE: 0
 };
 
 Nakama.game = new Phaser.Game(640, 960, Phaser.AUTO, '');

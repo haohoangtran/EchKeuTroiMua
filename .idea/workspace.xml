@@ -1,126 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="980d6b9d-ea97-44aa-a743-e41f0a7024ea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/Om_fear02.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/Om_fly01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/Om_fly_away01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/Om_fly_away02.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/Om_happy_star01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/Om_happy_star02_1.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/Om_happy_star03.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/Om_idle04.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/Om_idle05.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/Om_kick03.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/Om_landing03.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/Om_rolls01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/Om_rolls03.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/Om_rolls05.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/Om_salute_gamer01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/ballon_die01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/ballon_die02.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/ballon_die03.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/ballon_fly01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/ballon_fly02.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/bomb.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/buka_idle01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/buka_scare01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/cancel_v1.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/candy_away03.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/candy_near01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/catch_star01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/catch_star02.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/catch_star03.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/counter_loop.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/counter_stop.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/cut_long_rope01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/cut_long_rope02.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/cut_short_rope01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/cut_short_rope02.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/daily_spin_choose.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/daily_spin_reward.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/daily_spin_start.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/eat_candy01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/end_level01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/end_screen_star01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/end_screen_star02.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/end_screen_star03.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/explosion.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/frog_act01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/frog_act02.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/frog_deact01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/frog_deact02.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/fruit.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/gates.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/gremlin_act01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/gremlin_act02.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/gremlin_act03.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/heli_idle01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/heli_throw_catch01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/heli_throw_catch02.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/hello_monster01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/interactive_butterfly_Om03.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/interactive_good_Om02.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/interactive_head_Om02.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/interactive_hello_Om04.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/interactive_jump_action03.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/interactive_lick_Om01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/interactive_look_Om01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/interactive_move_Om01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/interactive_mur_Om04.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/interactive_twist_Om03.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/interactive_upside_down_Om01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/interactive_wink_Om03.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/item_swoosh01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/item_swoosh02.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/jump_down.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/jump_up.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/land_kick01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/land_kick02.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/loading.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/magnit_act01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/magnit_deact01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/magnit_idle01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/medal.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/menu_button_tap01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/menu_button_tap02.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/mission.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/no_candy_sad01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/nocash.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/pump_tap01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/pump_tap02.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/pump_tap03.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/purchase_v2.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/reward.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/rope_pull01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/rope_pull02.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/rope_stretch01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/rope_stretch02.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/rope_swing01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/rope_swing02.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/snail_start_05.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/snail_stop_06.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/spin.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/super_power_ballons_create.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/super_power_hint_offer01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/switch_use01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/switch_use02.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/teleport_idle_2.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/teleport_off.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/teleport_on.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/thrower_catch02.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/thrower_catch03.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/thrower_throw04.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/thrower_throw05.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/universal_kick01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/universal_kick02.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/water_splash01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/water_splash02.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/water_splash_idle.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/wood_kick01.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/wood_kick02.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/sounds/zepto_logo_bubbles.wav" />
+    <list default="true" id="980d6b9d-ea97-44aa-a743-e41f0a7024ea" name="Default" comment="sửa star">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/game.js" afterPath="$PROJECT_DIR$/js/game.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/gameover.js" afterPath="$PROJECT_DIR$/js/gameover.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/highscore.js" afterPath="$PROJECT_DIR$/js/highscore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main2.js" afterPath="$PROJECT_DIR$/js/main2.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -132,14 +18,40 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="assets_planet.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/assets_planet.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="162" column="5" lean-forward="false" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="17" />
+            <state relative-caret-position="242">
+              <caret line="505" column="17" lean-forward="false" selection-start-line="505" selection-start-column="17" selection-end-line="505" selection-end-column="17" />
               <folding>
+                <element signature="n#!!block;n#Tree4.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Tree5.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Lacoste1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#Lacoste2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#frog_stand.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#frog_jump.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#frog_jump1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#frog_bounce_fly.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#frog_die.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#frog_die2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#frog_bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#frog_bakery.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#frog_left.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#ground.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#ground1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#mouse.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#mosquito.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#mosquito1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#pause.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#clou.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#clou2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#StarText.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#bonus.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <element signature="n#!!block;n#extra.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
                 <element signature="n#!!block;n#life.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
                 <element signature="n#!!block;n#air.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
                 <element signature="n#!!block;n#time.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
@@ -150,51 +62,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/item/ItemController.js">
+      <file leaf-file-name="pausegame.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/pausegame.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="187">
+              <caret line="146" column="37" lean-forward="false" selection-start-line="146" selection-start-column="37" selection-end-line="146" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ovuong.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/Ovuong.js">
+      <file leaf-file-name="menugame.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/menugame.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LacosteController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/lacoste/LacosteController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main2.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/main2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="238">
+              <caret line="77" column="9" lean-forward="false" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -203,20 +85,64 @@
       <file leaf-file-name="gameover.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/gameover.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="97" column="50" lean-forward="false" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
+            <state relative-caret-position="1428">
+              <caret line="96" column="17" lean-forward="false" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
+      <file leaf-file-name="highscore.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/highscore.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="74" column="8" lean-forward="false" selection-start-line="74" selection-start-column="8" selection-end-line="78" selection-end-column="10" />
+            <state relative-caret-position="188">
+              <caret line="85" column="47" lean-forward="false" selection-start-line="85" selection-start-column="47" selection-end-line="85" selection-end-column="47" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="664">
+              <caret line="90" column="42" lean-forward="true" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setting.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/setting.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="77" column="59" lean-forward="false" selection-start-line="77" selection-start-column="59" selection-end-line="77" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/game.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="planet_top.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/game/planet_top.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="planets.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/game/planets.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -225,20 +151,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="tsconfig.json" />
         <option value="JavaScript File" />
+        <option value="tsconfig.json" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ground</find>
-      <find>background_2</find>
-      <find>audio</find>
       <find>fro</find>
-      <find>start</find>
-      <find>star</find>
-      <find>lac</find>
+      <find>Text_Settings</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -252,27 +173,24 @@
         <option value="$PROJECT_DIR$/js/ground/PlanetController.js" />
         <option value="$PROJECT_DIR$/Assets/game/assets_main2.json" />
         <option value="$PROJECT_DIR$/Assets/assets_main2.json" />
-        <option value="$PROJECT_DIR$/Assets/assets_gameplay.json" />
-        <option value="$PROJECT_DIR$/js/setting.js" />
-        <option value="$PROJECT_DIR$/js/game.js" />
-        <option value="$PROJECT_DIR$/js/highscore.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/js/menugame.js" />
-        <option value="$PROJECT_DIR$/Assets/assets_planet.json" />
-        <option value="$PROJECT_DIR$/js/Arrow.js" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/js/frog/FrogController.js" />
-        <option value="$PROJECT_DIR$/js/oto/AutoCar.js" />
-        <option value="$PROJECT_DIR$/js/oto/AutoFrog.js" />
-        <option value="$PROJECT_DIR$/js/oto/Car.js" />
-        <option value="$PROJECT_DIR$/js/bullet.js" />
-        <option value="$PROJECT_DIR$/js/item/ItemController.js" />
-        <option value="$PROJECT_DIR$/js/frog/FrogType2.js" />
-        <option value="$PROJECT_DIR$/js/Ovuong.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/Assets/assets_tree.json" />
+        <option value="$PROJECT_DIR$/js/musicgame.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/lacoste/LacosteController.js" />
+        <option value="$PROJECT_DIR$/Assets/assets_gameplay2.json" />
+        <option value="$PROJECT_DIR$/Assets/assets_gameplay.json" />
+        <option value="$PROJECT_DIR$/js/pausegame.js" />
+        <option value="$PROJECT_DIR$/js/setting.js" />
+        <option value="$PROJECT_DIR$/js/typegame.js" />
+        <option value="$PROJECT_DIR$/js/menugame.js" />
+        <option value="$PROJECT_DIR$/Assets/assets_number_blue.json" />
+        <option value="$PROJECT_DIR$/Assets/assets_planet.json" />
         <option value="$PROJECT_DIR$/js/gameover.js" />
+        <option value="$PROJECT_DIR$/js/game.js" />
         <option value="$PROJECT_DIR$/js/main2.js" />
+        <option value="$PROJECT_DIR$/js/highscore.js" />
       </list>
     </option>
   </component>
@@ -299,11 +217,11 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="333" />
-    <option name="y" value="267" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="54" />
+    <option name="y" value="-8" />
     <option name="width" value="1320" />
-    <option name="height" value="856" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -324,35 +242,122 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="EchKeuTroiMua" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EchKeuTroiMua" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EchKeuTroiMua" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EchKeuTroiMua" type="462c0819:PsiDirectoryNode" />
-              <item name="Assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EchKeuTroiMua" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EchKeuTroiMua" type="462c0819:PsiDirectoryNode" />
-              <item name="Assets" type="462c0819:PsiDirectoryNode" />
-              <item name="sounds" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EchKeuTroiMua" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EchKeuTroiMua" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="music" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EchKeuTroiMua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,7 +369,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\tranh\WebstormProjects\EchKeuTroiMua\Assets" />
+      <recent name="E:\EchKeuTroiMua\Assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\EchKeuTroiMua\Assets\music" />
@@ -387,7 +392,6 @@
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
           <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/assets_planet.json</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -395,6 +399,124 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/Om_fear02.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/Om_fly01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/Om_fly_away01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/Om_fly_away02.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/Om_happy_star01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/Om_happy_star02_1.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/Om_happy_star03.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/Om_idle04.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/Om_idle05.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/Om_kick03.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/Om_landing03.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/Om_rolls01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/Om_rolls03.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/Om_rolls05.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/Om_salute_gamer01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/ballon_die01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/ballon_die02.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/ballon_die03.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/ballon_fly01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/ballon_fly02.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/bomb.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/buka_idle01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/buka_scare01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/cancel_v1.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/candy_away03.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/candy_near01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/catch_star01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/catch_star02.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/catch_star03.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/counter_loop.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/counter_stop.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/cut_long_rope01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/cut_long_rope02.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/cut_short_rope01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/cut_short_rope02.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/daily_spin_choose.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/daily_spin_reward.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/daily_spin_start.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/eat_candy01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/end_level01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/end_screen_star01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/end_screen_star02.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/end_screen_star03.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/explosion.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/frog_act01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/frog_act02.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/frog_deact01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/frog_deact02.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/fruit.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/gates.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/gremlin_act01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/gremlin_act02.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/gremlin_act03.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/heli_idle01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/heli_throw_catch01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/heli_throw_catch02.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/hello_monster01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/interactive_butterfly_Om03.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/interactive_good_Om02.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/interactive_head_Om02.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/interactive_hello_Om04.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/interactive_jump_action03.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/interactive_lick_Om01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/interactive_look_Om01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/interactive_move_Om01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/interactive_mur_Om04.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/interactive_twist_Om03.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/interactive_upside_down_Om01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/interactive_wink_Om03.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/item_swoosh01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/item_swoosh02.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/jump_down.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/jump_up.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/land_kick01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/land_kick02.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/loading.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/magnit_act01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/magnit_deact01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/magnit_idle01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/medal.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/menu_button_tap01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/menu_button_tap02.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/mission.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/no_candy_sad01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/nocash.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/pump_tap01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/pump_tap02.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/pump_tap03.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/purchase_v2.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/reward.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/rope_pull01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/rope_pull02.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/rope_stretch01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/rope_stretch02.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/rope_swing01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/rope_swing02.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/snail_start_05.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/snail_stop_06.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/spin.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/super_power_ballons_create.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/super_power_hint_offer01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/switch_use01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/switch_use02.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/teleport_idle_2.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/teleport_off.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/teleport_on.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/thrower_catch02.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/thrower_catch03.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/thrower_throw04.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/thrower_throw05.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/universal_kick01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/universal_kick02.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/water_splash01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/water_splash02.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/water_splash_idle.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/wood_kick01.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/wood_kick02.wav</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/sounds/zepto_logo_bubbles.wav</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -496,36 +618,8 @@
     </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration name="Unnamed" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="$PROJECT_DIR$">
-      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
-        <option name="envVars">
-          <list />
-        </option>
-        <option name="extraHosts">
-          <list />
-        </option>
-        <option name="links">
-          <list />
-        </option>
-        <option name="networkDisabled" value="false" />
-        <option name="networkMode" value="bridge" />
-        <option name="portBindings">
-          <list />
-        </option>
-        <option name="publishAllPorts" value="false" />
-        <option name="version" value="1" />
-        <option name="volumeBindings">
-          <list />
-        </option>
-      </EXTENSION>
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/EchKeuTroiMua/index.html">
+      <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
@@ -564,6 +658,15 @@
       <option name="filePath" />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -584,7 +687,30 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/EchKeuTroiMua/index.html" />
+    <configuration default="false" name="Unnamed" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="$PROJECT_DIR$">
+      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list />
+        </option>
+      </EXTENSION>
+      <method />
+    </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Node.js.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
@@ -609,8 +735,7 @@
       <workItem from="1502190767418" duration="14222000" />
       <workItem from="1502256355473" duration="1810000" />
       <workItem from="1502283552769" duration="4754000" />
-      <workItem from="1502594452020" duration="9321000" />
-      <workItem from="1502624489685" duration="6647000" />
+      <workItem from="1502594452020" duration="31005000" />
     </task>
     <task id="LOCAL-00001" summary="add planet.json">
       <created>1502193939248</created>
@@ -703,155 +828,114 @@
       <option name="project" value="LOCAL" />
       <updated>1502602387309</updated>
     </task>
-    <task id="LOCAL-00014" summary="add arrow">
-      <created>1502601897607</created>
+    <task id="LOCAL-00014" summary="thêm âm thanh">
+      <created>1502604518028</created>
       <option name="number" value="00014" />
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1502601897607</updated>
+      <updated>1502604518028</updated>
     </task>
-    <task id="LOCAL-00015" summary="add arrow frog">
-      <created>1502604117396</created>
+    <task id="LOCAL-00015" summary="thêm âm thanh">
+      <created>1502604796141</created>
       <option name="number" value="00015" />
       <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1502604117396</updated>
+      <updated>1502604796141</updated>
     </task>
-    <task id="LOCAL-00016" summary="add arrow frog">
-      <created>1502606046802</created>
+    <task id="LOCAL-00016" summary="sửa nhạc nhé hihi">
+      <created>1502608799122</created>
       <option name="number" value="00016" />
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
-      <updated>1502606046802</updated>
+      <updated>1502608799122</updated>
     </task>
-    <task id="LOCAL-00017" summary="add arrow frog">
-      <created>1502610469068</created>
+    <task id="LOCAL-00017" summary="sửa nhạc nhé hihi">
+      <created>1502610694824</created>
       <option name="number" value="00017" />
       <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
-      <updated>1502610469068</updated>
+      <updated>1502610694824</updated>
     </task>
-    <task id="LOCAL-00018" summary="add dot">
-      <created>1502610882850</created>
+    <task id="LOCAL-00018" summary="thêm màn hình game over">
+      <created>1502614387718</created>
       <option name="number" value="00018" />
       <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
-      <updated>1502610882850</updated>
+      <updated>1502614387718</updated>
     </task>
-    <task id="LOCAL-00019" summary="add dot">
-      <created>1502612605183</created>
+    <task id="LOCAL-00019" summary="sửa màn hình cho đẹp =))">
+      <created>1502616544843</created>
       <option name="number" value="00019" />
       <option name="presentableId" value="LOCAL-00019" />
       <option name="project" value="LOCAL" />
-      <updated>1502612605183</updated>
+      <updated>1502616544843</updated>
     </task>
-    <task id="LOCAL-00020" summary="frog have bullet">
-      <created>1502612835370</created>
+    <task id="LOCAL-00020" summary="chọn type game">
+      <created>1502619524928</created>
       <option name="number" value="00020" />
       <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
-      <updated>1502612835370</updated>
+      <updated>1502619524928</updated>
     </task>
-    <task id="LOCAL-00021" summary="edit game menu">
-      <created>1502613587428</created>
+    <task id="LOCAL-00021" summary="chọn type game">
+      <created>1502619639357</created>
       <option name="number" value="00021" />
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
-      <updated>1502613587428</updated>
+      <updated>1502619639357</updated>
     </task>
-    <task id="LOCAL-00022" summary="add game2">
-      <created>1502614480459</created>
+    <task id="LOCAL-00022" summary="thêm âm thanh">
+      <created>1502619687536</created>
       <option name="number" value="00022" />
       <option name="presentableId" value="LOCAL-00022" />
       <option name="project" value="LOCAL" />
-      <updated>1502614480459</updated>
+      <updated>1502619687536</updated>
     </task>
-    <task id="LOCAL-00023" summary="game over">
-      <created>1502618740090</created>
+    <task id="LOCAL-00023" summary="thêm âm thanh">
+      <created>1502621779203</created>
       <option name="number" value="00023" />
       <option name="presentableId" value="LOCAL-00023" />
       <option name="project" value="LOCAL" />
-      <updated>1502618740090</updated>
+      <updated>1502621779203</updated>
     </task>
-    <task id="LOCAL-00024" summary="onXeTong">
-      <created>1502622504535</created>
+    <task id="LOCAL-00024" summary="thêm âm thanh">
+      <created>1502625991388</created>
       <option name="number" value="00024" />
       <option name="presentableId" value="LOCAL-00024" />
       <option name="project" value="LOCAL" />
-      <updated>1502622504535</updated>
+      <updated>1502625991388</updated>
     </task>
-    <task id="LOCAL-00025" summary="edit bullet">
-      <created>1502622923017</created>
+    <task id="LOCAL-00025" summary="thêm json number">
+      <created>1502632097217</created>
       <option name="number" value="00025" />
       <option name="presentableId" value="LOCAL-00025" />
       <option name="project" value="LOCAL" />
-      <updated>1502622923017</updated>
+      <updated>1502632097217</updated>
     </task>
-    <task id="LOCAL-00026" summary="add possition">
-      <created>1502625924173</created>
+    <task id="LOCAL-00026" summary="sửa star">
+      <created>1502632354239</created>
       <option name="number" value="00026" />
       <option name="presentableId" value="LOCAL-00026" />
       <option name="project" value="LOCAL" />
-      <updated>1502625924173</updated>
+      <updated>1502632354239</updated>
     </task>
-    <task id="LOCAL-00027" summary="movements">
-      <created>1502627633519</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1502627633519</updated>
-    </task>
-    <task id="LOCAL-00028" summary="dm lam">
-      <created>1502627747698</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1502627747698</updated>
-    </task>
-    <task id="LOCAL-00029" summary="add start">
-      <created>1502628513795</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1502628513795</updated>
-    </task>
-    <task id="LOCAL-00030" summary="add gameplay">
-      <created>1502628893920</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1502628893920</updated>
-    </task>
-    <task id="LOCAL-00031" summary="add lacoste auto move">
-      <created>1502629920827</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1502629920827</updated>
-    </task>
-    <task id="LOCAL-00032" summary="add gameplay">
-      <created>1502630898500</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1502630898500</updated>
-    </task>
-    <option name="localTasksCounter" value="33" />
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71244000" />
+    <option name="totallyTimeSpent" value="64598000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="41" width="1938" height="1048" extended-state="6" />
+    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26811212" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20280811" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280543" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960998" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27796054" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -866,7 +950,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -882,22 +966,14 @@
     <MESSAGE value="lại nào" />
     <MESSAGE value="thêm màn hình setting" />
     <MESSAGE value="sửa màn hình" />
-    <MESSAGE value="add arrow" />
-    <MESSAGE value="add arrow frog" />
-    <MESSAGE value="add dot" />
-    <MESSAGE value="frog have bullet" />
-    <MESSAGE value="edit game menu" />
-    <MESSAGE value="add game2" />
-    <MESSAGE value="game over" />
-    <MESSAGE value="onXeTong" />
-    <MESSAGE value="edit bullet" />
-    <MESSAGE value="add possition" />
-    <MESSAGE value="movements" />
-    <MESSAGE value="dm lam" />
-    <MESSAGE value="add start" />
-    <MESSAGE value="add lacoste auto move" />
-    <MESSAGE value="add gameplay" />
-    <option name="LAST_COMMIT_MESSAGE" value="add gameplay" />
+    <MESSAGE value="sửa nhạc nhé hihi" />
+    <MESSAGE value="thêm màn hình game over" />
+    <MESSAGE value="sửa màn hình cho đẹp =))" />
+    <MESSAGE value="chọn type game" />
+    <MESSAGE value="thêm âm thanh" />
+    <MESSAGE value="thêm json number" />
+    <MESSAGE value="sửa star" />
+    <option name="LAST_COMMIT_MESSAGE" value="sửa star" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -905,26 +981,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/game/number_red.png" />
-    <entry file="file://$PROJECT_DIR$/Assets/game/so.png" />
-    <entry file="file://$PROJECT_DIR$/Assets/game/extra_1.png" />
-    <entry file="file://$PROJECT_DIR$/Assets/tsconfig.json" />
-    <entry file="file://$PROJECT_DIR$/Assets/Map1.png" />
-    <entry file="file://$PROJECT_DIR$/Assets/assets_main2.json">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="29" />
+        <state relative-caret-position="17">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/game/main_2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/game/loading.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
@@ -935,79 +997,202 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/assets_tree.json">
+    <entry file="file://$PROJECT_DIR$/js/frog/FrogController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="14" />
+        <state relative-caret-position="340">
+          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <marker date="1502632107275" expanded="true" signature="53:55" ph="{...}" />
+            <marker date="1502632107275" expanded="true" signature="700:707" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/game.js">
+    <entry file="file://$PROJECT_DIR$/js/Arrow.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="30" column="53" lean-forward="false" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="53" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1502621788258" expanded="true" signature="12:1177" ph="{...}" />
+            <marker date="1502621788258" expanded="true" signature="44:54" ph="{...}" />
+            <marker date="1502621788258" expanded="true" signature="81:142" ph="{...}" />
+            <marker date="1502621788258" expanded="true" signature="171:250" ph="{...}" />
+            <marker date="1502621788258" expanded="true" signature="1169:1175" ph="{...}" />
+            <marker date="1502621788258" expanded="true" signature="593:634" ph="{...}" />
+            <marker date="1502621788258" expanded="true" signature="678:719" ph="{...}" />
+            <marker date="1502621788258" expanded="true" signature="761:920" ph="{...}" />
+            <marker date="1502621788258" expanded="true" signature="926:1085" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <marker date="1502632107278" expanded="true" signature="352:1874" ph="{...}" />
+            <marker date="1502632107278" expanded="true" signature="352:1874" ph="{...}" />
+            <marker date="1502632107278" expanded="true" signature="1578:2670" ph="{...}" />
+            <marker date="1502632107278" expanded="true" signature="2729:2886" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/musicgame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/game/game_play.png">
+    <entry file="file://$PROJECT_DIR$/Assets/game/tree.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/setting.js">
+    <entry file="file://$PROJECT_DIR$/Assets/assets_tree.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="115" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+        <state relative-caret-position="649">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#Tree3.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Cloud_Small_Left.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Cloud_Small_Right.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Cloud_Big_Right.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Cloud_Big_Left.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Snow_Big_1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Snow_Big_2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Snow_Big_3.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Snow_Small_1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Snow_Small_2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Snow_Small_3.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Snow_Small_4.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/assets_gameplay.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="182" column="6" lean-forward="true" selection-start-line="182" selection-start-column="6" selection-end-line="182" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/highscore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ground/Ground.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/menugame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="145" column="12" lean-forward="false" selection-start-line="145" selection-start-column="12" selection-end-line="145" selection-end-column="12" />
+        <state relative-caret-position="281">
+          <caret line="423" column="5" lean-forward="false" selection-start-line="423" selection-start-column="5" selection-end-line="423" selection-end-column="18" />
           <folding>
-            <marker date="1502628528599" expanded="true" signature="1577:2277" ph="{...}" />
+            <element signature="n#!!block;n#TreeInBackGround_Medium.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Icon_Setting.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Icon_Music.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Icon_Play.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Icon_Sound.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Icon_HowToPlay.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Icon_Menu.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#spriteSourceSize#0;n#!!block;n#Icon_Menu.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#sourceSize#0;n#!!block;n#Icon_Menu.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Icon_PlayAgain.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Text_Settings.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Icon_HighScore.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Text_BestScore.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Text_Metters.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Text_GameOver.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/js/bullet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/typegame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="106" column="52" lean-forward="false" selection-start-line="106" selection-start-column="52" selection-end-line="106" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/assets_main2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="85" column="1" lean-forward="false" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!block;n#Background_BigPlanet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Background_Text_Tweensoft.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Background_Text_Froggee.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Died_Frog.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/assets_gameplay2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/assets_number_blue.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2372">
+          <caret line="142" column="20" lean-forward="true" selection-start-line="142" selection-start-column="20" selection-end-line="142" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/game/muiten.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/game/number_blue_2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/game/number_blue_big.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/game/number_orange_1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/game/number_orange_2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/game/number_orange_big.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/game/number_orange_small.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/game/ovuong.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/game/tip.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/game/1_player.png">
@@ -1015,48 +1200,22 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/Arrow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="11" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/Assets/game/2_players.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/ground/PlanetController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="51" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/Assets/game/backgroudgame.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/game/background_1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/game/background_2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/onePlayer/car_2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/onePlayer/car_1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/onePlayer/car_3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/onePlayer/car_4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/onePlayer/car_5.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -1076,64 +1235,54 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/game/frog_bottom.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/game/frog_top.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/game/game_play.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/game/game_play2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/game/loading.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/game/main.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/game/main_2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/game/muitenxoay.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/oto/AutoCar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/bullet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/game/backgroudgame.jpg">
+    <entry file="file://$PROJECT_DIR$/Assets/game/planet_bottom.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/game/background_1.jpg">
+    <entry file="file://$PROJECT_DIR$/Assets/game/planet_top.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/game/2_players.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/oto/Car.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/oto/AutoFrog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/phaser.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="9" column="31596" lean-forward="false" selection-start-line="9" selection-start-column="31596" selection-end-line="9" selection-end-column="31596" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/game/planets.png">
@@ -1141,27 +1290,36 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/frog/FrogController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="0" column="12" lean-forward="true" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/frog/FrogType2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="81" lean-forward="false" selection-start-line="2" selection-start-column="81" selection-end-line="2" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/assets_planet.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="162" column="5" lean-forward="false" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="17" />
+        <state relative-caret-position="242">
+          <caret line="505" column="17" lean-forward="false" selection-start-line="505" selection-start-column="17" selection-end-line="505" selection-end-column="17" />
           <folding>
+            <element signature="n#!!block;n#Tree4.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Tree5.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Lacoste1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Lacoste2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#frog_stand.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#frog_jump.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#frog_jump1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#frog_bounce_fly.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#frog_die.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#frog_die2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#frog_bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#frog_bakery.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#frog_left.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#ground.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#ground1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#mouse.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#mosquito.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#mosquito1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#pause.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#clou.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#clou2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#StarText.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#bonus.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#extra.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#life.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#air.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#time.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
@@ -1171,58 +1329,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/Ovuong.js">
+    <entry file="file://$PROJECT_DIR$/js/setting.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="221">
+          <caret line="77" column="59" lean-forward="false" selection-start-line="77" selection-start-column="59" selection-end-line="77" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/item/ItemController.js">
+    <entry file="file://$PROJECT_DIR$/js/menugame.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="238">
+          <caret line="77" column="9" lean-forward="false" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/lacoste/LacosteController.js">
+    <entry file="file://$PROJECT_DIR$/js/pausegame.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        <state relative-caret-position="187">
+          <caret line="146" column="37" lean-forward="false" selection-start-line="146" selection-start-column="37" selection-end-line="146" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/gameover.js">
+    <entry file="file://$PROJECT_DIR$/js/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="97" column="50" lean-forward="false" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="74" column="8" lean-forward="false" selection-start-line="74" selection-start-column="8" selection-end-line="78" selection-end-column="10" />
+        <state relative-caret-position="187">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        <state relative-caret-position="664">
+          <caret line="90" column="42" lean-forward="true" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/gameover.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="96" column="17" lean-forward="false" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/highscore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="85" column="47" lean-forward="false" selection-start-line="85" selection-start-column="47" selection-end-line="85" selection-end-column="47" />
           <folding />
         </state>
       </provider>

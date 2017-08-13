@@ -89,6 +89,9 @@ var highscoreGameState = {
         Nakama.backgroundButtonHome.anchor.setTo(0.5, 0.5);
         Nakama.buttonHome.anchor.setTo(0.5, 0.5);
 
+        scoreText = Nakama.game.add.text(230, 500, 'Score: 0', {fontSize: '42px', fill: '#fff'});
+        scoreText.text = 'Score: ' + Nakama.score;
+
         Nakama.backgroundButtonHome.events.onInputDown.add(function () {
             music.pause();
             Nakama.game.state.start('menugame');
