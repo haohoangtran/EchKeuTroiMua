@@ -36,8 +36,9 @@ var highscoreGameState = {
 // initialize the game
     create: function () {
         music = Nakama.game.add.audio('musicMenu');
-        if (!music.isPlaying)
+        if (Nakama.configs.MUSICPLAY)
             music.play();
+
         music.loop = true;
         Nakama.logoTitle = Nakama.game.add.sprite(50, 10, 'menus', 'Background_Text_Froggee.png');
         Nakama.game.physics.startSystem(Phaser.Physics.ARCADE);
@@ -66,10 +67,12 @@ var highscoreGameState = {
         Nakama.buttonHome.anchor.setTo(0.5, 0.5);
 
         Nakama.backgroundButtonHome.events.onInputDown.add(function () {
+            music.pause();
             Nakama.game.state.start('menugame');
         }, this);
 
         Nakama.buttonHome.events.onInputDown.add(function () {
+            music.pause();
             Nakama.game.state.start('menugame');
         }, this);
 

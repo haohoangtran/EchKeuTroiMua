@@ -26,7 +26,6 @@ Nakama.configs = {
 };
 
 Nakama.game = new Phaser.Game(640, 960, Phaser.AUTO, '');
-
 Nakama.game.state.add('menugame', menuGameState);
 Nakama.game.state.add('setting', settingGameState);
 Nakama.game.state.add('highscore', highscoreGameState);

@@ -30,10 +30,16 @@ var settingGameState = {
         Nakama.game.load.atlasJSONHash('gameplay', 'Assets/game/game_play.png', 'Assets/assets_gameplay.json');
         Nakama.game.load.atlasJSONHash('trees', 'Assets/game/tree.png', 'Assets/assets_tree.json');
         Nakama.game.load.image('background', 'Assets/game/background_2.jpg');
+        Nakama.game.load.audio('musicMenu', 'Assets/music/music.mp3');
     },
 
 // initialize the game
     create: function () {
+        music = Nakama.game.add.audio('musicMenu');
+        if (Nakama.configs.MUSICPLAY)
+            music.play();
+        music.loop = true;
+
         Nakama.game.physics.startSystem(Phaser.Physics.ARCADE);
         Nakama.keyboard = Nakama.game.input.keyboard;
         Nakama.background = Nakama.game.add.sprite(Nakama.configs.BACKGROUND_POSITION.x, Nakama.configs.BACKGROUND_POSITION.y, 'background');
@@ -68,12 +74,12 @@ var settingGameState = {
         Nakama.buttonHome.anchor.setTo(0.5, 0.5);
 
         Nakama.backgroundButtonHome.events.onInputDown.add(function () {
-            Nakama.configs.MUSICPLAY = false;
+            music.pause();
             Nakama.game.state.start('menugame');
         }, this);
 
         Nakama.buttonHome.events.onInputDown.add(function () {
-            Nakama.configs.MUSICPLAY = false;
+            music.pause();
             Nakama.game.state.start('menugame');
         }, this);
 
@@ -84,12 +90,26 @@ var settingGameState = {
         Nakama.backgroundButtonMusic.anchor.setTo(0.5, 0.5);
         Nakama.buttonMusic.anchor.setTo(0.5, 0.5);
 
-        Nakama.backgroundButtonHome.events.onInputDown.add(function () {
-            Nakama.buttonMusic.replaceRGB(0, 0, 0);
+        Nakama.backgroundButtonMusic.events.onInputDown.add(function () {
+            if (Nakama.configs.MUSICPLAY) {
+                music.pause();
+                Nakama.configs.MUSICPLAY = false;
+            }
+            else {
+                music.play();
+                Nakama.configs.MUSICPLAY = true;
+            }
         }, this);
 
-        Nakama.buttonHome.events.onInputDown.add(function () {
-
+        Nakama.buttonMusic.events.onInputDown.add(function () {
+            if (Nakama.configs.MUSICPLAY) {
+                music.pause();
+                Nakama.configs.MUSICPLAY = false;
+            }
+            else {
+                music.play();
+                Nakama.configs.MUSICPLAY = true;
+            }
         }, this);
 
 
