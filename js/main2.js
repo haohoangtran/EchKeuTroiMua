@@ -19,6 +19,7 @@ var playGame2State = {
         Nakama.game.scale.pageAlignHorizontally = true;
         Nakama.game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
         Nakama.game.time.advancedTiming = true;
+        Nakama.score = 0;
     },
 
 // initialize the game
@@ -26,9 +27,11 @@ var playGame2State = {
         Nakama.background = Nakama.game.add.sprite(0, 0, 'background');
 
         Nakama.ovuongGroup = Nakama.game.add.physicsGroup();
+        Nakama.itemGroup = Nakama.game.add.physicsGroup();
 
         Nakama.ovuong = new Ovuong(Nakama.configs.GAME_SCREEN.width / 2, Nakama.configs.GAME_SCREEN.height / 2);
         Nakama.frogs = Nakama.game.add.physicsGroup();
+
         new FrogType2({
             left: Phaser.Keyboard.LEFT,
             right: Phaser.Keyboard.RIGHT,
@@ -40,6 +43,11 @@ var playGame2State = {
 
 // update game state each frame
     update: function () {
+        Nakama.game.physics.arcade.overlap(
+            Nakama.itemGroup,
+            Nakama.frogs,
+            onHitItem
+        );
     },
 
 
@@ -49,7 +57,10 @@ var playGame2State = {
     }
 
 }
-var onXeTong = function (car, frog) {
 
-
+var onHitItem = function (item, frog) {
+    item.kill();
+    new ItemController();
+    Nakama.score++;
+    console.log(Nakama.score)
 }

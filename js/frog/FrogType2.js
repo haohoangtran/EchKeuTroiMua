@@ -1,7 +1,6 @@
 class FrogType2 {
     constructor(config) {
         this.sprite = Nakama.frogs.create(314, 474, 'planets', 'frog_stand.png');
-        this.sprite.body.setCircle(this.sprite.width / 2);
         this.config = config;
         this.sprite.health = 2;
         this.sprite.anchor = new Phaser.Point(0.5, 0.5);
