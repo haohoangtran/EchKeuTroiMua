@@ -1,16 +1,20 @@
 class FrogController {
     constructor(x, y, config) {
-        if (config.type === 'bottom') {
-            this.sprite = Nakama.groundGroup.create(x, y, 'planets', 'frog_stand.png');
-            this.sprite.anchor = new Phaser.Point(0.5, 0.5);
-            this.config = config;
-            this.sprite.body.collideWorldBounds = true;
-            this.sprite.update = this.update.bind(this);
 
+        if (config.type === 'bottom') {
+            this.sprite = Nakama.playerGroup.create(x, y, 'planets', 'frog_stand.png');
+
+
+            this.sprite.body.gravity.y = 100;
         }
         else {
-
+            this.sprite = Nakama.playerGroup.create(x, y, 'planets', 'frog_stand.png');
+            this.sprite.body.gravity.y = -100;
         }
+        this.config = config;
+        this.sprite.body.collideWorldBounds = true;
+        this.sprite.anchor = new Phaser.Point(0.5, 0.5);
+        this.sprite.update = this.update.bind(this);
         this.jump_key = Nakama.keyboard.addKey(this.config.JUMP);
     }
 
