@@ -59,7 +59,7 @@ var playGameState = {
             right: Phaser.Keyboard.RIGHT,
             fire: Phaser.Keyboard.UP
         }));
-        Nakama.players.push(new FrogController(1, 400, {
+        Nakama.players2 = (new FrogController(1, 400, {
             type: 'top',
             left: Phaser.Keyboard.A,
             right: Phaser.Keyboard.D,
