@@ -13,9 +13,9 @@
 // }
 var speedFrog = 0.5;
 
-var menuGameState = {
+var settingGameState = {
     // preparations before game starts
-    preload : function () {
+    preload: function () {
         Nakama.game.scale.minWidth = Nakama.configs.GAME_SCREEN.width / 2;
         Nakama.game.scale.minHeight = Nakama.configs.GAME_SCREEN.height / 2;
         Nakama.game.scale.maxWidth = Nakama.configs.GAME_SCREEN.width;
@@ -34,7 +34,7 @@ var menuGameState = {
     },
 
 // initialize the game
-    create : function () {
+    create: function () {
 
 
         Nakama.game.physics.startSystem(Phaser.Physics.ARCADE);
@@ -60,7 +60,7 @@ var menuGameState = {
         Nakama.buttonSetup = Nakama.game.add.sprite(Nakama.backgroundButtonSetup.position.x, Nakama.backgroundButtonSetup.position.y, 'gameplay', 'IconSetting.png');
         Nakama.buttonPlay.inputEnabled = true;
         Nakama.buttonPlay.events.onInputDown.add(listener, this);
-        Nakama.buttonPlay.events.onInputDown.add(listenerSetting, this);
+        Nakama.buttonPlay.events.onInputDown.add(listener, this);
         Nakama.tree4.angle -= 180;
         Nakama.tree5.angle -= 180;
         Nakama.tree6.angle -= 180;
@@ -72,7 +72,7 @@ var menuGameState = {
     },
 
 // update game state each frame
-    update : function () {
+    update: function () {
         Nakama.frog.angle += speedFrog;
         if (Nakama.frog.angle >= 30) {
             speedFrog = -0.5;
@@ -100,7 +100,7 @@ var menuGameState = {
     },
 
 // before camera render (mostly for debug)
-    render : function () {
+    render: function () {
     }
 }
 
@@ -109,5 +109,5 @@ function listener() {
 }
 
 function listenerSetting() {
-    Nakama.game.state.start('setting');
+    Nakama.game.state.start('playgame');
 }

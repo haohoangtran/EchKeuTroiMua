@@ -32,13 +32,7 @@ var playGameState = {
     create: function () {
 
         Nakama.background = Nakama.game.add.sprite(0, -100, 'background');
-        Nakama.planetGroup = Nakama.game.add.physicsGroup();
-        Nakama.frogGroup = Nakama.game.add.physicsGroup();
-        Nakama.game.physics.startSystem();
-        Nakama.keyboard = Nakama.game.input.keyboard;
-        Nakama.background.scale.setTo(1, 1);
-        Nakama.planet = new PlanetController(200, 200, 'BigPlannet.png', {});
-        Nakama.player = new FrogController(200, 200, {JUMP: Phaser.Keyboard.SPACEBAR});
+
 
     },
 
@@ -50,8 +44,7 @@ var playGameState = {
 
 // before camera render (mostly for debug)
     render: function () {
-        Nakama.game.debug.body(Nakama.player);
-        Nakama.game.debug.body(Nakama.planet)
+
     }
 
 }
