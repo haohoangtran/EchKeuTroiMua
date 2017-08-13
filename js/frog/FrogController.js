@@ -12,7 +12,6 @@ class FrogController {
         this.sprite.body.velocity.set(150);
     }
 
-
     update() {
         this.jump_key.onDown.add(this.jump, this);
         this.sprite.rotation +=0.018;

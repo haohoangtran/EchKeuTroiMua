@@ -25,6 +25,7 @@ var playGameState = {
         Nakama.game.scale.maxHeight = Nakama.configs.GAME_SCREEN.height;
         Nakama.game.scale.pageAlignHorizontally = true;
         Nakama.game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+
         Nakama.game.time.advancedTiming = true;
     },
 
@@ -32,6 +33,10 @@ var playGameState = {
     create: function () {
 
         Nakama.background = Nakama.game.add.sprite(0, -100, 'background');
+        Nakama.groundGroup = Nakama.game.add.physicsGroup();
+        Nakama.groundBots = []
+        Nakama.groundBots.push(new Ground(0, 930, 'ground.png'), {type: 'bottom'})
+        Nakama.groundBots.push(new Ground(0, 10, 'ground.png'), {type: 'top'})
 
 
     },
