@@ -7,7 +7,7 @@ Nakama.configs = {
     },
     GAME_SCREEN : {
         width : 640,
-        height: 240
+        height: 960
     },
     FIRSTEARTH_POSITION: {
         x: 320,
