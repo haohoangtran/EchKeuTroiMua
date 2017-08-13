@@ -1,6 +1,11 @@
 class Bullet {
-    constructor(x, y, config) {
-        this.sprite = Nakama.bulletGroup.create(x, y, 'planets', 'luoi.png');
+    constructor(x, y, type, config) {
+        this.type = type;
+        if (type === 'top') {
+            this.sprite = Nakama.bulletGroupTop.create(x, y, 'planets', 'luoi.png');
+        } else {
+            this.sprite = Nakama.bulletGroupBottom.create(x, y, 'planets', 'luoi.png');
+        }
         this.config = config;
         this.sprite.anchor = new Phaser.Point(0.5, 0.5);
         this.sprite.body.collideWorldBounds = true;
