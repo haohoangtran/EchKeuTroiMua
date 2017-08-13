@@ -34,37 +34,32 @@ var playGameState = {
 
         Nakama.background = Nakama.game.add.sprite(0, -100, 'background');
         Nakama.groundGroup = Nakama.game.add.physicsGroup();
+        Nakama.playerGroup = Nakama.game.add.physicsGroup();
         Nakama.groundBots = []
-        Nakama.groundBots.push(new Ground(0, 630, 'ground.png'), {
-            type: 'bottom',
-            left: Phaser.Keyboard.LEFT,
-            RIGHT: Phaser.Keyboard.RIGHT,
-            fire: Phaser.Keyboard.UP
-        });
-        Nakama.groundBots.push(new Ground(0, 230, 'ground.png'), {
-            type: 'top',
-            left: Phaser.Keyboard.A,
-            RIGHT: Phaser.Keyboard.D,
-            fire: Phaser.Keyboard.S
-        })
+        Nakama.groundBots.push(new Ground(0, 630, 'ground.png'), {});
+        Nakama.groundBots.push(new Ground(0, 230, 'ground.png'), {});
         Nakama.players = [];
-        Nakama.players.push(new FrogController(1, 1, {
+        Nakama.players.push(new FrogController(1, 400, {
             type: 'bottom',
             left: Phaser.Keyboard.LEFT,
             RIGHT: Phaser.Keyboard.RIGHT,
             fire: Phaser.Keyboard.UP
-        }))
-        Nakama.players.push(new FrogController(1, 1, {
+        }));
+        Nakama.players.push(new FrogController(1, 400, {
             type: 'top',
-            left: Phaser.Keyboard.A,
-            RIGHT: Phaser.Keyboard.D,
-            fire: Phaser.Keyboard.S
-        }))
+            left: Phaser.Keyboard.LEFT,
+            RIGHT: Phaser.Keyboard.RIGHT,
+            fire: Phaser.Keyboard.UP
+        }));
     },
 
 // update game state each frame
     update: function () {
-
+        Nakama.game.physics.arcade.overlap(
+            Nakama.groundGroup,
+            Nakama.playerGroup,
+            onBulletHitGround
+        );
 
     },
 
@@ -72,5 +67,9 @@ var playGameState = {
     render: function () {
 
     }
+
+}
+var onBulletHitGround = function (groundSprite, playerSprite) {
+    playerSprite.body.gravity = 0
 
 }
