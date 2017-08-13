@@ -12,7 +12,7 @@
 //     );
 // }
 var speedFrog = 0.5;
-
+var music;
 var menuGameState = {
     // preparations before game starts
     preload : function () {
@@ -30,18 +30,25 @@ var menuGameState = {
         Nakama.game.load.atlasJSONHash('gameplay', 'Assets/game/game_play.png', 'Assets/assets_gameplay.json');
         Nakama.game.load.atlasJSONHash('trees', 'Assets/game/tree.png', 'Assets/assets_tree.json');
         Nakama.game.load.image('background', 'Assets/game/background_2.jpg');
-        //Nakama.game.load.audio('musicMenu', 'Assets/music/music.wav');
+        Nakama.game.load.audio('musicMenu', 'Assets/music/music.wav');
     },
 
 // initialize the game
     create : function () {
 
-
+        music = Nakama.game.add.audio('musicMenu');
+        if (!music.isPlaying)
+            music.play();
+        music.loop = true;
+        
         Nakama.game.physics.startSystem(Phaser.Physics.ARCADE);
         Nakama.keyboard = Nakama.game.input.keyboard;
         Nakama.background = Nakama.game.add.sprite(Nakama.configs.BACKGROUND_POSITION.x, Nakama.configs.BACKGROUND_POSITION.y, 'background');
         Nakama.background.scale.setTo(1, 1);
 
+        Nakama.tree7 = Nakama.game.add.sprite(0, 400, 'trees', 'Tree3.png');
+        Nakama.tree8 = Nakama.game.add.sprite(0, 500, 'trees', 'Tree1.png');
+        Nakama.tree9 = Nakama.game.add.sprite(0, 600, 'trees', 'Tree2.png');
 
         Nakama.cloud1 = Nakama.game.add.sprite(800, 200, 'trees', 'Cloud_Small_Left.png');
         Nakama.cloud2 = Nakama.game.add.sprite(960, 450, 'trees', 'Cloud_Small_Right.png');
@@ -55,6 +62,7 @@ var menuGameState = {
         Nakama.tree4 = Nakama.game.add.sprite(640, 400, 'planets', 'Tree1.png');
         Nakama.tree5 = Nakama.game.add.sprite(640, 600, 'planets', 'Tree2.png');
         Nakama.tree6 = Nakama.game.add.sprite(640, 800, 'planets', 'Tree3.png');
+
         Nakama.buttonPlay = Nakama.game.add.sprite(250, 800, 'gameplay', 'ButtonPlay.png');
         Nakama.backgroundButtonSetup = Nakama.game.add.sprite(100, 870, 'gameplay', 'BackgroundButton.png');
         Nakama.buttonSetup = Nakama.game.add.sprite(Nakama.backgroundButtonSetup.position.x, Nakama.backgroundButtonSetup.position.y, 'gameplay', 'IconSetting.png');
@@ -66,6 +74,18 @@ var menuGameState = {
             Nakama.game.state.start('setting');
         }, this);
         Nakama.buttonSetup.events.onInputDown.add(function () {
+            Nakama.game.state.start('setting');
+        }, this);
+
+        Nakama.backgroundButtonHighScore = Nakama.game.add.sprite(500, 870, 'gameplay', 'BackgroundButton.png');
+        Nakama.buttonHighScore = Nakama.game.add.sprite(Nakama.backgroundButtonHighScore.position.x, Nakama.backgroundButtonHighScore.position.y, 'gameplay', 'IconSetting.png');
+        Nakama.backgroundButtonHighScore.inputEnabled = true;
+        Nakama.buttonHighScore.inputEnabled = true;
+
+        Nakama.backgroundButtonHighScore.events.onInputDown.add(function () {
+            Nakama.game.state.start('setting');
+        }, this);
+        Nakama.buttonHighScore.events.onInputDown.add(function () {
             Nakama.game.state.start('setting');
         }, this);
 

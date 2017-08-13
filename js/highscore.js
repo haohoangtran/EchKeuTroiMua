@@ -12,8 +12,8 @@
 //     );
 // }
 var speedFrog = 0.5;
-
-var settingGameState = {
+var music;
+var highscoreGameState = {
     // preparations before game starts
     preload: function () {
         Nakama.game.scale.minWidth = Nakama.configs.GAME_SCREEN.width / 2;
@@ -30,12 +30,15 @@ var settingGameState = {
         Nakama.game.load.atlasJSONHash('gameplay', 'Assets/game/game_play.png', 'Assets/assets_gameplay.json');
         Nakama.game.load.atlasJSONHash('trees', 'Assets/game/tree.png', 'Assets/assets_tree.json');
         Nakama.game.load.image('background', 'Assets/game/background_2.jpg');
-        //Nakama.game.load.audio('musicMenu', 'Assets/music/music.wav');
+        Nakama.game.load.audio('musicMenu', 'Assets/music/music.wav');
     },
 
 // initialize the game
     create: function () {
-
+        music = Nakama.game.add.audio('musicMenu');
+        if (!music.isPlaying)
+            music.play();
+        music.loop = true;
         Nakama.logoTitle = Nakama.game.add.sprite(50, 10, 'menus', 'Background_Text_Froggee.png');
         Nakama.game.physics.startSystem(Phaser.Physics.ARCADE);
         Nakama.keyboard = Nakama.game.input.keyboard;
