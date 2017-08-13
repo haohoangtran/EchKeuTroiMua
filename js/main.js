@@ -75,5 +75,4 @@ var playGameState = {
 }
 var onBulletHitGround = function (groundSprite, playerSprite) {
     playerSprite.body.gravity = 0
-
 }
