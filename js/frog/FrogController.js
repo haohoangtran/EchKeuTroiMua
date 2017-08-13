@@ -2,13 +2,13 @@ class FrogController {
     constructor(x, y, config) {
 
         if (config.type === 'bottom') {
-            this.sprite = Nakama.playerGroup.create(x, y, 'planets', 'frog_stand.png');
+            this.sprite = Nakama.playerGroup.create(x, y, 'frog_bottom');
 
 
             this.sprite.body.gravity.y = 100;
         }
         else {
-            this.sprite = Nakama.playerGroup.create(x, y, 'planets', 'frog_stand.png');
+            this.sprite = Nakama.playerGroup.create(x, y, 'frog_top');
             this.sprite.body.gravity.y = -100;
         }
         this.config = config;
