@@ -13,6 +13,5 @@ class Bullet {
     update() {
         this.sprite.position.x += this.config.x;
         this.sprite.position.y += this.config.y;
-
     }
 }

@@ -1,20 +1,4 @@
-// var Nakama = {};
-// Nakama.configs = {
-//
-// };
-//
-// window.onload = function () {
-//     Nakama.game = new Phaser.Game(640, 960, Phaser.AUTO, '',
-//         {
-//             preload: preload,
-//             create: create,
-//             update: update,
-//             render: render
-//         }, false, false
-//     );
-// }
-
-var playGameState = {
+var playGame2State = {
     // preparations before game starts
     preload: function () {
         Nakama.game.load.atlasJSONHash('planets', 'Assets/game/planets.png', 'Assets/assets_planet.json');
@@ -32,7 +16,6 @@ var playGameState = {
         Nakama.game.scale.maxHeight = Nakama.configs.GAME_SCREEN.height;
         Nakama.game.scale.pageAlignHorizontally = true;
         Nakama.game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
-
         Nakama.game.time.advancedTiming = true;
     },
 
@@ -44,39 +27,17 @@ var playGameState = {
         Nakama.arrowsGroup = Nakama.game.add.physicsGroup();
         Nakama.bulletGroup = Nakama.game.add.physicsGroup();
         Nakama.playerGroup = Nakama.game.add.physicsGroup();
-
         Nakama.groundBots = []
         Nakama.groundBots.push(new Ground(0, 630, 'groundbottom'), {});
         Nakama.groundBots.push(new Ground(0, 230, 'groundtop'), {});
         Nakama.players = [];
-        Nakama.arrows = []
-        Nakama.players.push(new FrogController(1, 400, {
-            type: 'bottom',
-            left: Phaser.Keyboard.LEFT,
-            right: Phaser.Keyboard.RIGHT,
-            fire: Phaser.Keyboard.UP
-        }));
-        Nakama.players.push(new FrogController(1, 400, {
-            type: 'top',
-            left: Phaser.Keyboard.A,
-            right: Phaser.Keyboard.D,
-            fire: Phaser.Keyboard.W
-        }));
+
 
     },
 
 // update game state each frame
     update: function () {
-        Nakama.game.physics.arcade.overlap(
-            Nakama.groundGroup,
-            Nakama.playerGroup,
-            onBulletHitGround
-        );
-        Nakama.game.physics.arcade.overlap(
-            Nakama.bulletGroup,
-            Nakama.playerGroup,
-            onBulletHitPlayer
-        );
+
 
     },
 
@@ -84,12 +45,5 @@ var playGameState = {
     render: function () {
         Nakama.game.debug.body(Nakama.players[0])
     }
-
-}
-var onBulletHitGround = function (groundSprite, playerSprite) {
-    playerSprite.body.gravity = 0
-
-}
-var onBulletHitPlayer = function (bullet, player) {
 
 }
