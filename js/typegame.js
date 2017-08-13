@@ -99,7 +99,7 @@ var typegameGameState = {
 
         Nakama.button1Player.events.onInputDown.add(function () {
             music.pause();
-            Nakama.game.state.start('playgame');
+            Nakama.game.state.start('playgame2');
         }, this);
 
         Nakama.button2Player = Nakama.game.add.sprite(320, 400, 'play2');
@@ -109,7 +109,7 @@ var typegameGameState = {
 
         Nakama.button2Player.events.onInputDown.add(function () {
             music.pause();
-            Nakama.game.state.start('playgame2');
+            Nakama.game.state.start('playgame');
         }, this);
 
         // Nakama.backgroundButtonHome = Nakama.game.add.sprite(100, 870, 'gameplay', 'BackgroundButton.png');
