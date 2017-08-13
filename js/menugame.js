@@ -40,7 +40,7 @@ var menuGameState = {
         if (!music.isPlaying)
             music.play();
         music.loop = true;
-
+        
         Nakama.game.physics.startSystem(Phaser.Physics.ARCADE);
         Nakama.keyboard = Nakama.game.input.keyboard;
         Nakama.background = Nakama.game.add.sprite(Nakama.configs.BACKGROUND_POSITION.x, Nakama.configs.BACKGROUND_POSITION.y, 'background');
