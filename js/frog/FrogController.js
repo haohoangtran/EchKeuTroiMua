@@ -4,16 +4,19 @@ class FrogController {
         if (config.type === 'bottom') {
             this.sprite = Nakama.playerGroup.create(x, y, 'frog_bottom');
             this.sprite.body.gravity.y = 100;
+            this.arrow = new Arrow(200, 100, {type: 'bottom'});
         }
         else {
             this.sprite = Nakama.playerGroup.create(x, y, 'frog_top');
             this.sprite.body.gravity.y = -100;
+            this.arrow = new Arrow(200, 100, {type: 'top'});
         }
         this.config = config;
         this.sprite.body.collideWorldBounds = true;
         this.sprite.anchor = new Phaser.Point(0.5, 0.5);
         this.sprite.update = this.update.bind(this);
         this.jump_key = Nakama.keyboard.addKey(this.config.fire);
+        this.bullets = []
     }
 
     update() {
@@ -41,12 +44,12 @@ class FrogController {
     jump() {
         var x, y;
         if (this.config.type === 'bottom') {
-            x = Nakama.arrows[0].sprite.position.x - this.sprite.position.x;
-            y = Nakama.arrows[0].sprite.position.y - this.sprite.position.y;
+            x = this.arrow.sprite.position.x - this.sprite.position.x;
+            y = this.arrow.sprite.position.y - this.sprite.position.y;
         } else {
-            x = Nakama.arrows[1].sprite.position.x - this.sprite.position.x;
-            y = Nakama.arrows[1].sprite.position.y - this.sprite.position.y;
+            x = this.arrow.sprite.position.x - this.sprite.position.x;
+            y = this.arrow.sprite.position.y - this.sprite.position.y;
         }
-        new Bullet(this.sprite.position.x, this.sprite.position.y, {x: x, y: y});
+        this.bullets(new Bullet(this.sprite.position.x, this.sprite.position.y, {x: x, y: y}));
     }
 }
