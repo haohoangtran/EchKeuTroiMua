@@ -11,12 +11,12 @@ class Bullet {
         this.sprite.body.collideWorldBounds = true;
         this.sprite.update = this.update.bind(this);
         this.sprite.width = 20;
-        this.sprite.height = 20;
+        this.sprite.height = 200;
         this.sprite.health = 1;
     }
 
     update() {
-        this.sprite.position.x += this.config.x;
-        this.sprite.position.y += this.config.y;
+        this.sprite.body.x += this.config.x;
+        this.sprite.body.y += this.config.y;
     }
 }

@@ -26,6 +26,8 @@ var playGameState = {
         Nakama.game.load.image('arrow', 'Assets/game/muiten.png');
         Nakama.game.load.image('arrow_xoay', 'Assets/game/muitenxoay.png');
         Nakama.game.load.image('dot', 'Assets/game/dot.png');
+        Nakama.game.load.image('healthbar', 'Assets/game/1_player.png');
+
         Nakama.game.scale.minWidth = Nakama.configs.GAME_SCREEN.width / 2;
         Nakama.game.scale.minHeight = Nakama.configs.GAME_SCREEN.height / 2;
         Nakama.game.scale.maxWidth = Nakama.configs.GAME_SCREEN.width;
