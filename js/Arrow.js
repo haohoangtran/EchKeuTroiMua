@@ -1,6 +1,5 @@
 class Arrow {
     constructor(x, y, config) {
-
         if (config.type === 'top') {
             this.sprite = Nakama.arrowsGroup.create(x, y, 'arrow_xoay');
         } else {

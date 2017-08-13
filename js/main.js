@@ -40,8 +40,9 @@ var playGameState = {
 
         Nakama.background = Nakama.game.add.sprite(0, -100, 'background');
         Nakama.groundGroup = Nakama.game.add.physicsGroup();
-        Nakama.playerGroup = Nakama.game.add.physicsGroup();
         Nakama.arrowsGroup = Nakama.game.add.physicsGroup();
+        Nakama.playerGroup = Nakama.game.add.physicsGroup();
+
         Nakama.groundBots = []
         Nakama.groundBots.push(new Ground(0, 630, 'groundbottom'), {});
         Nakama.groundBots.push(new Ground(0, 230, 'groundtop'), {});
@@ -61,6 +62,7 @@ var playGameState = {
         }));
         Nakama.arrows.push(new Arrow(100, 100, {type: 'top'}))
         Nakama.arrows.push(new Arrow(200, 100, {type: 'bottom'}));
+        new Bullet(100, 100, {x: 2, y: 3})
 
     },
 
