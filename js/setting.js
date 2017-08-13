@@ -36,7 +36,7 @@ var settingGameState = {
 // initialize the game
     create: function () {
 
-
+        Nakama.logoTitle = Nakama.game.add.sprite(50, 10, 'menus', 'Background_Text_Froggee.png');
         Nakama.game.physics.startSystem(Phaser.Physics.ARCADE);
         Nakama.keyboard = Nakama.game.input.keyboard;
         Nakama.background = Nakama.game.add.sprite(Nakama.configs.BACKGROUND_POSITION.x, Nakama.configs.BACKGROUND_POSITION.y, 'background');
@@ -53,15 +53,51 @@ var settingGameState = {
         Nakama.tree4 = Nakama.game.add.sprite(640, 400, 'planets', 'Tree1.png');
         Nakama.tree5 = Nakama.game.add.sprite(640, 600, 'planets', 'Tree2.png');
         Nakama.tree6 = Nakama.game.add.sprite(640, 800, 'planets', 'Tree3.png');
-        Nakama.backgroundButtonHome = Nakama.game.add.sprite(100, 870, 'gameplay', 'BackgroundButton.png');
+
+
+        Nakama.backgroundButtonHome = Nakama.game.add.sprite(320, 870, 'gameplay', 'BackgroundButton.png');
         Nakama.buttonHome = Nakama.game.add.sprite(Nakama.backgroundButtonHome.position.x, Nakama.backgroundButtonHome.position.y, 'gameplay', 'IconHome.png');
         Nakama.backgroundButtonHome.inputEnabled = true;
         Nakama.buttonHome.inputEnabled = true;
+        Nakama.backgroundButtonHome.anchor.setTo(0.5, 0.5);
+        Nakama.buttonHome.anchor.setTo(0.5, 0.5);
+
+        Nakama.backgroundButtonHome.events.onInputDown.add(function () {
+            Nakama.game.state.start('menugame');
+        }, this);
+
+        Nakama.buttonHome.events.onInputDown.add(function () {
+            Nakama.game.state.start('menugame');
+        }, this);
+
+        Nakama.backgroundButtonMusic = Nakama.game.add.sprite(320, 500, 'gameplay', 'BackgroundButton.png');
+        Nakama.buttonMusic = Nakama.game.add.sprite(Nakama.backgroundButtonMusic.position.x, Nakama.backgroundButtonMusic.position.y, 'gameplay', 'Icon_Music.png');
+        Nakama.backgroundButtonMusic.inputEnabled = true;
+        Nakama.buttonMusic.inputEnabled = true;
+        Nakama.backgroundButtonMusic.anchor.setTo(0.5, 0.5);
+        Nakama.buttonMusic.anchor.setTo(0.5, 0.5);
+
+        Nakama.backgroundButtonHome.events.onInputDown.add(function () {
+            Nakama.buttonMusic.replaceRGB(0, 0, 0);
+        }, this);
+
+        Nakama.buttonHome.events.onInputDown.add(function () {
+
+        }, this);
+
+
+        // Nakama.backgroundButtonHome = Nakama.game.add.sprite(100, 870, 'gameplay', 'BackgroundButton.png');
+        // Nakama.buttonHome = Nakama.game.add.sprite(Nakama.backgroundButtonHome.position.x, Nakama.backgroundButtonHome.position.y, 'gameplay', 'IconHome.png');
+        // Nakama.backgroundButtonHome.inputEnabled = true;
+        // Nakama.buttonHome.inputEnabled = true;
+        // Nakama.backgroundButtonHome.anchor.setTo(0.5, 0.5);
+        // Nakama.buttonHome.anchor.setTo(0.5, 0.5);
+
         Nakama.tree4.angle -= 180;
         Nakama.tree5.angle -= 180;
         Nakama.tree6.angle -= 180;
-        Nakama.backgroundButtonHome.anchor.setTo(0.5, 0.5);
-        Nakama.buttonHome.anchor.setTo(0.5, 0.5);
+
+
     },
 
 // update game state each frame
