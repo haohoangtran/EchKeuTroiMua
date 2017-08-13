@@ -26,6 +26,7 @@ var playGame2State = {
         Nakama.game.time.advancedTiming = true;
         Nakama.score = 0;
         Nakama.timeEnemy = Nakama.game.time.now;
+        Nakama.timeRenew = 3000;
     },
 
 // initialize the game
@@ -60,8 +61,11 @@ var playGame2State = {
             Nakama.frogs,
             onHitItem
         );
-        if (Nakama.game.time.now - Nakama.timeEnemy > 3000) {
+        if (Nakama.game.time.now - Nakama.timeEnemy > Nakama.timeRenew) {
             new LacosteController();
+            if (Nakama.timeRenew > 500) {
+                Nakama.timeRenew -= 50
+            }
             Nakama.timeEnemy = Nakama.game.time.now;
         }
         Nakama.game.physics.arcade.overlap(
