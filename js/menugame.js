@@ -30,16 +30,16 @@ var menuGameState = {
         Nakama.game.load.atlasJSONHash('gameplay', 'Assets/game/game_play.png', 'Assets/assets_gameplay.json');
         Nakama.game.load.atlasJSONHash('trees', 'Assets/game/tree.png', 'Assets/assets_tree.json');
         Nakama.game.load.image('background', 'Assets/game/background_2.jpg');
-        Nakama.game.load.audio('musicMenu', 'Assets/music/music.wav');
+        // Nakama.game.load.audio('musicMenu', 'Assets/music/music.wav');
     },
 
 // initialize the game
     create : function () {
 
-        music = Nakama.game.add.audio('musicMenu');
-        if (!music.isPlaying)
-            music.play();
-        music.loop = true;
+        // music = Nakama.game.add.audio('musicMenu');
+        // if (!music.isPlaying)
+        //     music.play();
+        // music.loop = true;
         
         Nakama.game.physics.startSystem(Phaser.Physics.ARCADE);
         Nakama.keyboard = Nakama.game.input.keyboard;
