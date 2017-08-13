@@ -80,17 +80,17 @@ var menuGameState = {
         }, this);
 
         Nakama.backgroundButtonHighScore = Nakama.game.add.sprite(500, 870, 'gameplay', 'BackgroundButton.png');
-        Nakama.buttonHighScore = Nakama.game.add.sprite(Nakama.backgroundButtonHighScore.position.x, Nakama.backgroundButtonHighScore.position.y, 'gameplay', 'IconSetting.png');
+        Nakama.buttonHighScore = Nakama.game.add.sprite(Nakama.backgroundButtonHighScore.position.x, Nakama.backgroundButtonHighScore.position.y, 'gameplay', 'Icon_HighScore.png');
         Nakama.backgroundButtonHighScore.inputEnabled = true;
         Nakama.buttonHighScore.inputEnabled = true;
 
         Nakama.backgroundButtonHighScore.events.onInputDown.add(function () {
             music.pause();
-            Nakama.game.state.start('setting');
+            Nakama.game.state.start('highscore');
         }, this);
         Nakama.buttonHighScore.events.onInputDown.add(function () {
             music.pause();
-            Nakama.game.state.start('setting');
+            Nakama.game.state.start('highscore');
         }, this);
 
         Nakama.buttonPlay.events.onInputDown.add(listener, this);
@@ -140,9 +140,4 @@ var menuGameState = {
 
 function listener() {
     Nakama.game.state.start('playgame');
-}
-
-function listenerSetting() {
-    console.log("dccmmmm");
-    Nakama.game.state.start('setting');
 }
