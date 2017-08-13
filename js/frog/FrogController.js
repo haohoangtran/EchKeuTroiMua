@@ -8,7 +8,8 @@ class FrogController {
         this.sprite.update = this.update.bind(this);
         this.jump_key = Nakama.keyboard.addKey(this.config.JUMP);
         this.sprite.pivot.y = 143;
-
+        this.sprite.body.bounce.set(1);
+        this.sprite.body.velocity.set(150);
     }
 
 

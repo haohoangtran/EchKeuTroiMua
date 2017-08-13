@@ -17,8 +17,8 @@
 var playGameState = {
     // preparations before game starts
     preload: function () {
-        // Nakama.game.load.atlasJSONHash('planets', 'Assets/game/planets.png', 'Assets/assets_planet.json');
-        // Nakama.game.load.image('background', 'Assets/game/background_1.jpg')
+        Nakama.game.load.atlasJSONHash('planets', 'Assets/game/planets.png', 'Assets/assets_planet.json');
+        Nakama.game.load.image('background', 'Assets/game/background_1.jpg')
         Nakama.game.scale.minWidth = Nakama.configs.GAME_SCREEN.width / 2;
         Nakama.game.scale.minHeight = Nakama.configs.GAME_SCREEN.height / 2;
         Nakama.game.scale.maxWidth = Nakama.configs.GAME_SCREEN.width;
@@ -30,28 +30,31 @@ var playGameState = {
 
 // initialize the game
     create: function () {
+        
+        Nakama.background = Nakama.game.add.sprite(0, -100, 'background');
+        Nakama.planetGroup = Nakama.game.add.physicsGroup();
+        Nakama.frogGroup = Nakama.game.add.physicsGroup();
+        Nakama.game.physics.startSystem();
+        Nakama.keyboard = Nakama.game.input.keyboard;
+        Nakama.background.scale.setTo(1, 1);
+        Nakama.planet=new PlanetController(200, 200, 'BigPlannet.png', {});
+        Nakama.player=new FrogController(200, 200, {JUMP: Phaser.Keyboard.SPACEBAR});
 
-        // Nakama.background = Nakama.game.add.sprite(0, -100, 'background');
-        // Nakama.planetGroup = Nakama.game.add.physicsGroup();
-        // Nakama.frogGroup = Nakama.game.add.physicsGroup();
-        // Nakama.game.physics.startSystem();
-        // Nakama.keyboard = Nakama.game.input.keyboard;
-        // Nakama.background.scale.setTo(1, 1);
-        // Nakama.planet=new PlanetController(200, 200, 'BigPlannet.png', {});
-        // Nakama.player=new FrogController(200, 200, {JUMP: Phaser.Keyboard.SPACEBAR});
 
     },
 
 // update game state each frame
     update: function () {
-
-
+        Nakama.game.physics.arcade.collide(Nakama.player, Nakama.planet);
+        console.log(Nakama.player.sprite.position);
+        console.log('a',Nakama.planet.sprite.position);
     },
 
 // before camera render (mostly for debug)
     render: function () {
-        // Nakama.game.debug.body(Nakama.player);
-        // Nakama.game.debug.body(Nakama.planet)
+        Nakama.game.debug.reset();
+        Nakama.game.debug.body(Nakama.player);
+        Nakama.game.debug.body(Nakama.planet)
     }
 
 }

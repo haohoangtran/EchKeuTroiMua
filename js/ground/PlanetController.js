@@ -6,6 +6,7 @@ class PlanetController {
         this.sprite.anchor = new Phaser.Point(0.5, 0.5);
         this.sprite.body.collideWorldBounds = true;
         this.sprite.update = this.update.bind(this);
+
     }
 
     update() {
