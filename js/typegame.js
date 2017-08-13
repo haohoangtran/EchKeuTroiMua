@@ -28,9 +28,12 @@ var typegameGameState = {
         Nakama.game.load.atlasJSONHash('menus', 'Assets/game/main_2.png', 'Assets/assets_main2.json');
         Nakama.game.load.atlasJSONHash('planets', 'Assets/game/planets.png', 'Assets/assets_planet.json');
         Nakama.game.load.atlasJSONHash('gameplay', 'Assets/game/game_play.png', 'Assets/assets_gameplay.json');
+        Nakama.game.load.atlasJSONHash('gameplay2', 'Assets/game/game_play2.png', 'Assets/assets_gameplay2.json');
         Nakama.game.load.atlasJSONHash('trees', 'Assets/game/tree.png', 'Assets/assets_tree.json');
         Nakama.game.load.image('background', 'Assets/game/background_2.jpg');
         Nakama.game.load.audio('musicMenu', 'Assets/music/music.mp3');
+        Nakama.game.load.image('play1', 'Assets/game/1_player.png');
+        Nakama.game.load.image('play2', 'Assets/game/2_players.png');
     },
 
 // initialize the game
@@ -45,7 +48,7 @@ var typegameGameState = {
         Nakama.background = Nakama.game.add.sprite(Nakama.configs.BACKGROUND_POSITION.x, Nakama.configs.BACKGROUND_POSITION.y, 'background');
         Nakama.background.scale.setTo(1, 1);
 
-        Nakama.textSetting = Nakama.game.add.sprite(220, 150, 'gameplay', 'Text_Pause.png');
+        Nakama.textSetting = Nakama.game.add.sprite(220, 150, 'gameplay', 'Text_Game.png');
 
         Nakama.tree7 = Nakama.game.add.sprite(0, 700, 'trees', 'Tree3.png');
 
@@ -89,46 +92,25 @@ var typegameGameState = {
             Nakama.game.state.start('menugame');
         }, this);
 
-        Nakama.backgroundButton1Player = Nakama.game.add.sprite(320, 300, 'gameplay', 'BackgroundButton.png');
-        Nakama.button1Player = Nakama.game.add.sprite(Nakama.backgroundButton1Player.position.x, Nakama.backgroundButton1Player.position.y, 'gameplay', 'Icon_PlayAgain.png');
-        Nakama.backgroundButton1Player.inputEnabled = true;
+        Nakama.button1Player = Nakama.game.add.sprite(320, 300, 'play1');
         Nakama.button1Player.inputEnabled = true;
-        Nakama.backgroundButton1Player.anchor.setTo(0.5, 0.5);
         Nakama.button1Player.anchor.setTo(0.5, 0.5);
-
-        Nakama.backgroundButton1Player.events.onInputDown.add(function () {
-            music.pause();
-            Nakama.game.state.start('playgame');
-        }, this);
+        Nakama.button1Player.scale.setTo(2, 2);
 
         Nakama.button1Player.events.onInputDown.add(function () {
             music.pause();
             Nakama.game.state.start('playgame');
         }, this);
 
-        Nakama.backgroundButton2Player = Nakama.game.add.sprite(320, 400, 'gameplay', 'BackgroundButton.png');
-        Nakama.button2Player = Nakama.game.add.sprite(Nakama.backgroundButton2Player.position.x, Nakama.backgroundButton2Player.position.y, 'gameplay', 'Icon_PlayAgain.png');
-        Nakama.backgroundButton2Player.inputEnabled = true;
+        Nakama.button2Player = Nakama.game.add.sprite(320, 400, 'play2');
         Nakama.button2Player.inputEnabled = true;
-        Nakama.backgroundButton2Player.anchor.setTo(0.5, 0.5);
         Nakama.button2Player.anchor.setTo(0.5, 0.5);
+        Nakama.button2Player.scale.setTo(2, 2);
 
-        Nakama.backgroundButton1Player.events.onInputDown.add(function () {
+        Nakama.button2Player.events.onInputDown.add(function () {
             music.pause();
             Nakama.game.state.start('playgame2');
         }, this);
-
-        Nakama.button1Player.events.onInputDown.add(function () {
-            music.pause();
-            Nakama.game.state.start('playgame2');
-        }, this);
-
-
-        Nakama.buttonPlay = Nakama.game.add.sprite(320, 400, 'gameplay', 'ButtonPlay.png');
-        Nakama.buttonPlay.inputEnabled = true;
-        Nakama.buttonPlay.events.onInputDown.add(listener, this);
-        Nakama.buttonPlay.anchor.setTo(0.5, 0.5);
-
 
         // Nakama.backgroundButtonHome = Nakama.game.add.sprite(100, 870, 'gameplay', 'BackgroundButton.png');
         // Nakama.buttonHome = Nakama.game.add.sprite(Nakama.backgroundButtonHome.position.x, Nakama.backgroundButtonHome.position.y, 'gameplay', 'IconHome.png');
@@ -165,9 +147,9 @@ var typegameGameState = {
         Nakama.snow2.position.y += 3;
         Nakama.snow3.position.y += 3;
         Nakama.snow4.position.y += 3;
-        Nakama.snow4.position.y += 3;
-        Nakama.snow4.position.y += 3;
-        Nakama.snow4.position.y += 3;
+        Nakama.snow5.position.y += 3;
+        Nakama.snow6.position.y += 3;
+        Nakama.snow7.position.y += 3;
 
         if (Nakama.cloud1.position.x <= -100) {
             Nakama.cloud1.position.x = 800;

@@ -170,9 +170,9 @@ var highscoreGameState = {
         Nakama.snow2.position.y += 3;
         Nakama.snow3.position.y += 3;
         Nakama.snow4.position.y += 3;
-        Nakama.snow4.position.y += 3;
-        Nakama.snow4.position.y += 3;
-        Nakama.snow4.position.y += 3;
+        Nakama.snow5.position.y += 3;
+        Nakama.snow6.position.y += 3;
+        Nakama.snow7.position.y += 3;
 
         if (Nakama.cloud1.position.x <= -100) {
             Nakama.cloud1.position.x = 800;

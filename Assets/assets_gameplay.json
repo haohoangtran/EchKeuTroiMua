@@ -420,6 +420,26 @@
         "w": 209,
         "h": 69
       }
+    },
+    "Text_Game.png": {
+      "frame": {
+        "x": 5,
+        "y": 618,
+        "w": 199,
+        "h": 71
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 199,
+        "h": 71
+      },
+      "sourceSize": {
+        "w": 199,
+        "h": 71
+      }
     }
   }
 }

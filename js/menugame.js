@@ -50,6 +50,14 @@ var menuGameState = {
         Nakama.tree8 = Nakama.game.add.sprite(0, 500, 'trees', 'Tree1.png');
         Nakama.tree9 = Nakama.game.add.sprite(0, 600, 'trees', 'Tree2.png');
 
+        Nakama.snow1 = Nakama.game.add.sprite(100, -500, 'trees', 'Snow_Small_1.png');
+        Nakama.snow2 = Nakama.game.add.sprite(200, -600, 'trees', 'Snow_Small_2.png');
+        Nakama.snow3 = Nakama.game.add.sprite(350, -700, 'trees', 'Snow_Small_3.png');
+        Nakama.snow4 = Nakama.game.add.sprite(450, -400, 'trees', 'Snow_Small_4.png');
+        Nakama.snow5 = Nakama.game.add.sprite(300, -400, 'trees', 'Snow_Big_1.png');
+        Nakama.snow6 = Nakama.game.add.sprite(400, -500, 'trees', 'Snow_Big_2.png');
+        Nakama.snow7 = Nakama.game.add.sprite(400, -600, 'trees', 'Snow_Big_3.png');
+
         Nakama.cloud1 = Nakama.game.add.sprite(800, 200, 'trees', 'Cloud_Small_Left.png');
         Nakama.cloud2 = Nakama.game.add.sprite(960, 450, 'trees', 'Cloud_Small_Right.png');
         Nakama.cloud3 = Nakama.game.add.sprite(1024, 600, 'trees', 'Cloud_Big_Right.png');
@@ -109,6 +117,14 @@ var menuGameState = {
         Nakama.tree13.angle -= 180;
         Nakama.frog.anchor.setTo(0.5, 0.65);
 
+        Nakama.snow1.scale.setTo(2, 2);
+        Nakama.snow2.scale.setTo(2, 2);
+        Nakama.snow3.scale.setTo(2, 2);
+        Nakama.snow4.scale.setTo(2, 2);
+        Nakama.snow5.scale.setTo(2, 2);
+        Nakama.snow6.scale.setTo(2, 2);
+        Nakama.snow7.scale.setTo(2, 2);
+
         Nakama.backgroundButtonSetup.anchor.setTo(0.5, 0.5);
         Nakama.buttonSetup.anchor.setTo(0.5, 0.5);
 
@@ -118,6 +134,14 @@ var menuGameState = {
 
 // update game state each frame
     update : function () {
+        Nakama.snow1.position.y += 3;
+        Nakama.snow2.position.y += 3;
+        Nakama.snow3.position.y += 3;
+        Nakama.snow4.position.y += 3;
+        Nakama.snow5.position.y += 3;
+        Nakama.snow6.position.y += 3;
+        Nakama.snow7.position.y += 3;
+
         Nakama.frog.angle += speedFrog;
         if (Nakama.frog.angle >= 30) {
             speedFrog = -0.5;

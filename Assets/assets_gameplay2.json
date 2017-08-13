@@ -1,0 +1,24 @@
+{
+  "frames": {
+    "Icon_Music_Pause.png": {
+      "frame": {
+        "x": 650,
+        "y": 703,
+        "w": 50,
+        "h": 53
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 50,
+        "h": 53
+      },
+      "sourceSize": {
+        "w": 50,
+        "h": 53
+      }
+    }
+  }
+}
