@@ -11,7 +11,7 @@ class Bullet {
         this.sprite.body.collideWorldBounds = true;
         this.sprite.update = this.update.bind(this);
         this.sprite.width = 20;
-        this.sprite.height = 200;
+        this.sprite.height = 20;
         this.sprite.health = 1;
     }
 
