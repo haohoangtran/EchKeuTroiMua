@@ -30,7 +30,7 @@ var menuGameState = {
         Nakama.game.load.atlasJSONHash('gameplay', 'Assets/game/game_play.png', 'Assets/assets_gameplay.json');
         Nakama.game.load.atlasJSONHash('trees', 'Assets/game/tree.png', 'Assets/assets_tree.json');
         Nakama.game.load.image('background', 'Assets/game/background_2.jpg');
-        Nakama.game.load.audio('musicMenu', 'Assets/music/music.wav');
+        //Nakama.game.load.audio('musicMenu', 'Assets/music/music.wav');
     },
 
 // initialize the game
@@ -59,8 +59,17 @@ var menuGameState = {
         Nakama.backgroundButtonSetup = Nakama.game.add.sprite(100, 870, 'gameplay', 'BackgroundButton.png');
         Nakama.buttonSetup = Nakama.game.add.sprite(Nakama.backgroundButtonSetup.position.x, Nakama.backgroundButtonSetup.position.y, 'gameplay', 'IconSetting.png');
         Nakama.buttonPlay.inputEnabled = true;
+        Nakama.backgroundButtonSetup.inputEnabled = true;
+        Nakama.buttonSetup.inputEnabled = true;
+
+        Nakama.backgroundButtonSetup.events.onInputDown.add(function () {
+            Nakama.game.state.start('setting');
+        }, this);
+        Nakama.buttonSetup.events.onInputDown.add(function () {
+            Nakama.game.state.start('setting');
+        }, this);
+
         Nakama.buttonPlay.events.onInputDown.add(listener, this);
-        Nakama.buttonPlay.events.onInputDown.add(listenerSetting, this);
         Nakama.tree4.angle -= 180;
         Nakama.tree5.angle -= 180;
         Nakama.tree6.angle -= 180;
@@ -109,5 +118,6 @@ function listener() {
 }
 
 function listenerSetting() {
+    console.log("dccmmmm");
     Nakama.game.state.start('setting');
 }
