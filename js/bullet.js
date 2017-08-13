@@ -7,7 +7,7 @@ class Bullet {
         this.sprite.update = this.update.bind(this);
         this.sprite.width = 20;
         this.sprite.height = 20;
-
+        this.sprite.health = 1;
     }
 
     update() {

@@ -61,9 +61,6 @@ var playGameState = {
             right: Phaser.Keyboard.D,
             fire: Phaser.Keyboard.W
         }));
-        Nakama.arrows.push(new Arrow(200, 100, {type: 'bottom'}));
-        Nakama.arrows.push(new Arrow(200, 100, {type: 'top'}));
-        console.log(Nakama.arrows[0].sprite.position, Nakama.arrows[1].sprite.position)
 
     },
 
