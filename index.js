@@ -5,6 +5,6 @@ var app = express();
 var http = require('http').Server(app);
 app.use(express.static(__dirname));
 
-http.listen(6970, function () {
+http.listen(6971, function () {
     console.log('Server started. Listening on *:6969');
 });

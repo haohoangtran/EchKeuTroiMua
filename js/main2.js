@@ -1,3 +1,6 @@
+var score = 0;
+var scoreText;
+
 var playGame2State = {
     // preparations before game starts
     preload: function () {
@@ -19,7 +22,8 @@ var playGame2State = {
         Nakama.game.scale.pageAlignHorizontally = true;
         Nakama.game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
         Nakama.game.time.advancedTiming = true;
-        Nakama.score = 0;
+
+
     },
 
 // initialize the game
@@ -31,6 +35,7 @@ var playGame2State = {
 
         Nakama.ovuong = new Ovuong(Nakama.configs.GAME_SCREEN.width / 2, Nakama.configs.GAME_SCREEN.height / 2);
         Nakama.frogs = Nakama.game.add.physicsGroup();
+        scoreText = Nakama.game.add.text(80, 80, 'Score: 0', {fontSize: '42px', fill: '#000'});
 
         new FrogType2({
             left: Phaser.Keyboard.LEFT,
@@ -61,6 +66,7 @@ var playGame2State = {
 var onHitItem = function (item, frog) {
     item.kill();
     new ItemController();
-    Nakama.score++;
-    console.log(Nakama.score)
+    score++;
+    scoreText.text = 'Score: ' + score;
+
 }
