@@ -41,22 +41,25 @@ var playGameState = {
 
         Nakama.background = Nakama.game.add.sprite(0, -100, 'background');
         Nakama.groundGroup = Nakama.game.add.physicsGroup();
-        Nakama.arrowsGroup = Nakama.game.add.physicsGroup();
-        Nakama.bulletGroup = Nakama.game.add.physicsGroup();
-        Nakama.playerGroup = Nakama.game.add.physicsGroup();
+        Nakama.arrowsPlayer1Group = Nakama.game.add.physicsGroup();
+        Nakama.arrowsPlayer2Group = Nakama.game.add.physicsGroup();
+        Nakama.bulletGroupTop = Nakama.game.add.physicsGroup();
+        Nakama.bulletGroupBottom = Nakama.game.add.physicsGroup();
+        Nakama.player1Group = Nakama.game.add.physicsGroup();
+        Nakama.player2Group = Nakama.game.add.physicsGroup();
 
         Nakama.groundBots = []
         Nakama.groundBots.push(new Ground(0, 630, 'groundbottom'), {});
         Nakama.groundBots.push(new Ground(0, 230, 'groundtop'), {});
-        Nakama.players = [];
+        // Nakama.players = [];
         Nakama.arrows = []
-        Nakama.players.push(new FrogController(1, 400, {
+        Nakama.players1 = (new FrogController(1, 400, {
             type: 'bottom',
             left: Phaser.Keyboard.LEFT,
             right: Phaser.Keyboard.RIGHT,
             fire: Phaser.Keyboard.UP
         }));
-        Nakama.players.push(new FrogController(1, 400, {
+        Nakama.players2 = (new FrogController(1, 400, {
             type: 'top',
             left: Phaser.Keyboard.A,
             right: Phaser.Keyboard.D,
@@ -69,19 +72,46 @@ var playGameState = {
     update: function () {
         Nakama.game.physics.arcade.overlap(
             Nakama.groundGroup,
-            Nakama.playerGroup,
+            Nakama.player1Group,
             onBulletHitGround
         );
+        Nakama.game.physics.arcade.overlap(
+            Nakama.groundGroup,
+            Nakama.player2Group,
+            onBulletHitGround
+        );
+        Nakama.game.physics.arcade.overlap(
+            Nakama.bulletGroupTop,
+            Nakama.player1Group,
+            onDided1
+        );
+        Nakama.game.physics.arcade.overlap(
+            Nakama.bulletGroupBottom,
+            Nakama.player2Group,
+            onDided2
+        );
+
 
     },
 
 // before camera render (mostly for debug)
     render: function () {
-        Nakama.game.debug.body(Nakama.players[0])
+        Nakama.game.debug.body(Nakama.players1)
     }
 
 }
 var onBulletHitGround = function (groundSprite, playerSprite) {
-    playerSprite.body.gravity = 0
+    playerSprite.body.gravity = 0;
+};
 
-}
+var onDided1 = function (bulletSprite, playerSprite) {
+    bulletSprite.kill();
+    playerSprite.kill();
+    Nakama.arrowsPlayer1Group.getFirstAlive().kill();
+
+};
+var onDided2 = function (bulletSprite, playerSprite) {
+    bulletSprite.kill();
+    playerSprite.kill();
+    Nakama.arrowsPlayer2Group.getFirstAlive().kill();
+};
