@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="980d6b9d-ea97-44aa-a743-e41f0a7024ea" name="Default" comment="add snow">
+    <list default="true" id="980d6b9d-ea97-44aa-a743-e41f0a7024ea" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Arrow.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/frog/FrogController.js" afterPath="$PROJECT_DIR$/js/frog/FrogController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,107 +20,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="assets_tree.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/assets_tree.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="202" column="4" lean-forward="false" selection-start-line="202" selection-start-column="4" selection-end-line="202" selection-end-column="4" />
-              <folding>
-                <element signature="n#!!block;n#Tree1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#Tree2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#Tree3.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="assets_planet.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/assets_planet.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="503" column="16" lean-forward="true" selection-start-line="503" selection-start-column="16" selection-end-line="503" selection-end-column="16" />
+            <state relative-caret-position="194">
+              <caret line="382" column="5" lean-forward="true" selection-start-line="382" selection-start-column="5" selection-end-line="382" selection-end-column="15" />
               <folding>
-                <element signature="n#!!block;n#BigPlannet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#SmallPlanet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#Small1Planet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#Tree1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#Tree2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#Tree3.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#Tree4.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#Tree5.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#Lacoste1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#Lacoste2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#frog_stand.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#frog_jump.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#frog_jump1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#frog_bounce_fly.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#frog_die.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#frog_die2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#frog_bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#frog_bakery.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#frog_left.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#ground.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#ground1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#mouse.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#mosquito.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#mosquito1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#pause.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#clou.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#clou2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#StarText.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#bonus.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#extra.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#life.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#air.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#time.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#line.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+                <marker date="1502600442240" expanded="true" signature="11841:12501" ph="{&quot;rotated&quot;: false...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="assets_main2.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/assets_main2.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="29" />
-              <folding>
-                <element signature="n#!!block;n#Background_BigPlanet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#Background_Text_Tweensoft.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#Background_Text_Froggee.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-                <element signature="n#!!block;n#Died_Frog.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menugame.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/menugame.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="747">
-              <caret line="142" column="1" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="assets_gameplay.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/assets_gameplay.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="382" column="5" lean-forward="false" selection-start-line="382" selection-start-column="5" selection-end-line="382" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="game.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/game.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-160">
-              <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -124,51 +35,39 @@
       <file leaf-file-name="PlanetController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/ground/PlanetController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <marker date="1502603294306" expanded="true" signature="23:458" ph="{...}" />
-                <marker date="1502603294306" expanded="true" signature="67:402" ph="{...}" />
-                <marker date="1502603294306" expanded="true" signature="417:456" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NakamaAssets.tps" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/NakamaAssets.tps">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FrogController.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FrogController.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/frog/FrogController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <marker date="1502604568243" expanded="true" signature="21:809" ph="{...}" />
-                <marker date="1502604568243" expanded="true" signature="53:55" ph="{...}" />
-                <marker date="1502604568243" expanded="true" signature="700:707" ph="{...}" />
-                <marker date="1502604568243" expanded="true" signature="720:807" ph="{...}" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="15" column="63" lean-forward="false" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
+      <file leaf-file-name="Arrow.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/Arrow.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-59">
-              <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
-              <folding>
-                <marker date="1502604568250" expanded="true" signature="352:2665" ph="{...}" />
-                <marker date="1502604568250" expanded="true" signature="418:624" ph="{...}" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -201,16 +100,16 @@
         <option value="$PROJECT_DIR$/js/ground/PlanetController.js" />
         <option value="$PROJECT_DIR$/Assets/game/assets_main2.json" />
         <option value="$PROJECT_DIR$/Assets/assets_main2.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/Assets/assets_gameplay.json" />
-        <option value="$PROJECT_DIR$/js/menugame.js" />
-        <option value="$PROJECT_DIR$/js/Ground.js" />
-        <option value="$PROJECT_DIR$/js/game.js" />
-        <option value="$PROJECT_DIR$/js/ground/Ground.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/Assets/assets_gameplay.json" />
+        <option value="$PROJECT_DIR$/js/setting.js" />
+        <option value="$PROJECT_DIR$/js/game.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/highscore.js" />
+        <option value="$PROJECT_DIR$/js/menugame.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/js/Arrow.js" />
         <option value="$PROJECT_DIR$/js/frog/FrogController.js" />
-        <option value="$PROJECT_DIR$/Assets/assets_tree.json" />
       </list>
     </option>
   </component>
@@ -237,11 +136,11 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
-    <option name="y" value="40" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="54" />
+    <option name="y" value="-8" />
+    <option name="width" value="1320" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -281,6 +180,18 @@
               <item name="EchKeuTroiMua" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="EchKeuTroiMua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EchKeuTroiMua" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="frog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EchKeuTroiMua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EchKeuTroiMua" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="ground" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -289,14 +200,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files/nodejs/node_modules/npm" />
+    <property name="last_opened_file_path" value="E:/Web8" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="C:/Program Files (x86)/nodejs/node" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\tranh\WebstormProjects\EchKeuTroiMua\js\ground" />
       <recent name="E:\EchKeuTroiMua\Assets\music" />
       <recent name="E:\EchKeuTroiMua\Assets" />
       <recent name="C:\Users\Jungb\WebstormProjects\EchKeuTroiMua\Assets" />
@@ -317,10 +227,8 @@
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
           <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/game.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/menugame.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/setting.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/frog/FrogController.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/main.js</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -328,7 +236,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/highscore.js</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -543,8 +450,7 @@
       <workItem from="1502190767418" duration="14222000" />
       <workItem from="1502256355473" duration="1810000" />
       <workItem from="1502283552769" duration="4754000" />
-      <workItem from="1502594452020" duration="5521000" />
-      <workItem from="1502597029256" duration="2782000" />
+      <workItem from="1502594452020" duration="9321000" />
     </task>
     <task id="LOCAL-00001" summary="add planet.json">
       <created>1502193939248</created>
@@ -609,64 +515,74 @@
       <option name="project" value="LOCAL" />
       <updated>1502599253961</updated>
     </task>
-    <task id="LOCAL-00010" summary="add gameplay">
-      <created>1502598435528</created>
+    <task id="LOCAL-00010" summary="lại nào">
+      <created>1502600710331</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1502598435528</updated>
+      <updated>1502600710331</updated>
     </task>
-    <task id="LOCAL-00011" summary="add top play">
-      <created>1502599155132</created>
+    <task id="LOCAL-00011" summary="lại nào">
+      <created>1502601073310</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1502599155132</updated>
+      <updated>1502601073310</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="thêm màn hình setting">
+      <created>1502602295269</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1502602295269</updated>
+    </task>
+    <task id="LOCAL-00013" summary="sửa màn hình">
+      <created>1502602387309</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1502602387309</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42761000" />
+    <option name="totallyTimeSpent" value="43715000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
+    <frame x="-9" y="41" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19122024" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19249074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32401314" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3305921" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22963801" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35032895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27796054" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39932126" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22963801" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27796054" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19249074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28627145" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883435" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960998" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39938557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -679,10 +595,10 @@
     <MESSAGE value="sua menu game" />
     <MESSAGE value="sua background menu" />
     <MESSAGE value="empty game" />
-    <MESSAGE value="add gameplay" />
-    <MESSAGE value="add top play" />
-    <MESSAGE value="add snow" />
-    <option name="LAST_COMMIT_MESSAGE" value="add snow" />
+    <MESSAGE value="lại nào" />
+    <MESSAGE value="thêm màn hình setting" />
+    <MESSAGE value="sửa màn hình" />
+    <option name="LAST_COMMIT_MESSAGE" value="sửa màn hình" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -690,9 +606,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/game/icons.png" />
-    <entry file="file://$PROJECT_DIR$/Assets/game/frog_small.png" />
-    <entry file="file://$PROJECT_DIR$/Assets/game/number_red.png" />
     <entry file="file://$PROJECT_DIR$/Assets/game/planets.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -702,7 +615,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
+          <folding>
+            <marker date="1502601066508" expanded="true" signature="669:677" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -711,8 +626,7 @@
         <state relative-caret-position="475">
           <caret line="25" column="52" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="52" />
           <folding>
-            <marker date="1502604568250" expanded="true" signature="352:2665" ph="{...}" />
-            <marker date="1502604568250" expanded="true" signature="418:624" ph="{...}" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -722,41 +636,7 @@
         <state relative-caret-position="114">
           <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="16" />
           <folding>
-            <element signature="n#!!block;n#BigPlannet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#SmallPlanet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Small1Planet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree3.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree4.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree5.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Lacoste1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Lacoste2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_stand.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_jump.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_jump1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_bounce_fly.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_die.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_die2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_bakery.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_left.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#ground.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#ground1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#mouse.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#mosquito.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#mosquito1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#pause.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#clou.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#clou2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#StarText.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#bonus.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#extra.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#life.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#air.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#time.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#line.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <marker date="1502600442240" expanded="true" signature="11841:12501" ph="{&quot;rotated&quot;: false...}" />
           </folding>
         </state>
       </provider>
@@ -766,7 +646,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
+          <folding>
+            <marker date="1502601066508" expanded="true" signature="669:677" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/NakamaAssets.tps">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -775,8 +664,7 @@
         <state relative-caret-position="475">
           <caret line="25" column="52" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="52" />
           <folding>
-            <marker date="1502604568250" expanded="true" signature="352:2665" ph="{...}" />
-            <marker date="1502604568250" expanded="true" signature="418:624" ph="{...}" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -786,41 +674,7 @@
         <state relative-caret-position="114">
           <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="16" />
           <folding>
-            <element signature="n#!!block;n#BigPlannet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#SmallPlanet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Small1Planet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree3.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree4.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree5.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Lacoste1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Lacoste2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_stand.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_jump.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_jump1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_bounce_fly.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_die.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_die2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_bakery.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_left.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#ground.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#ground1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#mouse.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#mosquito.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#mosquito1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#pause.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#clou.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#clou2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#StarText.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#bonus.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#extra.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#life.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#air.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#time.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#line.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <marker date="1502600442240" expanded="true" signature="11841:12501" ph="{&quot;rotated&quot;: false...}" />
           </folding>
         </state>
       </provider>
@@ -854,14 +708,15 @@
     <entry file="file://$PROJECT_DIR$/Assets/assets.png" />
     <entry file="file://$PROJECT_DIR$/Assets/game/caygai.png" />
     <entry file="file://$PROJECT_DIR$/Assets/game/bg_orange.jpeg" />
-    <entry file="file://$PROJECT_DIR$/index.js">
+    <entry file="file://$PROJECT_DIR$/Assets/game/bg.jpeg" />
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="393">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/game/bg.jpeg" />
     <entry file="file://$PROJECT_DIR$/Assets/game/number_red.png" />
     <entry file="file://$PROJECT_DIR$/Assets/game/so.png" />
     <entry file="file://$PROJECT_DIR$/Assets/game/extra_1.png" />
@@ -872,22 +727,19 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/Assets/assets_main2.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        <state relative-caret-position="51">
+          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/assets_main2.json">
+    <entry file="file://$PROJECT_DIR$/Assets/assets_planet.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="29" />
+        <state relative-caret-position="194">
+          <caret line="382" column="5" lean-forward="true" selection-start-line="382" selection-start-column="5" selection-end-line="382" selection-end-column="15" />
           <folding>
-            <element signature="n#!!block;n#Background_BigPlanet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Background_Text_Tweensoft.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Background_Text_Froggee.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Died_Frog.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <marker date="1502600442240" expanded="true" signature="11841:12501" ph="{&quot;rotated&quot;: false...}" />
           </folding>
         </state>
       </provider>
@@ -912,10 +764,33 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/assets_gameplay.json">
+    <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="382" column="5" lean-forward="false" selection-start-line="382" selection-start-column="5" selection-end-line="382" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/assets_tree.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!block;n#Tree1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Tree2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Tree3.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Cloud_Small_Left.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Cloud_Small_Right.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Cloud_Big_Right.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#Cloud_Big_Left.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="30" column="53" lean-forward="false" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="53" />
           <folding />
         </state>
       </provider>
@@ -925,81 +800,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/menugame.js">
+    <entry file="file://$PROJECT_DIR$/js/setting.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="142" column="1" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/assets_planet.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="503" column="16" lean-forward="true" selection-start-line="503" selection-start-column="16" selection-end-line="503" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!block;n#BigPlannet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#SmallPlanet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Small1Planet.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree3.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree4.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree5.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Lacoste1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Lacoste2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_stand.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_jump.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_jump1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_bounce_fly.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_die.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_die2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_bakery.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#frog_left.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#ground.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#ground1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#mouse.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#mosquito.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#mosquito1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#bounce.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#pause.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#clou.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#clou2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#StarText.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#bonus.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#extra.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#life.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#air.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#time.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#line.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ground/PlanetController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <marker date="1502603294306" expanded="true" signature="23:458" ph="{...}" />
-            <marker date="1502603294306" expanded="true" signature="67:402" ph="{...}" />
-            <marker date="1502603294306" expanded="true" signature="417:456" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/game.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-160">
-          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        <state relative-caret-position="194">
+          <caret line="115" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1007,59 +811,83 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
-          <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+          <caret line="21" column="57" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <folding>
+            <marker date="1502601066508" expanded="true" signature="669:677" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/assets_gameplay.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="182" column="6" lean-forward="true" selection-start-line="182" selection-start-column="6" selection-end-line="182" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/highscore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/ground/Ground.js">
+    <entry file="file://$PROJECT_DIR$/js/menugame.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="52" lean-forward="true" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        <state relative-caret-position="204">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-59">
-          <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
+        <state relative-caret-position="1900">
+          <caret line="76" column="33" lean-forward="true" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
           <folding>
-            <marker date="1502604568250" expanded="true" signature="352:2665" ph="{...}" />
-            <marker date="1502604568250" expanded="true" signature="418:624" ph="{...}" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ground/Ground.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ground/PlanetController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Arrow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/frog/FrogController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <marker date="1502604568243" expanded="true" signature="21:809" ph="{...}" />
-            <marker date="1502604568243" expanded="true" signature="53:55" ph="{...}" />
-            <marker date="1502604568243" expanded="true" signature="700:707" ph="{...}" />
-            <marker date="1502604568243" expanded="true" signature="720:807" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/NakamaAssets.tps">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="15" column="63" lean-forward="false" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/assets_tree.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="202" column="4" lean-forward="false" selection-start-line="202" selection-start-column="4" selection-end-line="202" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!block;n#Tree1.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree2.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-            <element signature="n#!!block;n#Tree3.png#0;n#!!block;n#frames#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>

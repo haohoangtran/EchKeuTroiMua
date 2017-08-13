@@ -13,7 +13,7 @@ class FrogController {
         this.sprite.body.collideWorldBounds = true;
         this.sprite.anchor = new Phaser.Point(0.5, 0.5);
         this.sprite.update = this.update.bind(this);
-        this.jump_key = Nakama.keyboard.addKey(this.config.JUMP);
+        this.jump_key = Nakama.keyboard.addKey(this.config.fire);
     }
 
     update() {
