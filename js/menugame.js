@@ -51,7 +51,7 @@ var menuGameState = {
         Nakama.tree5 = Nakama.game.add.sprite(640, 600, 'planets', 'Tree2.png');
         Nakama.tree6 = Nakama.game.add.sprite(640, 800, 'planets', 'Tree3.png');
         Nakama.buttonPlay = Nakama.game.add.sprite(250, 800,'gameplay', 'ButtonPlay.png');
-        
+
         Nakama.buttonPlay.inputEnabled = true;
         Nakama.buttonPlay.events.onInputDown.add(listener, this);
 

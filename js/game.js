@@ -28,6 +28,6 @@ Nakama.game = new Phaser.Game(640, 960, Phaser.AUTO, '');
 
 Nakama.game.state.add('menugame', menuGameState);
 Nakama.game.state.add('playgame', playGameState);
-Nakama.game.state.add('finishgame', finishGameState);
+//Nakama.game.state.add('finishgame', finishGameState);
 
 Nakama.game.state.start('menugame');
