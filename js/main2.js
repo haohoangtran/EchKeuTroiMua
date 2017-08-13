@@ -35,6 +35,7 @@ var playGame2State = {
             up: Phaser.Keyboard.UP,
             down: Phaser.Keyboard.DOWN
         })
+        new ItemController();
     },
 
 // update game state each frame
