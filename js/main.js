@@ -35,7 +35,7 @@ var playGameState = {
         Nakama.frogGroup = Nakama.game.add.physicsGroup();
         Nakama.game.physics.startSystem();
         Nakama.keyboard = Nakama.game.input.keyboard;
-        Nakama.background.scale.setTo(0.5, 0.5);
+        Nakama.background.scale.setTo(1, 1);
         Nakama.planet=new PlanetController(200, 200, 'BigPlannet.png', {});
         Nakama.player=new FrogController(200, 200, {JUMP: Phaser.Keyboard.SPACEBAR});
 
