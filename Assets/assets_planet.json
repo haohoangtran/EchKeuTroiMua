@@ -719,6 +719,26 @@
         "w": 329,
         "h": 24
       }
+    },
+    "big_light.png": {
+      "frame": {
+        "x": 4,
+        "y": 296,
+        "w": 268,
+        "h": 265
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 268,
+        "h": 265
+      },
+      "sourceSize": {
+        "w": 268,
+        "h": 265
+      }
     }
   }
 }
