@@ -31,6 +31,7 @@ Nakama.game.state.add('menugame', menuGameState);
 Nakama.game.state.add('setting', settingGameState);
 Nakama.game.state.add('highscore', highscoreGameState);
 Nakama.game.state.add('gameover', gameoverGameState);
+Nakama.game.state.add('gameover2', gameover2GameState);
 Nakama.game.state.add('pausegame', pausegameGameState);
 Nakama.game.state.add('typegame', typegameGameState);
 Nakama.game.state.add('playgame', playGameState);

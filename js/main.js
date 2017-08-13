@@ -110,11 +110,11 @@ var onDided1 = function (bulletSprite, playerSprite) {
     bulletSprite.kill();
     playerSprite.kill();
     Nakama.arrowsPlayer1Group.getFirstAlive().kill();
-    Nakama.game.state.start('gameover');
+    Nakama.game.state.start('gameover2');
 };
 var onDided2 = function (bulletSprite, playerSprite) {
     bulletSprite.kill();
     playerSprite.kill();
     Nakama.arrowsPlayer2Group.getFirstAlive().kill();
-    Nakama.game.state.start('gameover');
+    Nakama.game.state.start('gameover2');
 };
