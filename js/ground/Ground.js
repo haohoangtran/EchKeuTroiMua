@@ -4,7 +4,6 @@ class Ground {
         this.config = config;
         this.sprite.update = this.update.bind(this);
         this.sprite.width = 640;
-        
     }
 
     update() {

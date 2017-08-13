@@ -35,10 +35,31 @@ var playGameState = {
         Nakama.background = Nakama.game.add.sprite(0, -100, 'background');
         Nakama.groundGroup = Nakama.game.add.physicsGroup();
         Nakama.groundBots = []
-        Nakama.groundBots.push(new Ground(0, 930, 'ground.png'), {type: 'bottom'})
-        Nakama.groundBots.push(new Ground(0, 10, 'ground.png'), {type: 'top'})
-
-
+        Nakama.groundBots.push(new Ground(0, 630, 'ground.png'), {
+            type: 'bottom',
+            left: Phaser.Keyboard.LEFT,
+            RIGHT: Phaser.Keyboard.RIGHT,
+            fire: Phaser.Keyboard.UP
+        });
+        Nakama.groundBots.push(new Ground(0, 230, 'ground.png'), {
+            type: 'top',
+            left: Phaser.Keyboard.A,
+            RIGHT: Phaser.Keyboard.D,
+            fire: Phaser.Keyboard.S
+        })
+        Nakama.players = [];
+        Nakama.players.push(new FrogController(1, 1, {
+            type: 'bottom',
+            left: Phaser.Keyboard.LEFT,
+            RIGHT: Phaser.Keyboard.RIGHT,
+            fire: Phaser.Keyboard.UP
+        }))
+        Nakama.players.push(new FrogController(1, 1, {
+            type: 'top',
+            left: Phaser.Keyboard.A,
+            RIGHT: Phaser.Keyboard.D,
+            fire: Phaser.Keyboard.S
+        }))
     },
 
 // update game state each frame
