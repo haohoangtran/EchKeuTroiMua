@@ -115,12 +115,12 @@ var typegameGameState = {
 
         Nakama.backgroundButton1Player.events.onInputDown.add(function () {
             music.pause();
-            Nakama.game.state.start('playgame');
+            Nakama.game.state.start('playgame2');
         }, this);
 
         Nakama.button1Player.events.onInputDown.add(function () {
             music.pause();
-            Nakama.game.state.start('playgame');
+            Nakama.game.state.start('playgame2');
         }, this);
 
 
