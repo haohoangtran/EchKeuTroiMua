@@ -16,7 +16,7 @@ var speedFrog = 0.5;
 var menuGameState = {
     // preparations before game starts
     preload : function () {
-        Nakama.game.scale.minWidth = Nakama.configs.GAME_SCREEN.width / 2;
+        Nakama.game.scale.minWidth = Nakama.configs.GAME_SCREEN.width / 0;
         Nakama.game.scale.minHeight = Nakama.configs.GAME_SCREEN.height / 2;
         Nakama.game.scale.maxWidth = Nakama.configs.GAME_SCREEN.width;
         Nakama.game.scale.maxHeight = Nakama.configs.GAME_SCREEN.height;
@@ -44,10 +44,18 @@ var menuGameState = {
 
         Nakama.logoTitle = Nakama.game.add.sprite(50, 10, 'menus', 'Background_Text_Froggee.png');
         Nakama.frog = Nakama.game.add.sprite(320, 550, 'menus','Background_BigPlanet.png' );
-        Nakama.tree = Nakama.game.add.sprite(0, 200, 'planets', 'Tree1.png');
+        Nakama.tree1 = Nakama.game.add.sprite(0, 200, 'planets', 'Tree1.png');
+        Nakama.tree2 = Nakama.game.add.sprite(0, 400, 'planets', 'Tree2.png');
+        Nakama.tree3 = Nakama.game.add.sprite(0, 600, 'planets', 'Tree3.png');
+        Nakama.tree4 = Nakama.game.add.sprite(640, 400, 'planets', 'Tree1.png');
+        Nakama.tree5 = Nakama.game.add.sprite(640, 600, 'planets', 'Tree2.png');
+        Nakama.tree6 = Nakama.game.add.sprite(640, 800, 'planets', 'Tree3.png');
         Nakama.buttonPlay = Nakama.game.add.sprite(250, 800,'gameplay', 'ButtonPlay.png');
-
-
+        Nakama.buttonPlay.inputEnabled = true;
+        Nakama.buttonPlay.events.onInputDown.add(listener, this);
+        Nakama.tree4.angle -= 180;
+        Nakama.tree5.angle -= 180;
+        Nakama.tree6.angle -= 180;
         Nakama.frog.anchor.setTo(0.5, 0.65);
     },
 
@@ -55,7 +63,7 @@ var menuGameState = {
     update : function () {
         if(Nakama.keyboard.isDown(Phaser.Keyboard.SPACEBAR))
         {
-            Nakama.game.state.start('playgame');
+
         }
 
         Nakama.frog.angle += speedFrog;
@@ -94,3 +102,6 @@ var menuGameState = {
     }
 }
 
+function listener () {
+    Nakama.game.state.start('playgame');
+}
