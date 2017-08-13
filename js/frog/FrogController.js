@@ -38,10 +38,8 @@ class FrogController {
         }
     }
     jump() {
-        console.log(this.sprite.position);
-        var y = (Nakama.groundBots[1].position.y - this.sprite.position.y) / 60
-        var x = y * Math.tan(Nakama.arrows[1].sprite.angle);
-        new Bullet(this.sprite.body.position.x, this.sprite.body.position.y, {x: x, y: y});
-        console.log(Nakama.arrows[1].sprite.angle, x)
+        var x = Nakama.arrows[0].sprite.position.x - this.sprite.position.x;
+        var y = Nakama.arrows[0].sprite.position.y - this.sprite.position.y;
+        new Bullet(this.sprite.position.x, this.sprite.position.y, {x: x, y: y});
     }
 }

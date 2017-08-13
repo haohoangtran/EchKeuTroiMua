@@ -5,8 +5,9 @@ class Bullet {
         this.sprite.anchor = new Phaser.Point(0.5, 0.5);
         this.sprite.body.collideWorldBounds = true;
         this.sprite.update = this.update.bind(this);
-        this.sprite.width = 10;
-        this.sprite.height = 10;
+        this.sprite.width = 20;
+        this.sprite.height = 20;
+        console.log(this.config, 'dm');
     }
 
     update() {
