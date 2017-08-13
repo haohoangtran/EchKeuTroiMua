@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="980d6b9d-ea97-44aa-a743-e41f0a7024ea" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/gameover.js" afterPath="$PROJECT_DIR$/js/gameover.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/highscore.js" afterPath="$PROJECT_DIR$/js/highscore.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main2.js" afterPath="$PROJECT_DIR$/js/main2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/menugame.js" afterPath="$PROJECT_DIR$/js/menugame.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/pausegame.js" afterPath="$PROJECT_DIR$/js/pausegame.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/setting.js" afterPath="$PROJECT_DIR$/js/setting.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/typegame.js" afterPath="$PROJECT_DIR$/js/typegame.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -77,8 +71,8 @@
       <file leaf-file-name="main2.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="87" column="19" lean-forward="true" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
+            <state relative-caret-position="221">
+              <caret line="88" column="46" lean-forward="true" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -713,7 +707,7 @@
       <workItem from="1502190767418" duration="14222000" />
       <workItem from="1502256355473" duration="1810000" />
       <workItem from="1502283552769" duration="4754000" />
-      <workItem from="1502594452020" duration="31339000" />
+      <workItem from="1502594452020" duration="31520000" />
     </task>
     <task id="LOCAL-00001" summary="add planet.json">
       <created>1502193939248</created>
@@ -904,11 +898,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502635468315</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="ok">
+      <created>1502635801618</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1502635801618</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64932000" />
+    <option name="totallyTimeSpent" value="65113000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
@@ -959,7 +960,8 @@
     <MESSAGE value="thêm json number" />
     <MESSAGE value="sửa star" />
     <MESSAGE value="score" />
-    <option name="LAST_COMMIT_MESSAGE" value="score" />
+    <MESSAGE value="ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1360,8 +1362,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="87" column="19" lean-forward="true" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
+        <state relative-caret-position="221">
+          <caret line="88" column="46" lean-forward="true" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
           <folding />
         </state>
       </provider>

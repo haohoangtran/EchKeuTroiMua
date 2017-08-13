@@ -87,7 +87,7 @@ var onHitItem = function (item, frog) {
     item.kill();
     new ItemController();
     Nakama.eat = Nakama.game.add.audio('eat');
-    if (!music.isPlaying && Nakama.configs.MUSICPLAY)
+    if (Nakama.configs.MUSICPLAY)
         Nakama.eat.play();
     Nakama.score++;
     scoreText.text = 'Score: ' + Nakama.score;
