@@ -59,9 +59,13 @@ var menuGameState = {
         Nakama.tree1 = Nakama.game.add.sprite(0, 200, 'planets', 'Tree1.png');
         Nakama.tree2 = Nakama.game.add.sprite(0, 400, 'planets', 'Tree2.png');
         Nakama.tree3 = Nakama.game.add.sprite(0, 600, 'planets', 'Tree3.png');
+        Nakama.tree10 = Nakama.game.add.sprite(0, 0, 'planets', 'Tree1.png');
+        Nakama.tree11 = Nakama.game.add.sprite(0, 800, 'planets', 'Tree2.png');
         Nakama.tree4 = Nakama.game.add.sprite(640, 400, 'planets', 'Tree1.png');
         Nakama.tree5 = Nakama.game.add.sprite(640, 600, 'planets', 'Tree2.png');
         Nakama.tree6 = Nakama.game.add.sprite(640, 800, 'planets', 'Tree3.png');
+        Nakama.tree12 = Nakama.game.add.sprite(640, 960, 'planets', 'Tree1.png');
+        Nakama.tree13 = Nakama.game.add.sprite(640, 200, 'planets', 'Tree2.png');
 
         Nakama.buttonPlay = Nakama.game.add.sprite(250, 800, 'gameplay', 'ButtonPlay.png');
         Nakama.backgroundButtonSetup = Nakama.game.add.sprite(100, 870, 'gameplay', 'BackgroundButton.png');
@@ -97,7 +101,10 @@ var menuGameState = {
         Nakama.tree4.angle -= 180;
         Nakama.tree5.angle -= 180;
         Nakama.tree6.angle -= 180;
+        Nakama.tree12.angle -= 180;
+        Nakama.tree13.angle -= 180;
         Nakama.frog.anchor.setTo(0.5, 0.65);
+
         Nakama.backgroundButtonSetup.anchor.setTo(0.5, 0.5);
         Nakama.buttonSetup.anchor.setTo(0.5, 0.5);
 

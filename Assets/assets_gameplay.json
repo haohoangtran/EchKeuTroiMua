@@ -400,6 +400,26 @@
         "w": 401,
         "h": 71
       }
+    },
+    "Text_Pause.png": {
+      "frame": {
+        "x": 437,
+        "y": 545,
+        "w": 209,
+        "h": 69
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 209,
+        "h": 69
+      },
+      "sourceSize": {
+        "w": 209,
+        "h": 69
+      }
     }
   }
 }
