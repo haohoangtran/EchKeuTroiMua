@@ -94,8 +94,10 @@ var gameoverGameState = {
             music.pause();
             Nakama.game.state.start('menugame');
         }, this);
+        scoreText = Nakama.game.add.text(300, 420, 'Score: 0', {fontSize: '42px', fill: '#fff'});
+        scoreText.text = 'Score: ' + Nakama.score;
 
-        Nakama.backgroundButtonPlayAgain = Nakama.game.add.sprite(400, 870, 'gameplay', 'BackgroundButton.png');
+        Nakama.backgroundButtonPlayAgain = Nakama.game.add.sprite(400, 870, 'gameplay2', 'BackgroundButton.png');
         Nakama.buttonPlayAgain = Nakama.game.add.sprite(Nakama.backgroundButtonPlayAgain.position.x, Nakama.backgroundButtonPlayAgain.position.y, 'gameplay', 'Icon_PlayAgain.png');
         Nakama.backgroundButtonPlayAgain.inputEnabled = true;
         Nakama.buttonPlayAgain.inputEnabled = true;

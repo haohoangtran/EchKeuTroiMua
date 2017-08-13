@@ -1,4 +1,4 @@
-var score = 0;
+
 var scoreText;
 
 var playGame2State = {
@@ -22,8 +22,8 @@ var playGame2State = {
         Nakama.game.scale.pageAlignHorizontally = true;
         Nakama.game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
         Nakama.game.time.advancedTiming = true;
-
-
+        Nakama.score = 0;
+        Nakama.timeEnemy = Nakama.game.time.now;
     },
 
 // initialize the game
@@ -32,7 +32,7 @@ var playGame2State = {
 
         Nakama.ovuongGroup = Nakama.game.add.physicsGroup();
         Nakama.itemGroup = Nakama.game.add.physicsGroup();
-
+        Nakama.lacosteGroup = Nakama.game.add.physicsGroup();
         Nakama.ovuong = new Ovuong(Nakama.configs.GAME_SCREEN.width / 2, Nakama.configs.GAME_SCREEN.height / 2);
         Nakama.frogs = Nakama.game.add.physicsGroup();
         scoreText = Nakama.game.add.text(80, 80, 'Score: 0', {fontSize: '42px', fill: '#000'});
@@ -53,6 +53,15 @@ var playGame2State = {
             Nakama.frogs,
             onHitItem
         );
+        if (Nakama.game.time.now - Nakama.timeEnemy > 3000) {
+            new LacosteController();
+            Nakama.timeEnemy = Nakama.game.time.now;
+        }
+        Nakama.game.physics.arcade.overlap(
+            Nakama.lacosteGroup,
+            Nakama.frogs,
+            onHitLacoste
+        );
     },
 
 
@@ -66,7 +75,11 @@ var playGame2State = {
 var onHitItem = function (item, frog) {
     item.kill();
     new ItemController();
-    score++;
-    scoreText.text = 'Score: ' + score;
+    Nakama.score++;
+    scoreText.text = 'Score: ' + Nakama.score;
 
+}
+var onHitLacoste = function (item, frog) {
+    frog.kill()
+    Nakama.game.state.start('gameover');
 }
