@@ -21,11 +21,11 @@ Nakama.configs = {
         x: 0,
         y: -500,
         velocity: 3
-    }
+    },
+    MUSICPLAY: true
 };
 
 Nakama.game = new Phaser.Game(640, 960, Phaser.AUTO, '');
-
 Nakama.game.state.add('menugame', menuGameState);
 Nakama.game.state.add('setting', settingGameState);
 Nakama.game.state.add('highscore', highscoreGameState);

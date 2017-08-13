@@ -30,17 +30,17 @@ var menuGameState = {
         Nakama.game.load.atlasJSONHash('gameplay', 'Assets/game/game_play.png', 'Assets/assets_gameplay.json');
         Nakama.game.load.atlasJSONHash('trees', 'Assets/game/tree.png', 'Assets/assets_tree.json');
         Nakama.game.load.image('background', 'Assets/game/background_2.jpg');
-        // Nakama.game.load.audio('musicMenu', 'Assets/music/music.wav');
+        Nakama.game.load.audio('musicMenu', 'Assets/music/music.mp3');
     },
 
 // initialize the game
     create : function () {
 
-        // music = Nakama.game.add.audio('musicMenu');
-        // if (!music.isPlaying)
-        //     music.play();
-        // music.loop = true;
-        
+        music = Nakama.game.add.audio('musicMenu');
+        if (Nakama.configs.MUSICPLAY)
+            music.play();
+        music.loop = true;
+
         Nakama.game.physics.startSystem(Phaser.Physics.ARCADE);
         Nakama.keyboard = Nakama.game.input.keyboard;
         Nakama.background = Nakama.game.add.sprite(Nakama.configs.BACKGROUND_POSITION.x, Nakama.configs.BACKGROUND_POSITION.y, 'background');
@@ -71,9 +71,11 @@ var menuGameState = {
         Nakama.buttonSetup.inputEnabled = true;
 
         Nakama.backgroundButtonSetup.events.onInputDown.add(function () {
+            music.pause();
             Nakama.game.state.start('setting');
         }, this);
         Nakama.buttonSetup.events.onInputDown.add(function () {
+            music.pause();
             Nakama.game.state.start('setting');
         }, this);
 
@@ -83,9 +85,11 @@ var menuGameState = {
         Nakama.buttonHighScore.inputEnabled = true;
 
         Nakama.backgroundButtonHighScore.events.onInputDown.add(function () {
+            music.pause();
             Nakama.game.state.start('setting');
         }, this);
         Nakama.buttonHighScore.events.onInputDown.add(function () {
+            music.pause();
             Nakama.game.state.start('setting');
         }, this);
 
@@ -97,7 +101,8 @@ var menuGameState = {
         Nakama.backgroundButtonSetup.anchor.setTo(0.5, 0.5);
         Nakama.buttonSetup.anchor.setTo(0.5, 0.5);
 
-
+        Nakama.backgroundButtonHighScore.anchor.setTo(0.5, 0.5);
+        Nakama.buttonHighScore.anchor.setTo(0.5, 0.5);
     },
 
 // update game state each frame
